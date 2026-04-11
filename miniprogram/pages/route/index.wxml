@@ -1,5 +1,4 @@
 <view class="page-shell page-shell--column">
-  <view class="page-heading">顶部搜索和图例固定，底部结果独立滚动。</view>
   <view class="sticky-shell">
     <view class="panel">
       <view class="section-title">上海地铁卫生间指南</view>

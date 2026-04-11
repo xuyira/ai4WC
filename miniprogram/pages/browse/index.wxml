@@ -1,5 +1,4 @@
 <view class="page-shell">
-  <view class="page-heading">顶部搜索始终按全网范围检索，左侧线路筛选仅影响默认列表。</view>
   <view class="sticky-shell">
     <view class="panel">
       <input class="picker-input" placeholder="搜索站点（始终按全网范围）" value="{{searchKeyword}}" bindinput="handleSearchInput" />
