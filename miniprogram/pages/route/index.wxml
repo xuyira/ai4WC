@@ -1,8 +1,8 @@
 <view class="page-shell">
+  <view class="page-heading">顶部搜索和图例固定，底部结果独立滚动。</view>
   <view class="sticky-shell">
     <view class="panel">
       <view class="section-title">上海地铁卫生间指南</view>
-      <view class="section-subtitle">顶部搜索和图例固定，底部结果独立滚动。</view>
       <view class="section-subtitle" style="margin-top:24rpx;">起始站</view>
       <view class="search-trigger" bindtap="openPicker" data-target="start">
         <text>{{startStation ? startStation.displayName : '请选择线路 / 站点'}}</text>
@@ -13,7 +13,9 @@
         <text>{{endStation ? endStation.displayName : '请选择线路 / 站点'}}</text>
         <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
       </view>
-      <view class="primary-button" style="margin-top:24rpx;" bindtap="handleSearch">查询沿途卫生间</view>
+      <view class="primary-button {{isLoadingRoutes ? 'primary-button--disabled' : ''}}" style="margin-top:24rpx;" bindtap="handleSearch">
+        {{isLoadingRoutes ? '查询中...' : '查询沿途卫生间'}}
+      </view>
     </view>
 
     <view class="panel" style="padding-top:20rpx;">
@@ -30,10 +32,16 @@
   </view>
 
   <scroll-view scroll-y class="result-scroll">
+    <view wx:if="{{routeError}}" class="status-block {{routeSource === 'mock' ? 'status-block--error' : ''}}">
+      {{routeSource === 'mock' ? '官方路线接口暂不可用，当前展示示例路线。' : routeError}}
+    </view>
+
+    <view wx:if="{{isLoadingRoutes}}" class="empty-state">正在获取上海地铁官方可行路线...</view>
+
     <view wx:if="{{routeCandidates.length}}" class="panel">
       <view class="section-title" style="font-size:30rpx;">可行路线</view>
       <block wx:for="{{routeCandidates}}" wx:key="id">
-        <view class="list-card" bindtap="handleSelectRoute" data-route-id="{{item.id}}">
+        <view class="list-card {{activeRouteId === item.id ? 'list-card--active' : ''}}" bindtap="handleSelectRoute" data-route-id="{{item.id}}">
           <view class="list-card__main">
             <view class="list-card__title">{{item.summary}}</view>
           </view>
@@ -58,7 +66,9 @@
       </block>
     </view>
 
-    <view wx:if="{{!routeCandidates.length}}" class="empty-state">选择起点和终点后可查看路线候选与沿途卫生间。</view>
+    <view wx:if="{{routeCandidates.length && !routeToiletStations.length}}" class="empty-state">该路线沿途暂无可展示卫生间站点。</view>
+
+    <view wx:if="{{!routeCandidates.length && !isLoadingRoutes && !routeError}}" class="empty-state">选择起点和终点后可查看路线候选与沿途卫生间。</view>
   </scroll-view>
 
   <view wx:if="{{pickerVisible}}" class="picker-mask" bindtap="closePicker">
@@ -72,8 +82,9 @@
       </view>
 
       <view wx:if="{{pickerMode === 'search'}}" class="picker-body">
-        <view style="padding:24rpx;">
+        <view class="picker-input-wrap" style="padding:24rpx;">
           <input class="picker-input" placeholder="输入站名或线路关键词" value="{{pickerKeyword}}" bindinput="handlePickerKeywordInput" />
+          <text wx:if="{{pickerKeyword}}" class="picker-clear" bindtap="handleClearPickerKeyword">清空</text>
         </view>
         <scroll-view scroll-y style="height:calc(56vh - 132rpx);">
           <block wx:for="{{pickerSuggestions}}" wx:key="stationId">
@@ -84,6 +95,7 @@
               </view>
             </view>
           </block>
+          <view wx:if="{{!pickerSuggestions.length}}" class="empty-state" style="margin-top:120rpx;">没有找到匹配站点</view>
         </scroll-view>
       </view>
 

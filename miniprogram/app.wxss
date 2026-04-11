@@ -2,6 +2,7 @@ page {
   background: #f6f7f9;
   color: #1f2329;
   font-size: 28rpx;
+  font-family: "PingFang SC", "Helvetica Neue", sans-serif;
 }
 
 .page-shell {
@@ -13,6 +14,7 @@ page {
   top: 0;
   z-index: 10;
   background: #f6f7f9;
+  padding-top: 12rpx;
 }
 
 .panel {
@@ -26,6 +28,7 @@ page {
 .section-title {
   font-size: 34rpx;
   font-weight: 600;
+  line-height: 1.3;
 }
 
 .section-subtitle {
@@ -96,10 +99,12 @@ page {
   border: 2rpx solid #d8dee6;
   border-radius: 18rpx;
   background: #ffffff;
+  box-sizing: border-box;
 }
 
 .search-trigger__placeholder {
   color: #98a2b3;
+  font-size: 24rpx;
 }
 
 .chip-row {
@@ -130,6 +135,10 @@ page {
   font-weight: 600;
 }
 
+.primary-button--disabled {
+  background: #c7ced9;
+}
+
 .result-scroll {
   height: calc(100vh - 560rpx);
 }
@@ -144,6 +153,16 @@ page {
   border-radius: 24rpx;
   background: #ffffff;
   box-shadow: 0 8rpx 24rpx rgba(15, 23, 42, 0.05);
+}
+
+.list-card--active {
+  border: 2rpx solid #111827;
+  box-shadow: 0 10rpx 26rpx rgba(15, 23, 42, 0.08);
+}
+
+.list-card--flat {
+  box-shadow: none;
+  border-bottom: 2rpx solid #eef2f6;
 }
 
 .list-card__main {
@@ -175,6 +194,21 @@ page {
   margin: 80rpx 24rpx;
   text-align: center;
   color: #98a2b3;
+}
+
+.status-block {
+  margin: 20rpx 24rpx;
+  padding: 22rpx 24rpx;
+  border-radius: 18rpx;
+  background: #ffffff;
+  color: #667085;
+  font-size: 24rpx;
+  line-height: 1.6;
+}
+
+.status-block--error {
+  color: #b42318;
+  background: #fef3f2;
 }
 
 .picker-mask {
@@ -229,6 +263,19 @@ page {
   box-sizing: border-box;
 }
 
+.picker-input-wrap {
+  position: relative;
+}
+
+.picker-clear {
+  position: absolute;
+  top: 50%;
+  right: 20rpx;
+  transform: translateY(-50%);
+  color: #98a2b3;
+  font-size: 24rpx;
+}
+
 .picker-body {
   height: 56vh;
 }
@@ -272,10 +319,47 @@ page {
   padding: 22rpx 20rpx;
   border-bottom: 2rpx solid #eef2f6;
   font-size: 26rpx;
+  color: #475467;
 }
 
 .line-selector-line--active {
   background: #ffffff;
+  color: #111827;
+  font-weight: 600;
+}
+
+.page-heading {
+  margin: 6rpx 24rpx 0;
+  font-size: 24rpx;
+  color: #667085;
+}
+
+.split-layout {
+  display: flex;
+  height: calc(100vh - 364rpx);
+}
+
+.browse-sidebar {
+  width: 200rpx;
+  background: #ffffff;
+  border-right: 2rpx solid #eef2f6;
+}
+
+.browse-main {
+  flex: 1;
+}
+
+.browse-tab {
+  padding: 26rpx 16rpx;
+  border-bottom: 2rpx solid #eef2f6;
+  color: #475467;
+  font-size: 26rpx;
+  text-align: center;
+  background: #ffffff;
+}
+
+.browse-tab--active {
+  background: #f8fafc;
   color: #111827;
   font-weight: 600;
 }

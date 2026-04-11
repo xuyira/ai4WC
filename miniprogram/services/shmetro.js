@@ -226,6 +226,7 @@ async function planRoutes(startStationId, endStationId) {
     return {
       source: 'remote',
       routeCandidates,
+      errorMessage: '',
     }
   } catch (error) {
     return {
@@ -235,6 +236,7 @@ async function planRoutes(startStationId, endStationId) {
         routeToiletStations: routeMock.routeToiletStations[item.id] || [],
       })),
       error,
+      errorMessage: error && error.errMsg ? error.errMsg : '官方路线接口请求失败',
     }
   }
 }

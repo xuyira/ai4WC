@@ -1,4 +1,5 @@
 <view class="page-shell">
+  <view class="page-heading">顶部搜索始终按全网范围检索，左侧线路筛选仅影响默认列表。</view>
   <view class="sticky-shell">
     <view class="panel">
       <input class="picker-input" placeholder="搜索站点（始终按全网范围）" value="{{searchKeyword}}" bindinput="handleSearchInput" />
@@ -29,19 +30,19 @@
     </view>
   </view>
 
-  <view style="display:flex; height:calc(100vh - 360rpx);">
-    <scroll-view scroll-y style="width:200rpx; background:#fff;">
-      <view class="list-card" style="margin:0; border-radius:0;" bindtap="handleSelectAll">
-        <view class="list-card__title">全部</view>
+  <view class="split-layout">
+    <scroll-view scroll-y class="browse-sidebar">
+      <view class="browse-tab {{activeTab === 'all' ? 'browse-tab--active' : ''}}" bindtap="handleSelectAll">
+        全部
       </view>
       <block wx:for="{{browseData.lines}}" wx:key="lineNo">
-        <view class="list-card" style="margin:0; border-radius:0;" bindtap="handleSelectLine" data-line-no="{{item.lineNo}}">
-          <view class="list-card__title">{{item.lineLabel}}</view>
+        <view class="browse-tab {{activeLineNo === item.lineNo ? 'browse-tab--active' : ''}}" bindtap="handleSelectLine" data-line-no="{{item.lineNo}}">
+          {{item.lineLabel}}
         </view>
       </block>
     </scroll-view>
 
-    <scroll-view scroll-y style="flex:1;">
+    <scroll-view scroll-y class="browse-main">
       <block wx:for="{{searchKeyword ? searchResults : visibleStations}}" wx:key="stationId">
         <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
           <view class="list-card__main">
@@ -55,6 +56,9 @@
           </view>
         </view>
       </block>
+      <view wx:if="{{(searchKeyword ? searchResults : visibleStations).length === 0}}" class="empty-state">
+        {{searchKeyword ? '没有找到匹配站点' : '当前分组下暂无可展示卫生间站点'}}
+      </view>
     </scroll-view>
   </view>
 </view>

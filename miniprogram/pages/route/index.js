@@ -8,6 +8,9 @@ Page({
     routeCandidates: [],
     activeRouteId: '',
     routeToiletStations: [],
+    isLoadingRoutes: false,
+    routeError: '',
+    routeSource: '',
     pickerVisible: false,
     pickerTarget: 'start',
     pickerMode: 'search',
@@ -43,13 +46,18 @@ Page({
   },
 
   closePicker() {
-    this.setData({ pickerVisible: false })
+    this.setData({ pickerVisible: false, pickerKeyword: '', pickerSuggestions: [] })
   },
 
   async handlePickerKeywordInput(event) {
     const pickerKeyword = event.detail.value
     const pickerSuggestions = await shmetroService.getRouteSearchSuggestions(pickerKeyword)
     this.setData({ pickerKeyword, pickerSuggestions })
+  },
+
+  async handleClearPickerKeyword() {
+    const pickerSuggestions = await shmetroService.getRouteSearchSuggestions('')
+    this.setData({ pickerKeyword: '', pickerSuggestions })
   },
 
   handleSwitchPickerMode(event) {
@@ -82,7 +90,18 @@ Page({
       wx.showToast({ title: '请先选择起点和终点', icon: 'none' })
       return
     }
-    const { routeCandidates, source } = await shmetroService.planRoutes(
+    if (this.data.startStation.stationId === this.data.endStation.stationId) {
+      wx.showToast({ title: '起点和终点不能相同', icon: 'none' })
+      return
+    }
+    this.setData({
+      isLoadingRoutes: true,
+      routeError: '',
+      routeCandidates: [],
+      activeRouteId: '',
+      routeToiletStations: [],
+    })
+    const { routeCandidates, source, errorMessage } = await shmetroService.planRoutes(
       this.data.startStation.stationId,
       this.data.endStation.stationId
     )
@@ -90,11 +109,14 @@ Page({
     const activeRoute = routeCandidates.find((item) => item.id === activeRouteId)
     const routeToiletStations = activeRoute ? (activeRoute.routeToiletStations || []) : []
     this.setData({
+      isLoadingRoutes: false,
       routeCandidates,
       activeRouteId,
       routeToiletStations,
+      routeSource: source,
+      routeError: source === 'mock' ? errorMessage : (routeCandidates.length ? '' : '未找到可行路线'),
     })
-    if (source === 'mock') {
+    if (source === 'mock' && routeCandidates.length) {
       wx.showToast({ title: '官方路线接口不可用，已回退示例数据', icon: 'none' })
     }
   },

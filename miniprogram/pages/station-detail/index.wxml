@@ -1,4 +1,6 @@
 <view class="page-shell">
+  <view wx:if="{{isLoading}}" class="empty-state">正在加载站点详情...</view>
+
   <view wx:if="{{stationDetail}}" class="panel">
     <view class="section-title">{{stationDetail.stationName}}</view>
     <view class="chip-row" style="margin-top:20rpx;">
@@ -10,6 +12,7 @@
 
   <view wx:if="{{stationDetail}}" class="panel">
     <view class="section-title" style="font-size:30rpx;">卫生间</view>
+    <view wx:if="{{!stationDetail.toiletLineGroups.length}}" class="empty-state" style="margin:32rpx 0 0;">暂无可展示卫生间信息</view>
     <block wx:for="{{stationDetail.toiletLineGroups}}" wx:key="lineNo">
       <view style="margin-top:24rpx;">
         <view class="chip-row">
