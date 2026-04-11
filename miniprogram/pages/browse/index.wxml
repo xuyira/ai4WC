@@ -1,7 +1,7 @@
 <view class="page-shell">
   <view class="sticky-shell">
     <view class="panel">
-      <input class="picker-input" placeholder="搜索站点（始终按全网范围）" value="{{searchKeyword}}" bindinput="handleSearchInput" />
+      <input class="picker-input" placeholder="搜索站点(在全部站点中搜索)" value="{{searchKeyword}}" bindinput="handleSearchInput" />
       <view wx:if="{{searchKeyword}}" style="margin-top:16rpx;">
         <view class="chip-row" style="justify-content:space-between; align-items:center;">
           <text class="section-subtitle" style="margin-top:0;">搜索结果</text>
@@ -9,9 +9,11 @@
         </view>
         <block wx:for="{{searchResults}}" wx:key="stationId">
           <view class="picker-item" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.preferredLineNo}}" data-index="{{index}}">
-            <view>
+            <view class="picker-item__content">
               <view class="picker-item__title">{{item.stationName}}</view>
-              <view class="chip-row" style="margin-top:8rpx;">
+            </view>
+            <view class="picker-item__aside">
+              <view class="chip-row picker-chip-row">
                 <block wx:for="{{item.lineChips}}" wx:key="lineLabel">
                   <view class="line-chip" style="{{item.style}}">{{item.lineLabel}}</view>
                 </block>

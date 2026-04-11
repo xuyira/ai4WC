@@ -263,19 +263,10 @@ function normalizeRouteToiletStation(item) {
 function routeSearchScore(item, keyword) {
   if (!keyword) return 0
   const normalized = keyword.trim().toLowerCase()
-  const displayName = String(item.displayName || '').toLowerCase()
   const stationName = String(item.stationName || '').toLowerCase()
-  const lineLabel = String(item.lineLabel || '').toLowerCase()
-  const lineNo = String(item.lineNo || '').toLowerCase()
-  if (lineNo === normalized) return 120
-  if (lineLabel === normalized || `${lineNo}号线` === normalized) return 110
-  if (displayName.startsWith(normalized)) return 100
-  if (stationName === normalized) return 95
+  if (stationName === normalized) return 100
   if (stationName.startsWith(normalized)) return 90
-  if (lineLabel.includes(normalized)) return 85
-  if (lineNo.includes(normalized)) return 80
   if (stationName.includes(normalized)) return 70
-  if (displayName.includes(normalized)) return 60
   return 10
 }
 
@@ -327,15 +318,10 @@ function getLegendItems() {
 function getRouteSearchSuggestions(keyword) {
   const items = routeSearchIndexJson.map(normalizeRouteSearchItem)
   if (!keyword) {
-    return delay(items.slice(0, 8))
+    return delay([])
   }
   const normalized = keyword.trim()
-  const results = items.filter((item) =>
-    item.displayName.includes(normalized) ||
-    item.stationName.includes(normalized) ||
-    item.lineLabel.includes(normalized) ||
-    (item.keywords || []).some((keywordItem) => keywordItem.includes(normalized))
-  )
+  const results = items.filter((item) => item.stationName.includes(normalized))
   results.sort((left, right) => {
     const diff = routeSearchScore(right, normalized) - routeSearchScore(left, normalized)
     if (diff !== 0) return diff

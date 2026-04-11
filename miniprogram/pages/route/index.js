@@ -37,13 +37,12 @@ Page({
 
   async openPicker(event) {
     const target = event.currentTarget.dataset.target
-    const pickerSuggestions = await shmetroService.getRouteSearchSuggestions('')
     this.setData({
       pickerVisible: true,
       pickerTarget: target,
       pickerMode: 'search',
       pickerKeyword: '',
-      pickerSuggestions,
+      pickerSuggestions: [],
     })
   },
 
@@ -66,8 +65,7 @@ Page({
 
   async handleClearPickerKeyword() {
     this.pickerSearchToken = Date.now()
-    const pickerSuggestions = await shmetroService.getRouteSearchSuggestions('')
-    this.setData({ pickerKeyword: '', pickerSuggestions })
+    this.setData({ pickerKeyword: '', pickerSuggestions: [] })
   },
 
   handleSwitchPickerMode(event) {

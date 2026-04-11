@@ -208,10 +208,12 @@ page {
   left: 0;
   right: 0;
   bottom: 0;
-  max-height: 78vh;
+  height: 72vh;
   border-radius: 32rpx 32rpx 0 0;
   background: #ffffff;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .picker-header {
@@ -262,7 +264,8 @@ page {
 }
 
 .picker-body {
-  height: 56vh;
+  flex: 1;
+  min-height: 0;
 }
 
 .picker-item {
@@ -272,6 +275,24 @@ page {
   gap: 16rpx;
   padding: 24rpx;
   border-bottom: 2rpx solid #f2f4f7;
+}
+
+.picker-item__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.picker-item__aside {
+  margin-left: 24rpx;
+  flex: 0 0 auto;
+}
+
+.picker-chip-row {
+  justify-content: flex-end;
+}
+
+.picker-scroll {
+  height: 100%;
 }
 
 .picker-item__title {
@@ -288,6 +309,7 @@ page {
 .line-selector-layout {
   display: flex;
   height: 100%;
+  min-height: 0;
 }
 
 .line-selector-sidebar {
@@ -298,6 +320,7 @@ page {
 
 .line-selector-main {
   flex: 1;
+  min-height: 0;
 }
 
 .line-selector-line {

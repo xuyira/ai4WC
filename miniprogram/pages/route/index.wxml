@@ -79,28 +79,31 @@
       <view class="picker-header">
         <view class="section-title" style="font-size:30rpx;">{{pickerTarget === 'start' ? '选择起始站' : '选择终点站'}}</view>
         <view class="picker-tabs">
-          <view class="picker-tab {{pickerMode === 'search' ? 'picker-tab--active' : ''}}" bindtap="handleSwitchPickerMode" data-mode="search">搜索</view>
+          <view class="picker-tab {{pickerMode === 'search' ? 'picker-tab--active' : ''}}" bindtap="handleSwitchPickerMode" data-mode="search">打字搜索</view>
           <view class="picker-tab {{pickerMode === 'line' ? 'picker-tab--active' : ''}}" bindtap="handleSwitchPickerMode" data-mode="line">按线路选择</view>
         </view>
       </view>
 
       <view wx:if="{{pickerMode === 'search'}}" class="picker-body">
         <view class="picker-input-wrap" style="padding:24rpx;">
-          <input class="picker-input" placeholder="输入站名或线路关键词" value="{{pickerKeyword}}" bindinput="handlePickerKeywordInput" />
+          <input class="picker-input" placeholder="输入站点名称" value="{{pickerKeyword}}" bindinput="handlePickerKeywordInput" />
           <text wx:if="{{pickerKeyword}}" class="picker-clear" bindtap="handleClearPickerKeyword">清空</text>
         </view>
-        <scroll-view scroll-y style="height:calc(56vh - 132rpx);">
+        <scroll-view scroll-y class="picker-scroll">
           <block wx:for="{{pickerSuggestions}}" wx:key="stationId">
             <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="search">
-              <view>
+              <view class="picker-item__content">
                 <view class="picker-item__title">{{item.stationName}}</view>
-                <view class="chip-row" style="margin-top:8rpx;">
+              </view>
+              <view class="picker-item__aside">
+                <view class="chip-row picker-chip-row">
                   <view class="line-chip" style="{{item.lineChip.style}}">{{item.lineChip.lineLabel}}</view>
                 </view>
               </view>
             </view>
           </block>
-          <view wx:if="{{!pickerSuggestions.length}}" class="empty-state" style="margin-top:120rpx;">没有找到匹配站点</view>
+          <view wx:if="{{!pickerKeyword && !pickerSuggestions.length}}" class="empty-state" style="margin-top:120rpx;">输入站点名称后显示匹配结果</view>
+          <view wx:elif="{{pickerKeyword && !pickerSuggestions.length}}" class="empty-state" style="margin-top:120rpx;">没有找到匹配站点</view>
         </scroll-view>
       </view>
 
@@ -115,11 +118,8 @@
         <scroll-view scroll-y class="line-selector-main">
           <block wx:for="{{pickerLineStations}}" wx:key="stationId">
             <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="line">
-              <view>
+              <view class="picker-item__content">
                 <view class="picker-item__title">{{item.stationName}}</view>
-                <view class="chip-row" style="margin-top:8rpx;">
-                  <view class="line-chip" style="{{item.lineChip.style}}">{{item.lineChip.lineLabel}}</view>
-                </view>
               </view>
             </view>
           </block>
