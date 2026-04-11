@@ -2,6 +2,7 @@
   <view class="sticky-shell">
     <view class="panel">
       <view class="section-title">上海地铁卫生间指南</view>
+      <view class="section-subtitle">数据整理自上海地铁官网，仅供出行参考</view>
       <view class="section-subtitle" style="margin-top:24rpx;">起始站</view>
       <view class="search-trigger" bindtap="openPicker" data-target="start">
         <text>{{startStation ? startStation.selectedLabel : '请选择站点'}}</text>

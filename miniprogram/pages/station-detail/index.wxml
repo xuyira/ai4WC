@@ -69,4 +69,10 @@
     />
     <view wx:else class="empty-state">暂无站层图</view>
   </view>
+
+  <view wx:if="{{stationDetail}}" class="panel" style="padding-top:20rpx; padding-bottom:20rpx;">
+    <view class="section-subtitle" style="margin-top:0;">
+      卫生间信息与站层图整理自上海地铁官网，请以车站现场信息为准
+    </view>
+  </view>
 </view>
