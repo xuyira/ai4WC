@@ -100,9 +100,15 @@ Page({
   },
 
   handleOpenStation(event) {
-    const { stationId } = event.currentTarget.dataset
+    const { stationId, lineNo, index } = event.currentTarget.dataset
+    const itemIndex = Number(index)
+    const item = Number.isNaN(itemIndex) ? null : this.data.displayStations[itemIndex]
+    const preferredLineNo = lineNo || (item ? item.preferredLineNo : '') || ''
+    const query = preferredLineNo
+      ? `stationId=${stationId}&lineNo=${preferredLineNo}`
+      : `stationId=${stationId}`
     wx.navigateTo({
-      url: `/pages/station-detail/index?stationId=${stationId}`,
+      url: `/pages/station-detail/index?${query}`,
     })
   },
 })

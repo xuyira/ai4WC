@@ -9,7 +9,7 @@
           <text style="color:#667085; font-size:24rpx;" bindtap="handleClearSearch">清空</text>
         </view>
         <block wx:for="{{searchResults}}" wx:key="stationId">
-          <view class="picker-item" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
+          <view class="picker-item" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.preferredLineNo}}" data-index="{{index}}">
             <view>
               <view class="picker-item__title">{{item.displayName}}</view>
             </view>
@@ -44,10 +44,10 @@
 
     <scroll-view scroll-y class="browse-main">
       <block wx:for="{{displayStations}}" wx:key="stationId">
-        <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
+        <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.preferredLineNo}}" data-index="{{index}}">
           <view class="list-card__main">
             <view class="list-card__title">{{item.stationName}}</view>
-            <view class="list-card__meta">{{item.stationLineLabels ? item.stationLineLabels.join(' / ') : item.lineLabels.join(' / ')}}</view>
+            <view class="list-card__meta">{{item.stationLineLabelText || item.lineLabelText}}</view>
           </view>
           <view class="icon-row">
             <block wx:for="{{item.legendIcons}}" wx:key="key">

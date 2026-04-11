@@ -144,9 +144,12 @@ Page({
   },
 
   handleOpenStation(event) {
-    const { stationId } = event.currentTarget.dataset
+    const { stationId, lineNo } = event.currentTarget.dataset
+    const query = lineNo
+      ? `stationId=${stationId}&lineNo=${lineNo}`
+      : `stationId=${stationId}`
     wx.navigateTo({
-      url: `/pages/station-detail/index?stationId=${stationId}`,
+      url: `/pages/station-detail/index?${query}`,
     })
   },
 })

@@ -37,10 +37,21 @@
   <view wx:if="{{stationDetail}}" class="panel">
     <view class="section-title" style="font-size:30rpx;">站层图</view>
     <block wx:if="{{stationDetail.floorplanGroups && stationDetail.floorplanGroups.length}}">
-      <block wx:for="{{stationDetail.floorplanGroups}}" wx:key="floorplanUrl">
+      <view wx:if="{{floorplanTabs.length > 1}}" class="chip-row" style="margin-top:20rpx;">
+        <block wx:for="{{floorplanTabs}}" wx:key="lineNo">
+          <view
+            class="line-chip {{item.active ? 'line-chip--active' : ''}}"
+            bindtap="handleSwitchFloorplanLine"
+            data-line-no="{{item.lineNo}}"
+          >
+            {{item.lineLabelText}}
+          </view>
+        </block>
+      </view>
+      <block wx:for="{{visibleFloorplanGroups}}" wx:key="floorplanUrl">
         <view style="margin-top:24rpx;">
           <view class="chip-row">
-            <view class="line-chip">{{item.lineLabels.join(' / ')}}</view>
+            <view class="line-chip">{{item.lineLabelText}}</view>
           </view>
           <image
             wx:if="{{item.floorplanUrl || item.floorplanLocalPath}}"

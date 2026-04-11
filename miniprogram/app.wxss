@@ -97,6 +97,11 @@ page {
   font-size: 24rpx;
 }
 
+.line-chip--active {
+  background: #111827;
+  color: #ffffff;
+}
+
 .primary-button {
   display: flex;
   align-items: center;

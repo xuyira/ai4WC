@@ -52,10 +52,10 @@
     <view wx:if="{{routeToiletStations.length}}" class="panel">
       <view class="section-title" style="font-size:30rpx;">沿途卫生间站点</view>
       <block wx:for="{{routeToiletStations}}" wx:key="stationId">
-        <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
+        <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.currentLineNo}}">
           <view class="list-card__main">
             <view class="list-card__title">{{item.stationName}}</view>
-            <view class="list-card__meta">{{item.stationLineLabels.join(' / ')}}</view>
+            <view class="list-card__meta">{{item.stationLineLabelText}}</view>
           </view>
           <view class="icon-row">
             <block wx:for="{{item.legendIcons}}" wx:key="key">

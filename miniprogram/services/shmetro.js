@@ -81,28 +81,37 @@ function normalizeRouteSearchItem(item) {
 
 function normalizeStationSearchItem(item) {
   const legendTypes = item.legend_types || item.legendTypes || []
+  const lineNos = item.line_nos || item.lineNos || []
+  const lineLabels = item.line_labels || item.lineLabels || []
   return {
     stationId: item.station_id || item.stationId,
     stationName: item.station_name || item.stationName,
-    lineLabels: item.line_labels || item.lineLabels || [],
+    lineNos,
+    lineLabels,
+    lineLabelText: lineLabels.join(' / '),
     displayName: item.display_name || item.displayName,
     keywords: item.keywords || [],
     legendTypes,
     legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
+    preferredLineNo: lineNos[0] || '',
   }
 }
 
 function normalizeBrowseStation(item) {
   const legendTypes = item.legend_types || item.legendTypes || []
+  const stationLineLabels = item.station_line_labels || item.stationLineLabels || []
   return {
     stationId: item.station_id || item.stationId,
     stationName: item.station_name || item.stationName,
+    lineNo: item.line_no || item.lineNo || '',
     lineLabel: item.line_label || item.lineLabel || '',
-    stationLineLabels: item.station_line_labels || item.stationLineLabels || [],
+    stationLineLabels,
+    stationLineLabelText: stationLineLabels.join(' / '),
     legendTypes,
     legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
     scopeTypes: item.scope_types || item.scopeTypes || [],
     hasFloorplan: item.has_floorplan || item.hasFloorplan || false,
+    preferredLineNo: item.line_no || item.lineNo || '',
   }
 }
 
@@ -123,6 +132,7 @@ function normalizeStationDetail(detail) {
     floorplanGroups: (detail.floorplan_groups || detail.floorplanGroups || []).map((group) => ({
       lineNos: group.line_nos || group.lineNos || [],
       lineLabels: group.line_labels || group.lineLabels || [],
+      lineLabelText: (group.line_labels || group.lineLabels || []).join(' / '),
       floorplanUrl: group.floorplan_url || group.floorplanUrl || '',
       floorplanLocalPath: group.floorplan_local_path || group.floorplanLocalPath || '',
     })),
@@ -152,6 +162,18 @@ function lineNoToLabel(lineNo) {
   if (String(lineNo) === '41') return '浦江线'
   if (String(lineNo) === '51') return '市域机场线'
   return `${lineNo}号线`
+}
+
+function derivePrimaryLineNoFromStationId(stationId) {
+  const value = String(stationId || '')
+  if (!value) return ''
+  if (value.startsWith('41')) return '41'
+  if (value.startsWith('51')) return '51'
+  const prefix = value.slice(0, 2)
+  if (/^\d+$/.test(prefix)) {
+    return String(parseInt(prefix, 10))
+  }
+  return ''
 }
 
 function getDetailByRawStationId(rawStationId) {
@@ -195,10 +217,14 @@ function mapRouteStations(route) {
       return
     }
     seen.add(detail.stationId)
+    const currentLineNo = derivePrimaryLineNoFromStationId(station.stationId)
     result.push({
       stationId: detail.stationId,
       stationName: detail.stationName,
+      currentLineNo,
+      currentLineLabel: currentLineNo ? lineNoToLabel(currentLineNo) : '',
       stationLineLabels: detail.lineLabels,
+      stationLineLabelText: detail.lineLabels.join(' / '),
       legendTypes: detail.legendTypes || [],
       legendIcons: legendTypesToIcons(collapseLegendTypesForStation(detail.legendTypes || [])),
     })
@@ -211,7 +237,10 @@ function normalizeRouteToiletStation(item) {
   return {
     stationId: item.stationId || item.station_id,
     stationName: item.stationName || item.station_name,
+    currentLineNo: item.currentLineNo || item.current_line_no || '',
+    currentLineLabel: item.currentLineLabel || item.current_line_label || '',
     stationLineLabels: item.stationLineLabels || item.station_line_labels || [],
+    stationLineLabelText: (item.stationLineLabels || item.station_line_labels || []).join(' / '),
     legendTypes,
     legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
   }
