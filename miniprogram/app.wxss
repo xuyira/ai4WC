@@ -52,41 +52,15 @@ page {
   min-width: 0;
 }
 
-.legend-icon {
+.legend-image {
   width: 56rpx;
   height: 56rpx;
-  border-radius: 14rpx;
   flex: 0 0 auto;
 }
 
-.legend-icon.inside {
-  background: linear-gradient(180deg, #1f9d55 0%, #15803d 100%);
-}
-
-.legend-icon.outside {
-  background: linear-gradient(180deg, #f59e0b 0%, #ea580c 100%);
-}
-
-.legend-icon.both {
-  background: linear-gradient(180deg, #1f9d55 0 50%, #f59e0b 50% 100%);
-}
-
-.legend-icon.accessible::after,
-.legend-icon.toilet::after {
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  line-height: 56rpx;
-  font-size: 22rpx;
-  font-weight: 600;
-}
-
-.legend-icon.toilet::after {
-  content: "卫";
-}
-
-.legend-icon.accessible::after {
-  content: "无";
+.legend-image--small {
+  width: 40rpx;
+  height: 40rpx;
 }
 
 .search-trigger {
@@ -140,7 +114,13 @@ page {
 }
 
 .result-scroll {
-  height: calc(100vh - 560rpx);
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.result-scroll--route {
+  padding-bottom: 24rpx;
 }
 
 .list-card {
@@ -332,6 +312,13 @@ page {
   margin: 6rpx 24rpx 0;
   font-size: 24rpx;
   color: #667085;
+}
+
+.page-shell--column {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .split-layout {

@@ -158,11 +158,23 @@ def build_station_detail(station: dict[str, Any]) -> dict[str, Any]:
 
     line_groups = []
     for line_no in sorted(grouped_by_line, key=line_sort_key):
+        seen_entries = set()
+        deduped_entries = []
+        for entry in grouped_by_line[line_no]:
+            key = (
+                entry["scope_type"],
+                entry["description"],
+                tuple(entry["legend_types"]),
+            )
+            if key in seen_entries:
+                continue
+            seen_entries.add(key)
+            deduped_entries.append(entry)
         line_groups.append(
             {
                 "line_no": line_no,
                 "line_label": line_label(line_no),
-                "entries": grouped_by_line[line_no],
+                "entries": deduped_entries,
             }
         )
 
@@ -256,7 +268,10 @@ def build_route_search_index(stations: list[dict[str, Any]]) -> list[dict[str, A
                         station["station_name"],
                         line_label(line_no),
                         str(line_no),
+                        f"{line_no}号",
+                        f"{line_no}号线",
                         f"{line_label(line_no)} {station['station_name']}",
+                        f"{line_no} {station['station_name']}",
                     ],
                 }
             )

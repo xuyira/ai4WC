@@ -45,18 +45,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -64,18 +52,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 站厅近6号口",
@@ -138,18 +114,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往富锦路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -157,30 +121,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往封浜方向车头",
@@ -780,18 +720,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -799,18 +727,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往外圈方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往外圈方向站台车头",
@@ -987,30 +903,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至换乘15号线大厅",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至换乘15号线大厅",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -1029,30 +921,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往上海南站方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往上海南站方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -1060,30 +928,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往紫竹高新区方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往紫竹高新区方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台往紫竹高新区方向车头",
@@ -1518,30 +1362,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -1559,28 +1379,6 @@ const stationDetailMap = {
             "accessible_absent": true,
             "icon1": "t_i.png",
             "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往江杨北路方向站台车头",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往江杨北路方向站台车头",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
           }
         ]
       },
@@ -1588,28 +1386,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往内圈方向站台车头",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往内圈方向站台车头",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往内圈方向站台车头",
@@ -1734,30 +1510,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往迪士尼方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近4号口（有母婴室）",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -1765,18 +1517,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往紫竹高新区方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台往紫竹高新区方向车尾",
@@ -2177,42 +1917,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -2220,42 +1924,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至6号线站台",
@@ -2285,42 +1953,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往港城路方向站台车头,往东方体育中心方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往港城路方向站台车头,往东方体育中心方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往港城路方向站台车头,往东方体育中心方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -2328,42 +1960,6 @@ const stationDetailMap = {
         "line_no": "9",
         "line_label": "9号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至6号线站台",
@@ -2525,18 +2121,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往内圈方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -2544,18 +2128,6 @@ const stationDetailMap = {
         "line_no": "7",
         "line_label": "7号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅，近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 站厅，近4号口",
@@ -2703,54 +2275,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 11号线往迪士尼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往6号线东方体育中心站车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 11号线往迪士尼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往6号线东方体育中心站车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -2769,30 +2293,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 8号线往市光路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 8号线往市光路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -2800,30 +2300,6 @@ const stationDetailMap = {
         "line_no": "11",
         "line_label": "11号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 无障碍卫生间11号线往嘉定北方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 无障碍卫生间11号线往嘉定北方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 无障碍卫生间11号线往嘉定北方向站台车尾",
@@ -2934,18 +2410,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 2号口站厅",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -2953,18 +2417,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往张江路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往张江路方向车头",
@@ -3272,30 +2724,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -3313,28 +2741,6 @@ const stationDetailMap = {
             "accessible_absent": true,
             "icon1": "t_o.png",
             "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 北面站厅，近龙之梦通道口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 北面站厅，近龙之梦通道口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
           }
         ]
       },
@@ -3342,28 +2748,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 北面站厅，近龙之梦通道口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 北面站厅，近龙之梦通道口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 北面站厅，近龙之梦通道口",
@@ -3473,18 +2857,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近客服中心",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -3492,30 +2864,6 @@ const stationDetailMap = {
         "line_no": "51",
         "line_label": "市域机场线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "往浦东1号2号航站楼方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "往虹桥2号航站楼方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "往浦东1号2号航站楼方向车尾",
@@ -3588,17 +2936,6 @@ const stationDetailMap = {
             "accessible_absent": true,
             "icon1": "t_o.png",
             "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 西厅一楼站厅层",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
           }
         ]
       },
@@ -3606,17 +2943,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 西厅一楼站厅层",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 西厅一楼站厅层",
@@ -4245,18 +3571,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近站厅2号口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -4264,18 +3578,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往封浜方向车头",
@@ -4620,18 +3922,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近5号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -4639,18 +3929,6 @@ const stationDetailMap = {
         "line_no": "11",
         "line_label": "11号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 至10号线站厅近5号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 至10号线站厅近5号口",
@@ -4716,30 +3994,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -4758,30 +4012,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -4789,30 +4019,6 @@ const stationDetailMap = {
         "line_no": "8",
         "line_label": "8号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往沈杜公路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往沈杜公路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往沈杜公路方向站台车头",
@@ -5761,18 +4967,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近3号口客服中心",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -5780,18 +4974,6 @@ const stationDetailMap = {
         "line_no": "16",
         "line_label": "16号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 近换乘通道处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 近换乘通道处",
@@ -5972,18 +5154,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -5991,18 +5161,6 @@ const stationDetailMap = {
         "line_no": "10",
         "line_label": "10号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "10号线 费区内 站厅北端，近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "10号线 费区内 站厅北端，近6号口",
@@ -6071,30 +5229,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -6125,54 +5259,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往金海路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅服务中心对面",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往金海路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅服务中心对面",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -6180,30 +5266,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近8号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近8号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 站厅近8号口",
@@ -7109,18 +6171,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往康文路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       }
@@ -7259,18 +6309,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅层，近4、6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -7278,18 +6316,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅层，近4、6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 站厅层，近4、6号口",
@@ -7660,18 +6686,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往市光路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -7679,42 +6693,6 @@ const stationDetailMap = {
         "line_no": "10",
         "line_label": "10号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 10号线往基隆路方向站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 10号线往虹桥火车站/航中路方向站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 10号线往基隆路方向站台中部",
@@ -7914,30 +6892,6 @@ const stationDetailMap = {
         "line_no": "10",
         "line_label": "10号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台头部(往虹桥火车站/航中路方向)",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近3号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台头部(往虹桥火车站/航中路方向)",
@@ -8503,18 +7457,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往沈杜公路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -8522,18 +7464,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往封浜方向车头",
@@ -8692,18 +7622,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近12号线站厅6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -8711,18 +7629,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近6号口",
@@ -8834,18 +7740,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -8853,18 +7747,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往紫竹高新区方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台往紫竹高新区方向车头",
@@ -8930,18 +7812,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往外圈方向站台头部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -8949,18 +7819,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近6号口",
@@ -9023,18 +7881,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近3号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -9042,18 +7888,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至10号线站厅，近3号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至10号线站厅，近3号口",
@@ -9284,18 +8118,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往蟠祥路·国家会计学院方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -9303,30 +8125,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 换乘通道内",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往顾村公园方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 换乘通道内",
@@ -9694,30 +8492,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅1层，近1号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅1层，近1号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -9736,30 +8510,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往外圈方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往外圈方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -9767,52 +8517,6 @@ const stationDetailMap = {
         "line_no": "9",
         "line_label": "9号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台层，往上海松江站站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1站厅层，近8号口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台层，往上海松江站站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1站厅层，近8号口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台层，往上海松江站站台车尾",
@@ -9934,18 +8638,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内  站内近1号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -9953,18 +8645,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内  站内近1号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内  站内近1号口",
@@ -10330,18 +9010,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅进出站闸机对面",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -10349,18 +9017,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至6号线站厅进出站闸机对面",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至6号线站厅进出站闸机对面",
@@ -10474,18 +9130,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台头部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -10493,18 +9137,6 @@ const stationDetailMap = {
         "line_no": "7",
         "line_label": "7号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近6号口",
@@ -11009,17 +9641,6 @@ const stationDetailMap = {
             "accessible_absent": true,
             "icon1": "t_o.png",
             "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 1楼地面，近2号口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
           }
         ]
       },
@@ -11027,17 +9648,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近2号口",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_o.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近2号口",
@@ -11321,30 +9931,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -11375,54 +9961,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往曹路方向站台头部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近17号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往曹路方向站台头部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近17号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -11430,28 +9968,6 @@ const stationDetailMap = {
         "line_no": "11",
         "line_label": "11号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 至1号线、9号线站台站厅厕所",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_os.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 至1号线、9号线站台站厅厕所",
-            "legend_types": [
-              "outside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_os.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 至1号线、9号线站台站厅厕所",
@@ -11666,18 +10182,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往航头方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       }
@@ -11873,18 +10377,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往市光路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -11892,18 +10384,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往金运路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往金运路方向车头",
@@ -12410,18 +10890,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -12429,18 +10897,6 @@ const stationDetailMap = {
         "line_no": "18",
         "line_label": "18号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至14号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至14号线站台",
@@ -12575,18 +11031,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往紫竹高新区方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -12594,42 +11038,6 @@ const stationDetailMap = {
         "line_no": "51",
         "line_label": "市域机场线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往虹桥2号航站楼方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 换乘通道B2层",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往浦东1号2号航站楼方向车头",
@@ -12824,30 +11232,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 8号线站台往沈杜公路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近5号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -12855,18 +11239,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 近5号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 近5号口",
@@ -12986,42 +11358,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中间近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中间近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中间近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -13029,42 +11365,6 @@ const stationDetailMap = {
         "line_no": "4",
         "line_label": "4号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中间近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中间近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中间近6号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站厅中间近6号口",
@@ -13106,78 +11406,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_os.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 B2层站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1层近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_os.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 B2层站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1层近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_os.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 B2层站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1层近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_os.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -13185,78 +11413,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往封浜方向车尾",
@@ -13685,18 +11841,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近1号口通道",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -13704,18 +11848,6 @@ const stationDetailMap = {
         "line_no": "18",
         "line_label": "18号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往航头方向车头（有母婴室）",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往航头方向车头（有母婴室）",
@@ -14036,18 +12168,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -14055,18 +12175,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往顾村公园方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台往顾村公园方向车头",
@@ -14132,18 +12240,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近5号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -14151,18 +12247,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往顾村公园方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台往顾村公园方向车头",
@@ -14528,30 +12612,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往张江路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -14559,18 +12619,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往桂桥路方向车头",
@@ -14825,18 +12873,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 18号线往航头方向车头（有母婴室）",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -14844,18 +12880,6 @@ const stationDetailMap = {
         "line_no": "18",
         "line_label": "18号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往航头方向车头（有母婴室）",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往航头方向车头（有母婴室）",
@@ -15209,30 +13233,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近10号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近10号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -15251,30 +13251,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近10号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近10号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -15282,30 +13258,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 近10号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近10号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 近10号口",
@@ -15551,30 +13503,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往七莘路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -15582,18 +13510,6 @@ const stationDetailMap = {
         "line_no": "18",
         "line_label": "18号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往长江南路方向近车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往长江南路方向近车头",
@@ -15668,30 +13584,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往市光路方向近车尾（男厕）",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往沈杜公路方向近车头(女厕)",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -15699,18 +13591,6 @@ const stationDetailMap = {
         "line_no": "18",
         "line_label": "18号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往航头方向车头（有母婴室）",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往航头方向车头（有母婴室）",
@@ -15887,18 +13767,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -15906,18 +13774,6 @@ const stationDetailMap = {
         "line_no": "11",
         "line_label": "11号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1层站厅近5、8号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 B1层站厅近5、8号口",
@@ -16372,18 +14228,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -16391,18 +14235,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往封浜方向车尾",
@@ -16660,18 +14492,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往内圈方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -16679,30 +14499,6 @@ const stationDetailMap = {
         "line_no": "10",
         "line_label": "10号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 10号线站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近7号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 10号线站台中部",
@@ -17292,18 +15088,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近8号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 站厅近8号口",
@@ -17918,18 +15702,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至14号线站台",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -17937,18 +15709,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往桂桥路方向车尾",
@@ -18788,18 +16548,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至8号线站台厕所",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -18807,18 +16555,6 @@ const stationDetailMap = {
         "line_no": "8",
         "line_label": "8号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台两端都有",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台两端都有",
@@ -18884,18 +16620,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往沈杜公路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -18903,30 +16627,6 @@ const stationDetailMap = {
         "line_no": "10",
         "line_label": "10号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 10号线站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 10号线站台中部",
@@ -19064,30 +16764,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往花木路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -19095,30 +16771,6 @@ const stationDetailMap = {
         "line_no": "9",
         "line_label": "9号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往上海松江站方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往上海松江站方向站台车头",
@@ -19739,18 +17391,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往张江路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -19924,18 +17564,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 男女厕在往曹路方向站台车头，无障碍厕所在往上海松江站方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -19943,18 +17571,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至9号线站台厕所",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至9号线站台厕所",
@@ -20017,18 +17633,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近站厅2号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -20036,18 +17640,6 @@ const stationDetailMap = {
         "line_no": "6",
         "line_label": "6号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 近站厅3号口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 近站厅3号口处",
@@ -20110,18 +17702,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 8号线站台往市光路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -20129,18 +17709,6 @@ const stationDetailMap = {
         "line_no": "8",
         "line_label": "8号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往市光路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往市光路方向站台车尾",
@@ -20444,30 +18012,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -20486,30 +18030,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至2号线往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至2号线往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -20517,30 +18037,6 @@ const stationDetailMap = {
         "line_no": "17",
         "line_label": "17号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至2号线往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至2号线往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至2号线往浦东1号2号航站楼方向站台车头",
@@ -20618,18 +18114,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 2号口下行无障碍电梯（底层）旁",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -20648,30 +18132,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 2号口无障碍电梯（底层）旁",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 2号口无障碍电梯（底层）旁",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -20679,30 +18139,6 @@ const stationDetailMap = {
         "line_no": "10",
         "line_label": "10号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近4号口",
@@ -21299,18 +18735,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至8号线往市光路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -21318,18 +18742,6 @@ const stationDetailMap = {
         "line_no": "8",
         "line_label": "8号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往沈杜公路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往沈杜公路方向站台车尾",
@@ -21395,18 +18807,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近3号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -21414,18 +18814,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往桂桥路方向车头",
@@ -22193,28 +19581,6 @@ const stationDetailMap = {
             "accessible_absent": true,
             "icon1": "t_i.png",
             "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中部警务站对面",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅中部警务站对面",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
           }
         ]
       },
@@ -22232,28 +19598,6 @@ const stationDetailMap = {
             "accessible_absent": true,
             "icon1": "t_i.png",
             "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至3号线站厅中部警务站对面",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至3号线站厅中部警务站对面",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
           }
         ]
       },
@@ -22261,54 +19605,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往张江路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往张江路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往张江路方向车尾",
@@ -22431,18 +19727,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往曹路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -22450,18 +19734,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 至9号线站台厕所",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 至9号线站台厕所",
@@ -22692,18 +19964,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -22711,18 +19971,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往紫竹高新区方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往紫竹高新区方向车尾",
@@ -22959,30 +20207,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -23001,30 +20225,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至3号线站厅近换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 至3号线站厅近换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -23032,30 +20232,6 @@ const stationDetailMap = {
         "line_no": "7",
         "line_label": "7号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近6号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近6号口",
@@ -23118,18 +20294,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -23137,18 +20301,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近1号口",
@@ -23200,17 +20352,6 @@ const stationDetailMap = {
         "line_no": "3",
         "line_label": "3号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅内靠近站房门旁边",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站厅内靠近站房门旁边",
@@ -23350,18 +20491,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -23369,18 +20498,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 近7号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 近7号口",
@@ -23599,18 +20716,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -23618,18 +20723,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往封浜方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往封浜方向车头",
@@ -23703,29 +20796,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往市光路方向站台车头",
-            "legend_types": [
-              "inside_toilet"
-            ],
-            "has_accessible_toilet": false,
-            "accessible_absent": true,
-            "icon1": "t_i.png",
-            "icon2": "w_os.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近7号口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -23733,18 +20803,6 @@ const stationDetailMap = {
         "line_no": "9",
         "line_label": "9号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近7号口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站厅近7号口处",
@@ -23924,30 +20982,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往莘庄方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -23978,54 +21012,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近7号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近7号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -24033,30 +21019,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往金海路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往金海路方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往金海路方向站台车头",
@@ -24119,18 +21081,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1层近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -24138,18 +21088,6 @@ const stationDetailMap = {
         "line_no": "13",
         "line_label": "13号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 B1层近2号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 B1层近2号口",
@@ -24311,30 +21249,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -24353,30 +21267,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近8、9号口客服中心后方",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近8、9号口客服中心后方",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -24384,30 +21274,6 @@ const stationDetailMap = {
         "line_no": "14",
         "line_label": "14号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往桂桥路方向车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往桂桥路方向车尾",
@@ -24617,18 +21483,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -24636,30 +21490,6 @@ const stationDetailMap = {
         "line_no": "15",
         "line_label": "15号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台往紫竹高新区方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近1号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台往紫竹高新区方向车头",
@@ -24747,18 +21577,6 @@ const stationDetailMap = {
         "line_no": "9",
         "line_label": "9号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站厅近1号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站厅近1号口",
@@ -24980,18 +21798,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 4号口站厅",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -24999,18 +21805,6 @@ const stationDetailMap = {
         "line_no": "7",
         "line_label": "7号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 4号口站厅",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 4号口站厅",
@@ -25385,18 +22179,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 12号线站厅近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -25404,18 +22186,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "outside",
             "description": "费区外 站厅近4号口",
@@ -25481,18 +22251,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_o.png",
             "icon2": "w_o.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 近11号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
           }
         ]
       },
@@ -25500,30 +22258,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往七莘路方向站台车尾",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往金海路方向站台中部",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往七莘路方向站台车尾",
@@ -25697,18 +22431,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近2号口",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -25716,30 +22438,6 @@ const stationDetailMap = {
         "line_no": "12",
         "line_label": "12号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 站台近金海路方向车头位置",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "outside",
-            "description": "费区外 站厅近4号口",
-            "legend_types": [
-              "outside_toilet",
-              "outside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_o.png",
-            "icon2": "w_o.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 站台近金海路方向车头位置",
@@ -25868,42 +22566,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往浦东1号2号航站楼方向站台车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -25911,42 +22573,6 @@ const stationDetailMap = {
         "line_no": "7",
         "line_label": "7号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 近换入通道出口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近换入通道出口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近换入通道出口处",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 近换入通道出口处",
@@ -25976,42 +22602,6 @@ const stationDetailMap = {
             "accessible_absent": false,
             "icon1": "t_i.png",
             "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近16号线换乘18号线的换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近16号线换乘18号线的换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 近16号线换乘18号线的换乘通道",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
           }
         ]
       },
@@ -26019,30 +22609,6 @@ const stationDetailMap = {
         "line_no": "18",
         "line_label": "18号线",
         "entries": [
-          {
-            "scope_type": "inside",
-            "description": "费区内 往长江南路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
-          {
-            "scope_type": "inside",
-            "description": "费区内 往长江南路方向车头",
-            "legend_types": [
-              "inside_toilet",
-              "inside_accessible"
-            ],
-            "has_accessible_toilet": true,
-            "accessible_absent": false,
-            "icon1": "t_i.png",
-            "icon2": "w_i.png"
-          },
           {
             "scope_type": "inside",
             "description": "费区内 往长江南路方向车头",

@@ -13,6 +13,8 @@ Page({
     emptyText: '当前分组下暂无可展示卫生间站点',
   },
 
+  searchToken: 0,
+
   async onLoad() {
     const [legends, browseData] = await Promise.all([
       shmetroService.getLegendItems(),
@@ -71,9 +73,14 @@ Page({
 
   async handleSearchInput(event) {
     const searchKeyword = event.detail.value
+    const token = Date.now()
+    this.searchToken = token
     const searchResults = searchKeyword
       ? await shmetroService.getStationSearchSuggestions(searchKeyword)
       : []
+    if (this.searchToken !== token) {
+      return
+    }
     const nextData = { searchKeyword, searchResults }
     this.setData({
       ...nextData,
@@ -82,6 +89,7 @@ Page({
   },
 
   handleClearSearch() {
+    this.searchToken = Date.now()
     const nextData = { searchKeyword: '', searchResults: [] }
     this.setData({
       ...nextData,

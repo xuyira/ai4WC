@@ -1,16 +1,16 @@
-<view class="page-shell">
+<view class="page-shell page-shell--column">
   <view class="page-heading">顶部搜索和图例固定，底部结果独立滚动。</view>
   <view class="sticky-shell">
     <view class="panel">
       <view class="section-title">上海地铁卫生间指南</view>
       <view class="section-subtitle" style="margin-top:24rpx;">起始站</view>
       <view class="search-trigger" bindtap="openPicker" data-target="start">
-        <text>{{startStation ? startStation.displayName : '请选择线路 / 站点'}}</text>
+        <text>{{startStation ? startStation.selectedLabel : '请选择站点'}}</text>
         <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
       </view>
       <view class="section-subtitle" style="margin-top:24rpx;">终点站</view>
       <view class="search-trigger" bindtap="openPicker" data-target="end">
-        <text>{{endStation ? endStation.displayName : '请选择线路 / 站点'}}</text>
+        <text>{{endStation ? endStation.selectedLabel : '请选择站点'}}</text>
         <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
       </view>
       <view class="primary-button {{isLoadingRoutes ? 'primary-button--disabled' : ''}}" style="margin-top:24rpx;" bindtap="handleSearch">
@@ -23,7 +23,7 @@
       <view class="legend-grid">
         <block wx:for="{{legends}}" wx:key="key">
           <view class="legend-item">
-            <view class="legend-icon {{item.color}} {{item.type}}"></view>
+            <image class="legend-image" src="{{item.iconPath}}" mode="aspectFit" />
             <text>{{item.label}}</text>
           </view>
         </block>
@@ -31,7 +31,7 @@
     </view>
   </view>
 
-  <scroll-view scroll-y class="result-scroll">
+  <scroll-view scroll-y class="result-scroll result-scroll--route">
     <view wx:if="{{routeError}}" class="status-block {{routeSource === 'mock' ? 'status-block--error' : ''}}">
       {{routeSource === 'mock' ? '官方路线接口暂不可用，当前展示示例路线。' : routeError}}
     </view>
@@ -58,8 +58,8 @@
             <view class="list-card__meta">{{item.stationLineLabels.join(' / ')}}</view>
           </view>
           <view class="icon-row">
-            <block wx:for="{{item.legendTypes}}" wx:key="*this">
-              <view class="legend-icon {{item.includes('inside_outside') ? 'both' : item.includes('outside') ? 'outside' : 'inside'}} {{item.includes('accessible') ? 'accessible' : 'toilet'}}"></view>
+            <block wx:for="{{item.legendIcons}}" wx:key="key">
+              <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
             </block>
           </view>
         </view>
@@ -111,7 +111,8 @@
           <block wx:for="{{pickerLineStations}}" wx:key="stationId">
             <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="line">
               <view>
-                <view class="picker-item__title">{{item.displayName}}</view>
+                <view class="picker-item__title">{{item.stationName}}</view>
+                <view class="picker-item__meta">{{item.lineLabel}}</view>
               </view>
             </view>
           </block>

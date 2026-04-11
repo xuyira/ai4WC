@@ -21,8 +21,8 @@
         <block wx:for="{{item.entries}}" wx:key="description">
           <view class="list-card" style="margin:16rpx 0 0;">
             <view class="icon-row" style="justify-content:flex-start;">
-              <block wx:for="{{item.legendTypes}}" wx:key="*this">
-                <view class="legend-icon {{item.includes('inside_outside') ? 'both' : item.includes('outside') ? 'outside' : 'inside'}} {{item.includes('accessible') ? 'accessible' : 'toilet'}}"></view>
+              <block wx:for="{{item.legendIcons}}" wx:key="key">
+                <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
               </block>
             </view>
             <view class="list-card__main">

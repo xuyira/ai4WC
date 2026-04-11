@@ -21,6 +21,8 @@ Page({
     pickerLineStations: [],
   },
 
+  pickerSearchToken: 0,
+
   async onLoad() {
     const [legends, pickerLines] = await Promise.all([
       shmetroService.getLegendItems(),
@@ -51,11 +53,17 @@ Page({
 
   async handlePickerKeywordInput(event) {
     const pickerKeyword = event.detail.value
+    const token = Date.now()
+    this.pickerSearchToken = token
     const pickerSuggestions = await shmetroService.getRouteSearchSuggestions(pickerKeyword)
+    if (this.pickerSearchToken !== token) {
+      return
+    }
     this.setData({ pickerKeyword, pickerSuggestions })
   },
 
   async handleClearPickerKeyword() {
+    this.pickerSearchToken = Date.now()
     const pickerSuggestions = await shmetroService.getRouteSearchSuggestions('')
     this.setData({ pickerKeyword: '', pickerSuggestions })
   },
@@ -76,6 +84,9 @@ Page({
     const station = source === 'line'
       ? this.data.pickerLineStations[index]
       : this.data.pickerSuggestions[index]
+    if (!station) {
+      return
+    }
     const field = this.data.pickerTarget === 'start' ? 'startStation' : 'endStation'
     this.setData({
       [field]: station,

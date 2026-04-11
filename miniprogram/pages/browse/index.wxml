@@ -22,7 +22,7 @@
       <view class="legend-grid">
         <block wx:for="{{legends}}" wx:key="key">
           <view class="legend-item">
-            <view class="legend-icon {{item.color}} {{item.type}}"></view>
+            <image class="legend-image" src="{{item.iconPath}}" mode="aspectFit" />
             <text>{{item.label}}</text>
           </view>
         </block>
@@ -50,8 +50,8 @@
             <view class="list-card__meta">{{item.stationLineLabels ? item.stationLineLabels.join(' / ') : item.lineLabels.join(' / ')}}</view>
           </view>
           <view class="icon-row">
-            <block wx:for="{{item.legendTypes}}" wx:key="*this">
-              <view class="legend-icon {{item.includes('inside_outside') ? 'both' : item.includes('outside') ? 'outside' : 'inside'}} {{item.includes('accessible') ? 'accessible' : 'toilet'}}"></view>
+            <block wx:for="{{item.legendIcons}}" wx:key="key">
+              <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
             </block>
           </view>
         </view>

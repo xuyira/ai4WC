@@ -17,6 +17,31 @@ function delay(data) {
   })
 }
 
+const legendIconMap = (() => {
+  const map = {}
+  legendItems.forEach((item) => {
+    map[item.key] = item
+  })
+  return map
+})()
+
+function legendTypesToIcons(legendTypes = []) {
+  const seen = new Set()
+  const icons = []
+  legendTypes.forEach((type) => {
+    if (seen.has(type) || !legendIconMap[type]) {
+      return
+    }
+    seen.add(type)
+    icons.push({
+      key: type,
+      label: legendIconMap[type].label,
+      iconPath: legendIconMap[type].iconPath,
+    })
+  })
+  return icons
+}
+
 function normalizeRouteSearchItem(item) {
   return {
     stationId: item.station_id || item.stationId,
@@ -25,6 +50,7 @@ function normalizeRouteSearchItem(item) {
     lineNo: item.line_no || item.lineNo,
     lineLabel: item.line_label || item.lineLabel,
     displayName: item.display_name || item.displayName,
+    selectedLabel: item.station_name || item.stationName,
     keywords: item.keywords || [],
   }
 }
@@ -37,6 +63,7 @@ function normalizeStationSearchItem(item) {
     displayName: item.display_name || item.displayName,
     keywords: item.keywords || [],
     legendTypes: item.legend_types || item.legendTypes || [],
+    legendIcons: legendTypesToIcons(item.legend_types || item.legendTypes || []),
   }
 }
 
@@ -47,6 +74,7 @@ function normalizeBrowseStation(item) {
     lineLabel: item.line_label || item.lineLabel || '',
     stationLineLabels: item.station_line_labels || item.stationLineLabels || [],
     legendTypes: item.legend_types || item.legendTypes || [],
+    legendIcons: legendTypesToIcons(item.legend_types || item.legendTypes || []),
     scopeTypes: item.scope_types || item.scopeTypes || [],
     hasFloorplan: item.has_floorplan || item.hasFloorplan || false,
   }
@@ -59,7 +87,11 @@ function normalizeStationDetail(detail) {
     stationName: detail.station_name || detail.stationName,
     floorplanUrl: detail.floorplan_url || detail.floorplanUrl || '',
     floorplanLocalPath: detail.floorplan_local_path || detail.floorplanLocalPath || '',
+    hasFloorplan: detail.has_floorplan || detail.hasFloorplan || false,
+    hasDisplayToilet: detail.has_display_toilet || detail.hasDisplayToilet || false,
     lineLabels: detail.line_labels || detail.lineLabels || [],
+    legendTypes: detail.legend_types || detail.legendTypes || [],
+    legendIcons: legendTypesToIcons(detail.legend_types || detail.legendTypes || []),
     toiletLineGroups: (detail.toilet_line_groups || detail.toiletLineGroups || []).map((group) => ({
       lineNo: group.line_no || group.lineNo,
       lineLabel: group.line_label || group.lineLabel,
@@ -67,6 +99,7 @@ function normalizeStationDetail(detail) {
         scopeType: entry.scope_type || entry.scopeType,
         description: entry.description,
         legendTypes: entry.legend_types || entry.legendTypes || [],
+        legendIcons: legendTypesToIcons(entry.legend_types || entry.legendTypes || []),
         hasAccessibleToilet: entry.has_accessible_toilet || entry.hasAccessibleToilet || false,
         accessibleAbsent: entry.accessible_absent || entry.accessibleAbsent || false,
         icon1: entry.icon1 || '',
@@ -133,9 +166,53 @@ function mapRouteStations(route) {
       stationName: detail.stationName,
       stationLineLabels: detail.lineLabels,
       legendTypes: detail.legend_types || detail.legendTypes || [],
+      legendIcons: legendTypesToIcons(detail.legend_types || detail.legendTypes || []),
     })
   })
   return result
+}
+
+function normalizeRouteToiletStation(item) {
+  const legendTypes = item.legendTypes || item.legend_types || []
+  return {
+    stationId: item.stationId || item.station_id,
+    stationName: item.stationName || item.station_name,
+    stationLineLabels: item.stationLineLabels || item.station_line_labels || [],
+    legendTypes,
+    legendIcons: legendTypesToIcons(legendTypes),
+  }
+}
+
+function routeSearchScore(item, keyword) {
+  if (!keyword) return 0
+  const normalized = keyword.trim().toLowerCase()
+  const displayName = String(item.displayName || '').toLowerCase()
+  const stationName = String(item.stationName || '').toLowerCase()
+  const lineLabel = String(item.lineLabel || '').toLowerCase()
+  const lineNo = String(item.lineNo || '').toLowerCase()
+  if (lineNo === normalized) return 120
+  if (lineLabel === normalized || `${lineNo}号线` === normalized) return 110
+  if (displayName.startsWith(normalized)) return 100
+  if (stationName === normalized) return 95
+  if (stationName.startsWith(normalized)) return 90
+  if (lineLabel.includes(normalized)) return 85
+  if (lineNo.includes(normalized)) return 80
+  if (stationName.includes(normalized)) return 70
+  if (displayName.includes(normalized)) return 60
+  return 10
+}
+
+function stationSearchScore(item, keyword) {
+  if (!keyword) return 0
+  const normalized = keyword.trim().toLowerCase()
+  const displayName = String(item.displayName || '').toLowerCase()
+  const stationName = String(item.stationName || '').toLowerCase()
+  if (stationName === normalized) return 100
+  if (stationName.startsWith(normalized)) return 90
+  if (displayName.startsWith(normalized)) return 80
+  if (stationName.includes(normalized)) return 70
+  if (displayName.includes(normalized)) return 60
+  return 10
 }
 
 function requestRoutePlan(startId, endId) {
@@ -182,7 +259,12 @@ function getRouteSearchSuggestions(keyword) {
     item.lineLabel.includes(normalized) ||
     (item.keywords || []).some((keywordItem) => keywordItem.includes(normalized))
   )
-  return delay(results.slice(0, 12))
+  results.sort((left, right) => {
+    const diff = routeSearchScore(right, normalized) - routeSearchScore(left, normalized)
+    if (diff !== 0) return diff
+    return left.displayName.localeCompare(right.displayName, 'zh-Hans-CN')
+  })
+  return delay(results.slice(0, 20))
 }
 
 function getStationSearchSuggestions(keyword) {
@@ -196,7 +278,12 @@ function getStationSearchSuggestions(keyword) {
     item.stationName.includes(normalized) ||
     (item.keywords || []).some((keywordItem) => keywordItem.includes(normalized))
   )
-  return delay(results.slice(0, 12))
+  results.sort((left, right) => {
+    const diff = stationSearchScore(right, normalized) - stationSearchScore(left, normalized)
+    if (diff !== 0) return diff
+    return left.displayName.localeCompare(right.displayName, 'zh-Hans-CN')
+  })
+  return delay(results.slice(0, 20))
 }
 
 function getRouteCandidates() {
@@ -238,7 +325,7 @@ async function planRoutes(startStationId, endStationId) {
       source: 'mock',
       routeCandidates: routeMock.routeCandidates.map((item) => ({
         ...item,
-        routeToiletStations: routeMock.routeToiletStations[item.id] || [],
+        routeToiletStations: (routeMock.routeToiletStations[item.id] || []).map(normalizeRouteToiletStation),
       })),
       error,
       errorMessage: error && error.errMsg ? error.errMsg : '官方路线接口请求失败',
