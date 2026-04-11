@@ -1,4 +1,4 @@
-{
+const browseData = {
   "all": [
     {
       "station_id": "1053",
@@ -15573,3 +15573,5 @@
     }
   ]
 }
+
+module.exports = browseData

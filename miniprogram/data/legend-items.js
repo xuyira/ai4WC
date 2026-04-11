@@ -1,4 +1,4 @@
-[
+const legendItems = [
   {
     "key": "inside_toilet",
     "label": "费区内卫生间",
@@ -36,3 +36,5 @@
     "type": "accessible"
   }
 ]
+
+module.exports = legendItems

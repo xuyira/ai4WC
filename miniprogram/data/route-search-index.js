@@ -1,4 +1,4 @@
-[
+const routeSearchIndex = [
   {
     "search_type": "route_station",
     "station_id": "0122",
@@ -8010,3 +8010,5 @@
     ]
   }
 ]
+
+module.exports = routeSearchIndex

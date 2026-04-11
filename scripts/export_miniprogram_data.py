@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export generated Shanghai Metro app data into miniprogram JSON files."""
+"""Export generated Shanghai Metro app data into miniprogram JS data modules."""
 
 from __future__ import annotations
 
@@ -12,6 +12,14 @@ from typing import Any
 
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_js_module(path: Path, variable_name: str, payload: Any) -> None:
+    path.write_text(
+        f"const {variable_name} = {json.dumps(payload, ensure_ascii=False, indent=2)}\n\n"
+        f"module.exports = {variable_name}\n",
+        encoding="utf-8",
+    )
 
 
 def export(input_root: Path, output_root: Path) -> None:
@@ -35,24 +43,12 @@ def export(input_root: Path, output_root: Path) -> None:
             raw_station_to_entity[raw_station_id] = entity_id
 
     output_root.mkdir(parents=True, exist_ok=True)
-    (output_root / "legend-items.json").write_text(
-        json.dumps(legend_items, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (output_root / "station-detail-map.json").write_text(
-        json.dumps(station_detail_map, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (output_root / "raw-station-to-entity.json").write_text(
-        json.dumps(raw_station_to_entity, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (output_root / "browse-data.json").write_text(
-        json.dumps(browse_data, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (output_root / "route-search-index.json").write_text(
-        json.dumps(route_search_index, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (output_root / "station-search-index.json").write_text(
-        json.dumps(station_search_index, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    write_js_module(output_root / "legend-items.js", "legendItems", legend_items)
+    write_js_module(output_root / "station-detail-map.js", "stationDetailMap", station_detail_map)
+    write_js_module(output_root / "raw-station-to-entity.js", "rawStationToEntity", raw_station_to_entity)
+    write_js_module(output_root / "browse-data.js", "browseData", browse_data)
+    write_js_module(output_root / "route-search-index.js", "routeSearchIndex", route_search_index)
+    write_js_module(output_root / "station-search-index.js", "stationSearchIndex", station_search_index)
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:

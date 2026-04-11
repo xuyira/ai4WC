@@ -1,4 +1,4 @@
-[
+const stationSearchIndex = [
   {
     "search_type": "station_detail",
     "station_id": "1053",
@@ -7925,3 +7925,5 @@
     ]
   }
 ]
+
+module.exports = stationSearchIndex

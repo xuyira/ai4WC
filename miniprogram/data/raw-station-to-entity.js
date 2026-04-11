@@ -1,4 +1,4 @@
-{
+const rawStationToEntity = {
   "1053": "1053",
   "1336": "1053",
   "0122": "0122",
@@ -534,3 +534,5 @@
   "1621": "0252",
   "1832": "0252"
 }
+
+module.exports = rawStationToEntity

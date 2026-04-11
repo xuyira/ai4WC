@@ -1,4 +1,4 @@
-{
+const stationDetailMap = {
   "1053": {
     "station_id": "1053",
     "station_name": "一大会址·新天地",
@@ -26072,3 +26072,5 @@
     ]
   }
 }
+
+module.exports = stationDetailMap

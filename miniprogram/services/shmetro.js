@@ -1,9 +1,9 @@
-const legendItems = require('../data/legend-items.json')
-const stationDetailMap = require('../data/station-detail-map.json')
-const rawStationToEntity = require('../data/raw-station-to-entity.json')
-const browseDataJson = require('../data/browse-data.json')
-const routeSearchIndexJson = require('../data/route-search-index.json')
-const stationSearchIndexJson = require('../data/station-search-index.json')
+const legendItems = require('../data/legend-items')
+const stationDetailMap = require('../data/station-detail-map')
+const rawStationToEntity = require('../data/raw-station-to-entity')
+const browseDataJson = require('../data/browse-data')
+const routeSearchIndexJson = require('../data/route-search-index')
+const stationSearchIndexJson = require('../data/station-search-index')
 const routeMock = require('../mock/route')
 const ROUTE_API_BASE = 'https://m.shmetro.com/interface/plantrip/pt.aspx'
 
