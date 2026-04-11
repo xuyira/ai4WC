@@ -75,7 +75,10 @@ Page({
 
   async handleClearPickerKeyword() {
     this.pickerSearchToken = Date.now()
-    this.setData({ pickerKeyword: '', pickerSuggestions: [] })
+    this.setData({
+      pickerKeyword: '',
+      pickerSuggestions: [],
+    })
   },
 
   handleSwitchPickerMode(event) {

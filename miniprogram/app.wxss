@@ -204,6 +204,11 @@ page {
   margin-top: 16rpx;
 }
 
+.route-filter-row--header {
+  margin-top: 0;
+  margin-bottom: 8rpx;
+}
+
 .route-filter-label {
   flex: 1;
   min-width: 0;
@@ -285,6 +290,8 @@ page {
   transform: translateY(-50%);
   color: #98a2b3;
   font-size: 24rpx;
+  z-index: 2;
+  padding: 8rpx 4rpx 8rpx 12rpx;
 }
 
 .picker-body {

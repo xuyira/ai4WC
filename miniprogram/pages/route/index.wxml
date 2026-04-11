@@ -5,12 +5,12 @@
       <view class="section-subtitle" style="margin-top:24rpx;">起始站</view>
       <view class="search-trigger" bindtap="openPicker" data-target="start">
         <text>{{startStation ? startStation.selectedLabel : '请选择站点'}}</text>
-        <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
+        <text class="search-trigger__placeholder">打字搜索 / 按线路选择</text>
       </view>
       <view class="section-subtitle" style="margin-top:24rpx;">终点站</view>
       <view class="search-trigger" bindtap="openPicker" data-target="end">
         <text>{{endStation ? endStation.selectedLabel : '请选择站点'}}</text>
-        <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
+        <text class="search-trigger__placeholder">打字搜索 / 按线路选择</text>
       </view>
       <view class="primary-button {{isLoadingRoutes ? 'primary-button--disabled' : ''}}" style="margin-top:24rpx;" bindtap="handleSearch">
         {{isLoadingRoutes ? '查询中...' : '查询沿途卫生间'}}
@@ -49,11 +49,10 @@
     </view>
 
     <view wx:if="{{routeToiletStations.length}}" class="panel">
-      <view class="section-title" style="font-size:30rpx;">沿途卫生间站点</view>
-      <view class="route-filter-row">
-        <view class="section-subtitle route-filter-label" style="margin-top:0;">沿途卫生间信息</view>
+      <view class="route-filter-row route-filter-row--header">
+        <view class="section-title" style="font-size:30rpx;">沿途卫生间站点</view>
         <picker mode="selector" range="{{routeStationFilterOptions}}" range-key="label" value="{{routeStationFilterIndex}}" bindchange="handleRouteStationFilterChange">
-          <view class="route-filter-trigger">{{routeStationFilterOptions[routeStationFilterIndex].label}}</view>
+          <view class="route-filter-trigger">筛选：{{routeStationFilterOptions[routeStationFilterIndex].label}}</view>
         </picker>
       </view>
       <block wx:for="{{routeToiletStations}}" wx:key="stationId">
@@ -93,7 +92,7 @@
       <view wx:if="{{pickerMode === 'search'}}" class="picker-body">
         <view class="picker-input-wrap" style="padding:24rpx;">
           <input class="picker-input" placeholder="输入站点名称" value="{{pickerKeyword}}" bindinput="handlePickerKeywordInput" />
-          <text wx:if="{{pickerKeyword}}" class="picker-clear" catchtap="handleClearPickerKeyword">清空</text>
+          <view wx:if="{{pickerKeyword}}" class="picker-clear" catchtap="handleClearPickerKeyword">清空</view>
         </view>
         <scroll-view scroll-y class="picker-scroll">
           <block wx:for="{{pickerSuggestions}}" wx:key="stationId">
