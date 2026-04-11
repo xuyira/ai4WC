@@ -1,0 +1,7927 @@
+[
+  {
+    "search_type": "station_detail",
+    "station_id": "1053",
+    "station_name": "一大会址·新天地",
+    "line_nos": [
+      "10",
+      "13"
+    ],
+    "line_labels": [
+      "10号线",
+      "13号线"
+    ],
+    "display_name": "10号线 / 13号线 · 一大会址·新天地",
+    "keywords": [
+      "一大会址·新天地",
+      "10号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0122",
+    "station_name": "一大会址·黄陂南路",
+    "line_nos": [
+      "1",
+      "14"
+    ],
+    "line_labels": [
+      "1号线",
+      "14号线"
+    ],
+    "display_name": "1号线 / 14号线 · 一大会址·黄陂南路",
+    "keywords": [
+      "一大会址·黄陂南路",
+      "1号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0928",
+    "station_name": "七宝",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 七宝",
+    "keywords": [
+      "七宝",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1220",
+    "station_name": "七莘路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 七莘路",
+    "keywords": [
+      "七莘路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1155",
+    "station_name": "三林",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 三林",
+    "keywords": [
+      "三林",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1156",
+    "station_name": "三林东",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 三林东",
+    "keywords": [
+      "三林东",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "5134",
+    "station_name": "三林南",
+    "line_nos": [
+      "51"
+    ],
+    "line_labels": [
+      "市域机场线"
+    ],
+    "display_name": "市域机场线 · 三林南",
+    "keywords": [
+      "三林南",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1066",
+    "station_name": "三门路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 三门路",
+    "keywords": [
+      "三门路",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "4102",
+    "station_name": "三鲁公路",
+    "line_nos": [
+      "41"
+    ],
+    "line_labels": [
+      "浦江线"
+    ],
+    "display_name": "浦江线 · 三鲁公路",
+    "keywords": [
+      "三鲁公路",
+      "浦江线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0623",
+    "station_name": "上南路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 上南路",
+    "keywords": [
+      "上南路",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0729",
+    "station_name": "上大路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 上大路",
+    "keywords": [
+      "上大路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0117",
+    "station_name": "上海体育馆",
+    "line_nos": [
+      "1",
+      "4"
+    ],
+    "line_labels": [
+      "1号线",
+      "4号线"
+    ],
+    "display_name": "1号线 / 4号线 · 上海体育馆",
+    "keywords": [
+      "上海体育馆",
+      "1号线",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0629",
+    "station_name": "上海儿童医学中心",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 上海儿童医学中心",
+    "keywords": [
+      "上海儿童医学中心",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1044",
+    "station_name": "上海动物园",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 上海动物园",
+    "keywords": [
+      "上海动物园",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0115",
+    "station_name": "上海南站",
+    "line_nos": [
+      "1",
+      "3",
+      "15"
+    ],
+    "line_labels": [
+      "1号线",
+      "3号线",
+      "15号线"
+    ],
+    "display_name": "1号线 / 3号线 / 15号线 · 上海南站",
+    "keywords": [
+      "上海南站",
+      "1号线",
+      "3号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "5136",
+    "station_name": "上海国际旅游度假区",
+    "line_nos": [
+      "51"
+    ],
+    "line_labels": [
+      "市域机场线"
+    ],
+    "display_name": "市域机场线 · 上海国际旅游度假区",
+    "keywords": [
+      "上海国际旅游度假区",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1051",
+    "station_name": "上海图书馆",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 上海图书馆",
+    "keywords": [
+      "上海图书馆",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0727",
+    "station_name": "上海大学",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 上海大学",
+    "keywords": [
+      "上海大学",
+      "7号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0918",
+    "station_name": "上海松江站",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 上海松江站",
+    "keywords": [
+      "上海松江站",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1118",
+    "station_name": "上海汽车城",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 上海汽车城",
+    "keywords": [
+      "上海汽车城",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1150",
+    "station_name": "上海游泳馆",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 上海游泳馆",
+    "keywords": [
+      "上海游泳馆",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0126",
+    "station_name": "上海火车站",
+    "line_nos": [
+      "1",
+      "3",
+      "4"
+    ],
+    "line_labels": [
+      "1号线",
+      "3号线",
+      "4号线"
+    ],
+    "display_name": "1号线 / 3号线 / 4号线 · 上海火车站",
+    "keywords": [
+      "上海火车站",
+      "1号线",
+      "3号线",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0250",
+    "station_name": "上海科技馆",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 上海科技馆",
+    "keywords": [
+      "上海科技馆",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1142",
+    "station_name": "上海西站",
+    "line_nos": [
+      "11",
+      "15"
+    ],
+    "line_labels": [
+      "11号线",
+      "15号线"
+    ],
+    "display_name": "11号线 / 15号线 · 上海西站",
+    "keywords": [
+      "上海西站",
+      "11号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1844",
+    "station_name": "上海财经大学",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 上海财经大学",
+    "keywords": [
+      "上海财经大学",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1344",
+    "station_name": "下南路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 下南路",
+    "keywords": [
+      "下南路",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1822",
+    "station_name": "下沙",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 下沙",
+    "keywords": [
+      "下沙",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1338",
+    "station_name": "世博会博物馆",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 世博会博物馆",
+    "keywords": [
+      "世博会博物馆",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1339",
+    "station_name": "世博大道",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 世博大道",
+    "keywords": [
+      "世博大道",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0251",
+    "station_name": "世纪公园",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 世纪公园",
+    "keywords": [
+      "世纪公园",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0249",
+    "station_name": "世纪大道",
+    "line_nos": [
+      "2",
+      "4",
+      "6",
+      "9"
+    ],
+    "line_labels": [
+      "2号线",
+      "4号线",
+      "6号线",
+      "9号线"
+    ],
+    "display_name": "2号线 / 4号线 / 6号线 / 9号线 · 世纪大道",
+    "keywords": [
+      "世纪大道",
+      "2号线",
+      "4号线",
+      "6号线",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1223",
+    "station_name": "东兰路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 东兰路",
+    "keywords": [
+      "东兰路",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "4105",
+    "station_name": "东城一路",
+    "line_nos": [
+      "41"
+    ],
+    "line_labels": [
+      "浦江线"
+    ],
+    "display_name": "浦江线 · 东城一路",
+    "keywords": [
+      "东城一路",
+      "浦江线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0425",
+    "station_name": "东安路",
+    "line_nos": [
+      "4",
+      "7"
+    ],
+    "line_labels": [
+      "4号线",
+      "7号线"
+    ],
+    "display_name": "4号线 / 7号线 · 东安路",
+    "keywords": [
+      "东安路",
+      "4号线",
+      "7号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0325",
+    "station_name": "东宝兴路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 东宝兴路",
+    "keywords": [
+      "东宝兴路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0621",
+    "station_name": "东方体育中心",
+    "line_nos": [
+      "6",
+      "8",
+      "11"
+    ],
+    "line_labels": [
+      "6号线",
+      "8号线",
+      "11号线"
+    ],
+    "display_name": "6号线 / 8号线 / 11号线 · 东方体育中心",
+    "keywords": [
+      "东方体育中心",
+      "6号线",
+      "8号线",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1733",
+    "station_name": "东方绿舟",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 东方绿舟",
+    "keywords": [
+      "东方绿舟",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0626",
+    "station_name": "东明路",
+    "line_nos": [
+      "6",
+      "13"
+    ],
+    "line_labels": [
+      "6号线",
+      "13号线"
+    ],
+    "display_name": "6号线 / 13号线 · 东明路",
+    "keywords": [
+      "东明路",
+      "6号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1246",
+    "station_name": "东陆路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 东陆路",
+    "keywords": [
+      "东陆路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0642",
+    "station_name": "东靖路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 东靖路",
+    "keywords": [
+      "东靖路",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0837",
+    "station_name": "中兴路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 中兴路",
+    "keywords": [
+      "中兴路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0830",
+    "station_name": "中华艺术宫",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 中华艺术宫",
+    "keywords": [
+      "中华艺术宫",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1430",
+    "station_name": "中宁路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 中宁路",
+    "keywords": [
+      "中宁路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0241",
+    "station_name": "中山公园",
+    "line_nos": [
+      "2",
+      "3",
+      "4"
+    ],
+    "line_labels": [
+      "2号线",
+      "3号线",
+      "4号线"
+    ],
+    "display_name": "2号线 / 3号线 / 4号线 · 中山公园",
+    "keywords": [
+      "中山公园",
+      "2号线",
+      "3号线",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0127",
+    "station_name": "中山北路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 中山北路",
+    "keywords": [
+      "中山北路",
+      "1号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0927",
+    "station_name": "中春路",
+    "line_nos": [
+      "9",
+      "51"
+    ],
+    "line_labels": [
+      "9号线",
+      "市域机场线"
+    ],
+    "display_name": "9号线 / 市域机场线 · 中春路",
+    "keywords": [
+      "中春路",
+      "9号线",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0322",
+    "station_name": "中潭路",
+    "line_nos": [
+      "3",
+      "4"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线"
+    ],
+    "display_name": "3号线 / 4号线 · 中潭路",
+    "keywords": [
+      "中潭路",
+      "3号线",
+      "4号线"
+    ],
+    "legend_types": [
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1349",
+    "station_name": "中科路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 中科路",
+    "keywords": [
+      "中科路",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1323",
+    "station_name": "丰庄",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 丰庄",
+    "keywords": [
+      "丰庄",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1548",
+    "station_name": "丰翔路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 丰翔路",
+    "keywords": [
+      "丰翔路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0628",
+    "station_name": "临沂新村 ",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 临沂新村 ",
+    "keywords": [
+      "临沂新村 ",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1423",
+    "station_name": "临洮路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 临洮路",
+    "keywords": [
+      "临洮路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1632",
+    "station_name": "临港大道",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 临港大道",
+    "keywords": [
+      "临港大道",
+      "16号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1837",
+    "station_name": "丹阳路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 丹阳路",
+    "keywords": [
+      "丹阳路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1422",
+    "station_name": "乐秀路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 乐秀路",
+    "keywords": [
+      "乐秀路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0926",
+    "station_name": "九亭",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 九亭",
+    "keywords": [
+      "九亭",
+      "9号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1631",
+    "station_name": "书院",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 书院",
+    "keywords": [
+      "书院",
+      "16号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0747",
+    "station_name": "云台路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 云台路",
+    "keywords": [
+      "云台路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0637",
+    "station_name": "云山路",
+    "line_nos": [
+      "6",
+      "14"
+    ],
+    "line_labels": [
+      "6号线",
+      "14号线"
+    ],
+    "display_name": "6号线 / 14号线 · 云山路",
+    "keywords": [
+      "云山路",
+      "6号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1152",
+    "station_name": "云锦路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 云锦路",
+    "keywords": [
+      "云锦路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1448",
+    "station_name": "云顺路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 云顺路",
+    "keywords": [
+      "云顺路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0643",
+    "station_name": "五洲大道",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 五洲大道",
+    "keywords": [
+      "五洲大道",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0640",
+    "station_name": "五莲路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 五莲路",
+    "keywords": [
+      "五莲路",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1064",
+    "station_name": "五角场",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 五角场",
+    "keywords": [
+      "五角场",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1050",
+    "station_name": "交通大学",
+    "line_nos": [
+      "10",
+      "11"
+    ],
+    "line_labels": [
+      "10号线",
+      "11号线"
+    ],
+    "display_name": "10号线 / 11号线 · 交通大学",
+    "keywords": [
+      "交通大学",
+      "10号线",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0123",
+    "station_name": "人民广场",
+    "line_nos": [
+      "1",
+      "2",
+      "8"
+    ],
+    "line_labels": [
+      "1号线",
+      "2号线",
+      "8号线"
+    ],
+    "display_name": "1号线 / 2号线 / 8号线 · 人民广场",
+    "keywords": [
+      "人民广场",
+      "1号线",
+      "2号线",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1047",
+    "station_name": "伊犁路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 伊犁路",
+    "keywords": [
+      "伊犁路",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1523",
+    "station_name": "元江路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 元江路",
+    "keywords": [
+      "元江路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1116",
+    "station_name": "兆丰路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 兆丰路",
+    "keywords": [
+      "兆丰路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1115",
+    "station_name": "光明路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 光明路",
+    "keywords": [
+      "光明路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0825",
+    "station_name": "凌兆新村",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 凌兆新村",
+    "keywords": [
+      "凌兆新村",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0260",
+    "station_name": "凌空路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 凌空路",
+    "keywords": [
+      "凌空路",
+      "2号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0724",
+    "station_name": "刘行",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 刘行",
+    "keywords": [
+      "刘行",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0257",
+    "station_name": "创新中路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 创新中路",
+    "keywords": [
+      "创新中路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1830",
+    "station_name": "北中路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 北中路",
+    "keywords": [
+      "北中路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0238",
+    "station_name": "北新泾",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 北新泾",
+    "keywords": [
+      "北新泾",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0635",
+    "station_name": "北洋泾路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 北洋泾路",
+    "keywords": [
+      "北洋泾路",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1345",
+    "station_name": "北蔡",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 北蔡",
+    "keywords": [
+      "北蔡",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1531",
+    "station_name": "华东理工大学",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 华东理工大学",
+    "keywords": [
+      "华东理工大学",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0258",
+    "station_name": "华夏东路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 华夏东路",
+    "keywords": [
+      "华夏东路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1348",
+    "station_name": "华夏中路",
+    "line_nos": [
+      "13",
+      "16"
+    ],
+    "line_labels": [
+      "13号线",
+      "16号线"
+    ],
+    "display_name": "13号线 / 16号线 · 华夏中路",
+    "keywords": [
+      "华夏中路",
+      "13号线",
+      "16号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0624",
+    "station_name": "华夏西路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 华夏西路",
+    "keywords": [
+      "华夏西路",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1343",
+    "station_name": "华鹏路 ",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 华鹏路 ",
+    "keywords": [
+      "华鹏路 ",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0246",
+    "station_name": "南京东路",
+    "line_nos": [
+      "2",
+      "10"
+    ],
+    "line_labels": [
+      "2号线",
+      "10号线"
+    ],
+    "display_name": "2号线 / 10号线 · 南京东路",
+    "keywords": [
+      "南京东路",
+      "2号线",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0244",
+    "station_name": "南京西路",
+    "line_nos": [
+      "2",
+      "12",
+      "13"
+    ],
+    "line_labels": [
+      "2号线",
+      "12号线",
+      "13号线"
+    ],
+    "display_name": "2号线 / 12号线 / 13号线 · 南京西路",
+    "keywords": [
+      "南京西路",
+      "2号线",
+      "12号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1547",
+    "station_name": "南大路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 南大路",
+    "keywords": [
+      "南大路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0421",
+    "station_name": "南浦大桥",
+    "line_nos": [
+      "4"
+    ],
+    "line_labels": [
+      "4号线"
+    ],
+    "display_name": "4号线 · 南浦大桥",
+    "keywords": [
+      "南浦大桥",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1137",
+    "station_name": "南翔",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 南翔",
+    "keywords": [
+      "南翔",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0728",
+    "station_name": "南陈路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 南陈路",
+    "keywords": [
+      "南陈路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0639",
+    "station_name": "博兴路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 博兴路",
+    "keywords": [
+      "博兴路",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0137",
+    "station_name": "友谊西路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 友谊西路",
+    "keywords": [
+      "友谊西路",
+      "1号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0337",
+    "station_name": "友谊路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 友谊路",
+    "keywords": [
+      "友谊路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1524",
+    "station_name": "双柏路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 双柏路",
+    "keywords": [
+      "双柏路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1070",
+    "station_name": "双江路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 双江路",
+    "keywords": [
+      "双江路",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1545",
+    "station_name": "古浪路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 古浪路",
+    "keywords": [
+      "古浪路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0946",
+    "station_name": "台儿庄路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 台儿庄路",
+    "keywords": [
+      "台儿庄路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1062",
+    "station_name": "同济大学",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 同济大学",
+    "keywords": [
+      "同济大学",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0744",
+    "station_name": "后滩",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 后滩",
+    "keywords": [
+      "后滩",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1535",
+    "station_name": "吴中路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 吴中路",
+    "keywords": [
+      "吴中路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1826",
+    "station_name": "周浦",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 周浦",
+    "keywords": [
+      "周浦",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1624",
+    "station_name": "周浦东",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 周浦东",
+    "keywords": [
+      "周浦东",
+      "16号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0134",
+    "station_name": "呼兰路",
+    "line_nos": [
+      "1",
+      "18"
+    ],
+    "line_labels": [
+      "1号线",
+      "18号线"
+    ],
+    "display_name": "1号线 / 18号线 · 呼兰路",
+    "keywords": [
+      "呼兰路",
+      "1号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0941",
+    "station_name": "商城路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 商城路",
+    "keywords": [
+      "商城路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0936",
+    "station_name": "嘉善路",
+    "line_nos": [
+      "9",
+      "12"
+    ],
+    "line_labels": [
+      "9号线",
+      "12号线"
+    ],
+    "display_name": "9号线 / 12号线 · 嘉善路",
+    "keywords": [
+      "嘉善路",
+      "9号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1134",
+    "station_name": "嘉定新城",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 嘉定新城",
+    "keywords": [
+      "嘉定新城",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1132",
+    "station_name": "嘉定西",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 嘉定西",
+    "keywords": [
+      "嘉定西",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1424",
+    "station_name": "嘉怡路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 嘉怡路",
+    "keywords": [
+      "嘉怡路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1726",
+    "station_name": "嘉松中路",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 嘉松中路",
+    "keywords": [
+      "嘉松中路",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1058",
+    "station_name": "四川北路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 四川北路",
+    "keywords": [
+      "四川北路",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0841",
+    "station_name": "四平路",
+    "line_nos": [
+      "8",
+      "10"
+    ],
+    "line_labels": [
+      "8号线",
+      "10号线"
+    ],
+    "display_name": "8号线 / 10号线 · 四平路",
+    "keywords": [
+      "四平路",
+      "8号线",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0234",
+    "station_name": "国家会展中心",
+    "line_nos": [
+      "2",
+      "17"
+    ],
+    "line_labels": [
+      "2号线",
+      "17号线"
+    ],
+    "display_name": "2号线 / 17号线 · 国家会展中心",
+    "keywords": [
+      "国家会展中心",
+      "2号线",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1069",
+    "station_name": "国帆路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 国帆路",
+    "keywords": [
+      "国帆路",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1063",
+    "station_name": "国权路",
+    "line_nos": [
+      "10",
+      "18"
+    ],
+    "line_labels": [
+      "10号线",
+      "18号线"
+    ],
+    "display_name": "10号线 / 18号线 · 国权路",
+    "keywords": [
+      "国权路",
+      "10号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1238",
+    "station_name": "国际客运中心",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 国际客运中心",
+    "keywords": [
+      "国际客运中心",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0730",
+    "station_name": "场中路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 场中路",
+    "keywords": [
+      "场中路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1074",
+    "station_name": "基隆路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 基隆路",
+    "keywords": [
+      "基隆路",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0420",
+    "station_name": "塘桥",
+    "line_nos": [
+      "4"
+    ],
+    "line_labels": [
+      "4号线"
+    ],
+    "display_name": "4号线 · 塘桥",
+    "keywords": [
+      "塘桥",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1245",
+    "station_name": "复兴岛",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 复兴岛",
+    "keywords": [
+      "复兴岛",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1843",
+    "station_name": "复旦大学",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 复旦大学",
+    "keywords": [
+      "复旦大学",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0647",
+    "station_name": "外高桥保税区北",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 外高桥保税区北",
+    "keywords": [
+      "外高桥保税区北",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0645",
+    "station_name": "外高桥保税区南",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 外高桥保税区南",
+    "keywords": [
+      "外高桥保税区南",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0834",
+    "station_name": "大世界",
+    "line_nos": [
+      "8",
+      "14"
+    ],
+    "line_labels": [
+      "8号线",
+      "14号线"
+    ],
+    "display_name": "8号线 / 14号线 · 大世界",
+    "keywords": [
+      "大世界",
+      "8号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0733",
+    "station_name": "大华三路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 大华三路",
+    "keywords": [
+      "大华三路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0731",
+    "station_name": "大场镇",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 大场镇",
+    "keywords": [
+      "大场镇",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0424",
+    "station_name": "大木桥路",
+    "line_nos": [
+      "4",
+      "12"
+    ],
+    "line_labels": [
+      "4号线",
+      "12号线"
+    ],
+    "display_name": "4号线 / 12号线 · 大木桥路",
+    "keywords": [
+      "大木桥路",
+      "4号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0328",
+    "station_name": "大柏树",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 大柏树",
+    "keywords": [
+      "大柏树",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1326",
+    "station_name": "大渡河路",
+    "line_nos": [
+      "13",
+      "15"
+    ],
+    "line_labels": [
+      "13号线",
+      "15号线"
+    ],
+    "display_name": "13号线 / 15号线 · 大渡河路",
+    "keywords": [
+      "大渡河路",
+      "13号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0414",
+    "station_name": "大连路",
+    "line_nos": [
+      "4",
+      "12"
+    ],
+    "line_labels": [
+      "4号线",
+      "12号线"
+    ],
+    "display_name": "4号线 / 12号线 · 大连路",
+    "keywords": [
+      "大连路",
+      "4号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1057",
+    "station_name": "天潼路",
+    "line_nos": [
+      "10",
+      "12"
+    ],
+    "line_labels": [
+      "10号线",
+      "12号线"
+    ],
+    "display_name": "10号线 / 12号线 · 天潼路",
+    "keywords": [
+      "天潼路",
+      "10号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0538",
+    "station_name": "奉贤新城",
+    "line_nos": [
+      "5"
+    ],
+    "line_labels": [
+      "5号线"
+    ],
+    "display_name": "5号线 · 奉贤新城",
+    "keywords": [
+      "奉贤新城",
+      "5号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1536",
+    "station_name": "姚虹路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 姚虹路",
+    "keywords": [
+      "姚虹路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0239",
+    "station_name": "威宁路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 威宁路",
+    "keywords": [
+      "威宁路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0240",
+    "station_name": "娄山关路",
+    "line_nos": [
+      "2",
+      "15"
+    ],
+    "line_labels": [
+      "2号线",
+      "15号线"
+    ],
+    "display_name": "2号线 / 15号线 · 娄山关路",
+    "keywords": [
+      "娄山关路",
+      "2号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0848",
+    "station_name": "嫩江路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 嫩江路",
+    "keywords": [
+      "嫩江路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1350",
+    "station_name": "学林路 ",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 学林路 ",
+    "keywords": [
+      "学林路 ",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1242",
+    "station_name": "宁国路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 宁国路",
+    "keywords": [
+      "宁国路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1117",
+    "station_name": "安亭",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 安亭",
+    "keywords": [
+      "安亭",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1048",
+    "station_name": "宋园路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 宋园路",
+    "keywords": [
+      "宋园路",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1425",
+    "station_name": "定边路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 定边路",
+    "keywords": [
+      "定边路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0315",
+    "station_name": "宜山路",
+    "line_nos": [
+      "3",
+      "4",
+      "9"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线",
+      "9号线"
+    ],
+    "display_name": "3号线 / 4号线 / 9号线 · 宜山路",
+    "keywords": [
+      "宜山路",
+      "3号线",
+      "4号线",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0136",
+    "station_name": "宝安公路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 宝安公路",
+    "keywords": [
+      "宝安公路",
+      "1号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0324",
+    "station_name": "宝山路",
+    "line_nos": [
+      "3",
+      "4"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线"
+    ],
+    "display_name": "3号线 / 4号线 · 宝山路",
+    "keywords": [
+      "宝山路",
+      "3号线",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0336",
+    "station_name": "宝杨路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 宝杨路",
+    "keywords": [
+      "宝杨路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0138",
+    "station_name": "富锦路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 富锦路",
+    "keywords": [
+      "富锦路",
+      "1号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1421",
+    "station_name": "封浜",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 封浜",
+    "keywords": [
+      "封浜",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0940",
+    "station_name": "小南门",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 小南门",
+    "keywords": [
+      "小南门",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0735",
+    "station_name": "岚皋路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 岚皋路",
+    "keywords": [
+      "岚皋路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0259",
+    "station_name": "川沙",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 川沙",
+    "keywords": [
+      "川沙",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0641",
+    "station_name": "巨峰路",
+    "line_nos": [
+      "6",
+      "12"
+    ],
+    "line_labels": [
+      "6号线",
+      "12号线"
+    ],
+    "display_name": "6号线 / 12号线 · 巨峰路",
+    "keywords": [
+      "巨峰路",
+      "6号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0849",
+    "station_name": "市光路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 市光路",
+    "keywords": [
+      "市光路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0120",
+    "station_name": "常熟路",
+    "line_nos": [
+      "1",
+      "7"
+    ],
+    "line_labels": [
+      "1号线",
+      "7号线"
+    ],
+    "display_name": "1号线 / 7号线 · 常熟路",
+    "keywords": [
+      "常熟路",
+      "1号线",
+      "7号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1838",
+    "station_name": "平凉路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 平凉路",
+    "keywords": [
+      "平凉路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0255",
+    "station_name": "广兰路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 广兰路",
+    "keywords": [
+      "广兰路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1158",
+    "station_name": "康恒路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 康恒路",
+    "keywords": [
+      "康恒路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1852",
+    "station_name": "康文路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 康文路",
+    "keywords": [
+      "康文路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1162",
+    "station_name": "康新公路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 康新公路",
+    "keywords": [
+      "康新公路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1827",
+    "station_name": "康桥",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 康桥",
+    "keywords": [
+      "康桥",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "5135",
+    "station_name": "康桥东",
+    "line_nos": [
+      "51"
+    ],
+    "line_labels": [
+      "市域机场线"
+    ],
+    "display_name": "市域机场线 · 康桥东",
+    "keywords": [
+      "康桥东",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0845",
+    "station_name": "延吉中路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 延吉中路",
+    "keywords": [
+      "延吉中路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0317",
+    "station_name": "延安西路",
+    "line_nos": [
+      "3",
+      "4"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线"
+    ],
+    "display_name": "3号线 / 4号线 · 延安西路",
+    "keywords": [
+      "延安西路",
+      "3号线",
+      "4号线"
+    ],
+    "legend_types": [
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0128",
+    "station_name": "延长路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 延长路",
+    "keywords": [
+      "延长路",
+      "1号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0333",
+    "station_name": "张华浜",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 张华浜",
+    "keywords": [
+      "张华浜",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1351",
+    "station_name": "张江路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 张江路",
+    "keywords": [
+      "张江路",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0253",
+    "station_name": "张江高科",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 张江高科",
+    "keywords": [
+      "张江高科",
+      "2号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0118",
+    "station_name": "徐家汇",
+    "line_nos": [
+      "1",
+      "9",
+      "11"
+    ],
+    "line_labels": [
+      "1号线",
+      "9号线",
+      "11号线"
+    ],
+    "display_name": "1号线 / 9号线 / 11号线 · 徐家汇",
+    "keywords": [
+      "徐家汇",
+      "1号线",
+      "9号线",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1725",
+    "station_name": "徐泾北城",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 徐泾北城",
+    "keywords": [
+      "徐泾北城",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1724",
+    "station_name": "徐盈路",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 徐盈路",
+    "keywords": [
+      "徐盈路",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1159",
+    "station_name": "御桥",
+    "line_nos": [
+      "11",
+      "18"
+    ],
+    "line_labels": [
+      "11号线",
+      "18号线"
+    ],
+    "display_name": "11号线 / 18号线 · 御桥",
+    "keywords": [
+      "御桥",
+      "11号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0636",
+    "station_name": "德平路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 德平路",
+    "keywords": [
+      "德平路",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1629",
+    "station_name": "惠南",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 惠南",
+    "keywords": [
+      "惠南",
+      "16号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1630",
+    "station_name": "惠南东",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 惠南东",
+    "keywords": [
+      "惠南东",
+      "16号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0828",
+    "station_name": "成山路",
+    "line_nos": [
+      "8",
+      "13"
+    ],
+    "line_labels": [
+      "8号线",
+      "13号线"
+    ],
+    "display_name": "8号线 / 13号线 · 成山路",
+    "keywords": [
+      "成山路",
+      "8号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1841",
+    "station_name": "抚顺路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 抚顺路",
+    "keywords": [
+      "抚顺路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1239",
+    "station_name": "提篮桥",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 提篮桥",
+    "keywords": [
+      "提篮桥",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0512",
+    "station_name": "文井路",
+    "line_nos": [
+      "5"
+    ],
+    "line_labels": [
+      "5号线"
+    ],
+    "display_name": "5号线 · 文井路",
+    "keywords": [
+      "文井路",
+      "5号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0734",
+    "station_name": "新村路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 新村路",
+    "keywords": [
+      "新村路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1068",
+    "station_name": "新江湾城",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 新江湾城",
+    "keywords": [
+      "新江湾城",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0124",
+    "station_name": "新闸路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 新闸路",
+    "keywords": [
+      "新闸路",
+      "1号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1119",
+    "station_name": "昌吉东路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 昌吉东路",
+    "keywords": [
+      "昌吉东路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0738",
+    "station_name": "昌平路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 昌平路",
+    "keywords": [
+      "昌平路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1442",
+    "station_name": "昌邑路",
+    "line_nos": [
+      "14",
+      "18"
+    ],
+    "line_labels": [
+      "14号线",
+      "18号线"
+    ],
+    "display_name": "14号线 / 18号线 · 昌邑路",
+    "keywords": [
+      "昌邑路",
+      "14号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0929",
+    "station_name": "星中路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 星中路",
+    "keywords": [
+      "星中路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1528",
+    "station_name": "景洪路",
+    "line_nos": [
+      "15",
+      "51"
+    ],
+    "line_labels": [
+      "15号线",
+      "市域机场线"
+    ],
+    "display_name": "15号线 / 市域机场线 · 景洪路",
+    "keywords": [
+      "景洪路",
+      "15号线",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1526",
+    "station_name": "景西路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 景西路",
+    "keywords": [
+      "景西路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1525",
+    "station_name": "曙建路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 曙建路",
+    "keywords": [
+      "曙建路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0836",
+    "station_name": "曲阜路",
+    "line_nos": [
+      "8",
+      "12"
+    ],
+    "line_labels": [
+      "8号线",
+      "12号线"
+    ],
+    "display_name": "8号线 / 12号线 · 曲阜路",
+    "keywords": [
+      "曲阜路",
+      "8号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0840",
+    "station_name": "曲阳路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 曲阳路",
+    "keywords": [
+      "曲阳路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0320",
+    "station_name": "曹杨路",
+    "line_nos": [
+      "3",
+      "4",
+      "11",
+      "14"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线",
+      "11号线",
+      "14号线"
+    ],
+    "display_name": "3号线 / 4号线 / 11号线 / 14号线 · 曹杨路",
+    "keywords": [
+      "曹杨路",
+      "3号线",
+      "4号线",
+      "11号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0952",
+    "station_name": "曹路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 曹路",
+    "keywords": [
+      "曹路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0536",
+    "station_name": "望园路",
+    "line_nos": [
+      "5"
+    ],
+    "line_labels": [
+      "5号线"
+    ],
+    "display_name": "5号线 · 望园路",
+    "keywords": [
+      "望园路",
+      "5号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1732",
+    "station_name": "朱家角",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 朱家角",
+    "keywords": [
+      "朱家角",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1529",
+    "station_name": "朱梅路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 朱梅路",
+    "keywords": [
+      "朱梅路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1141",
+    "station_name": "李子园",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 李子园",
+    "keywords": [
+      "李子园",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0827",
+    "station_name": "杨思",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 杨思",
+    "keywords": [
+      "杨思",
+      "8号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0415",
+    "station_name": "杨树浦路",
+    "line_nos": [
+      "4"
+    ],
+    "line_labels": [
+      "4号线"
+    ],
+    "display_name": "4号线 · 杨树浦路",
+    "keywords": [
+      "杨树浦路",
+      "4号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0943",
+    "station_name": "杨高中路",
+    "line_nos": [
+      "9",
+      "18"
+    ],
+    "line_labels": [
+      "9号线",
+      "18号线"
+    ],
+    "display_name": "9号线 / 18号线 · 杨高中路",
+    "keywords": [
+      "杨高中路",
+      "9号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1248",
+    "station_name": "杨高北路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 杨高北路",
+    "keywords": [
+      "杨高北路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0749",
+    "station_name": "杨高南路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 杨高南路",
+    "keywords": [
+      "杨高南路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0920",
+    "station_name": "松江体育中心",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 松江体育中心",
+    "keywords": [
+      "松江体育中心",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1144",
+    "station_name": "枫桥路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 枫桥路",
+    "keywords": [
+      "枫桥路",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1226",
+    "station_name": "桂林公园",
+    "line_nos": [
+      "12",
+      "15"
+    ],
+    "line_labels": [
+      "12号线",
+      "15号线"
+    ],
+    "display_name": "12号线 / 15号线 · 桂林公园",
+    "keywords": [
+      "桂林公园",
+      "12号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0932",
+    "station_name": "桂林路",
+    "line_nos": [
+      "9",
+      "15"
+    ],
+    "line_labels": [
+      "9号线",
+      "15号线"
+    ],
+    "display_name": "9号线 / 15号线 · 桂林路",
+    "keywords": [
+      "桂林路",
+      "9号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1451",
+    "station_name": "桂桥路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 桂桥路",
+    "keywords": [
+      "桂桥路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1138",
+    "station_name": "桃浦新村",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 桃浦新村",
+    "keywords": [
+      "桃浦新村",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1541",
+    "station_name": "梅岭北路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 梅岭北路",
+    "keywords": [
+      "梅岭北路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1443",
+    "station_name": "歇浦路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 歇浦路",
+    "keywords": [
+      "歇浦路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1544",
+    "station_name": "武威东路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 武威东路",
+    "keywords": [
+      "武威东路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1139",
+    "station_name": "武威路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 武威路",
+    "keywords": [
+      "武威路",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1329",
+    "station_name": "武宁路",
+    "line_nos": [
+      "13",
+      "14"
+    ],
+    "line_labels": [
+      "13号线",
+      "14号线"
+    ],
+    "display_name": "13号线 / 14号线 · 武宁路",
+    "keywords": [
+      "武宁路",
+      "13号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1433",
+    "station_name": "武定路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 武定路",
+    "keywords": [
+      "武定路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1067",
+    "station_name": "殷高东路 ",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 殷高东路 ",
+    "keywords": [
+      "殷高东路 ",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0330",
+    "station_name": "殷高西路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 殷高西路",
+    "keywords": [
+      "殷高西路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1845",
+    "station_name": "殷高路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 殷高路",
+    "keywords": [
+      "殷高路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0634",
+    "station_name": "民生路",
+    "line_nos": [
+      "6",
+      "18"
+    ],
+    "line_labels": [
+      "6号线",
+      "18号线"
+    ],
+    "display_name": "6号线 / 18号线 · 民生路",
+    "keywords": [
+      "民生路",
+      "6号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0951",
+    "station_name": "民雷路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 民雷路",
+    "keywords": [
+      "民雷路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0335",
+    "station_name": "水产路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 水产路",
+    "keywords": [
+      "水产路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1046",
+    "station_name": "水城路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 水城路",
+    "keywords": [
+      "水城路",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1522",
+    "station_name": "永德路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 永德路",
+    "keywords": [
+      "永德路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "4106",
+    "station_name": "汇臻路",
+    "line_nos": [
+      "41"
+    ],
+    "line_labels": [
+      "浦江线"
+    ],
+    "display_name": "浦江线 · 汇臻路",
+    "keywords": [
+      "汇臻路",
+      "浦江线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1728",
+    "station_name": "汇金路",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 汇金路",
+    "keywords": [
+      "汇金路",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0125",
+    "station_name": "汉中路",
+    "line_nos": [
+      "1",
+      "12",
+      "13"
+    ],
+    "line_labels": [
+      "1号线",
+      "12号线",
+      "13号线"
+    ],
+    "display_name": "1号线 / 12号线 / 13号线 · 汉中路",
+    "keywords": [
+      "汉中路",
+      "1号线",
+      "12号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1331",
+    "station_name": "江宁路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 江宁路",
+    "keywords": [
+      "江宁路",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0822",
+    "station_name": "江月路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 江月路",
+    "keywords": [
+      "江月路",
+      "8号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0339",
+    "station_name": "江杨北路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 江杨北路",
+    "keywords": [
+      "江杨北路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1241",
+    "station_name": "江浦公园",
+    "line_nos": [
+      "12",
+      "18"
+    ],
+    "line_labels": [
+      "12号线",
+      "18号线"
+    ],
+    "display_name": "12号线 / 18号线 · 江浦公园",
+    "keywords": [
+      "江浦公园",
+      "12号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0843",
+    "station_name": "江浦路",
+    "line_nos": [
+      "8",
+      "18"
+    ],
+    "line_labels": [
+      "8号线",
+      "18号线"
+    ],
+    "display_name": "8号线 / 18号线 · 江浦路",
+    "keywords": [
+      "江浦路",
+      "8号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1065",
+    "station_name": "江湾体育场",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 江湾体育场",
+    "keywords": [
+      "江湾体育场",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0329",
+    "station_name": "江湾镇",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 江湾镇",
+    "keywords": [
+      "江湾镇",
+      "3号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0242",
+    "station_name": "江苏路",
+    "line_nos": [
+      "2",
+      "11"
+    ],
+    "line_labels": [
+      "2号线",
+      "11号线"
+    ],
+    "display_name": "2号线 / 11号线 · 江苏路",
+    "keywords": [
+      "江苏路",
+      "2号线",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1824",
+    "station_name": "沈梅路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 沈梅路",
+    "keywords": [
+      "沈梅路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0644",
+    "station_name": "洲海路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 洲海路",
+    "keywords": [
+      "洲海路",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1157",
+    "station_name": "浦三路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 浦三路",
+    "keywords": [
+      "浦三路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0263",
+    "station_name": "浦东1号2号航站楼",
+    "line_nos": [
+      "2",
+      "51"
+    ],
+    "line_labels": [
+      "2号线",
+      "市域机场线"
+    ],
+    "display_name": "2号线 / 市域机场线 · 浦东1号2号航站楼",
+    "keywords": [
+      "浦东1号2号航站楼",
+      "2号线",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0248",
+    "station_name": "浦东南路",
+    "line_nos": [
+      "2",
+      "14"
+    ],
+    "line_labels": [
+      "2号线",
+      "14号线"
+    ],
+    "display_name": "2号线 / 14号线 · 浦东南路",
+    "keywords": [
+      "浦东南路",
+      "2号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0416",
+    "station_name": "浦东大道",
+    "line_nos": [
+      "4",
+      "14"
+    ],
+    "line_labels": [
+      "4号线",
+      "14号线"
+    ],
+    "display_name": "4号线 / 14号线 · 浦东大道",
+    "keywords": [
+      "浦东大道",
+      "4号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1449",
+    "station_name": "浦东足球场",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 浦东足球场",
+    "keywords": [
+      "浦东足球场",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0823",
+    "station_name": "浦江镇",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 浦江镇",
+    "keywords": [
+      "浦江镇",
+      "8号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0631",
+    "station_name": "浦电路 ",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 浦电路 ",
+    "keywords": [
+      "浦电路 ",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "4104",
+    "station_name": "浦航路",
+    "line_nos": [
+      "41"
+    ],
+    "line_labels": [
+      "浦江线"
+    ],
+    "display_name": "浦江线 · 浦航路",
+    "keywords": [
+      "浦航路",
+      "浦江线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0412",
+    "station_name": "海伦路",
+    "line_nos": [
+      "4",
+      "10"
+    ],
+    "line_labels": [
+      "4号线",
+      "10号线"
+    ],
+    "display_name": "4号线 / 10号线 · 海伦路",
+    "keywords": [
+      "海伦路",
+      "4号线",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0262",
+    "station_name": "海天三路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 海天三路",
+    "keywords": [
+      "海天三路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1731",
+    "station_name": "淀山湖大道",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 淀山湖大道",
+    "keywords": [
+      "淀山湖大道",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0332",
+    "station_name": "淞发路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 淞发路",
+    "keywords": [
+      "淞发路",
+      "3号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0334",
+    "station_name": "淞滨路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 淞滨路",
+    "keywords": [
+      "淞滨路",
+      "3号线"
+    ],
+    "legend_types": [
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0237",
+    "station_name": "淞虹路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 淞虹路",
+    "keywords": [
+      "淞虹路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1335",
+    "station_name": "淮海中路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 淮海中路",
+    "keywords": [
+      "淮海中路",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0648",
+    "station_name": "港城路",
+    "line_nos": [
+      "6",
+      "10"
+    ],
+    "line_labels": [
+      "6号线",
+      "10号线"
+    ],
+    "display_name": "6号线 / 10号线 · 港城路",
+    "keywords": [
+      "港城路",
+      "6号线",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0633",
+    "station_name": "源深体育中心",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 源深体育中心",
+    "keywords": [
+      "源深体育中心",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1441",
+    "station_name": "源深路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 源深路",
+    "keywords": [
+      "源深路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1633",
+    "station_name": "滴水湖",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 滴水湖",
+    "keywords": [
+      "滴水湖",
+      "16号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0116",
+    "station_name": "漕宝路",
+    "line_nos": [
+      "1",
+      "12"
+    ],
+    "line_labels": [
+      "1号线",
+      "12号线"
+    ],
+    "display_name": "1号线 / 12号线 · 漕宝路",
+    "keywords": [
+      "漕宝路",
+      "1号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0931",
+    "station_name": "漕河泾开发区",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 漕河泾开发区",
+    "keywords": [
+      "漕河泾开发区",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0314",
+    "station_name": "漕溪路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 漕溪路",
+    "keywords": [
+      "漕溪路",
+      "3号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1730",
+    "station_name": "漕盈路",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 漕盈路",
+    "keywords": [
+      "漕盈路",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0723",
+    "station_name": "潘广路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 潘广路",
+    "keywords": [
+      "潘广路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0622",
+    "station_name": "灵岩南路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 灵岩南路",
+    "keywords": [
+      "灵岩南路",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1244",
+    "station_name": "爱国路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 爱国路",
+    "keywords": [
+      "爱国路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1850",
+    "station_name": "爱辉路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 爱辉路",
+    "keywords": [
+      "爱辉路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0535",
+    "station_name": "环城东路",
+    "line_nos": [
+      "5"
+    ],
+    "line_labels": [
+      "5号线"
+    ],
+    "display_name": "5号线 · 环城东路",
+    "keywords": [
+      "环城东路",
+      "5号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1250",
+    "station_name": "申江路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 申江路",
+    "keywords": [
+      "申江路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1133",
+    "station_name": "白银路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 白银路",
+    "keywords": [
+      "白银路",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1427",
+    "station_name": "真光路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 真光路",
+    "keywords": [
+      "真光路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1143",
+    "station_name": "真如",
+    "line_nos": [
+      "11",
+      "14"
+    ],
+    "line_labels": [
+      "11号线",
+      "14号线"
+    ],
+    "display_name": "11号线 / 14号线 · 真如",
+    "keywords": [
+      "真如",
+      "11号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1426",
+    "station_name": "真新新村",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 真新新村",
+    "keywords": [
+      "真新新村",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0312",
+    "station_name": "石龙路",
+    "line_nos": [
+      "3"
+    ],
+    "line_labels": [
+      "3号线"
+    ],
+    "display_name": "3号线 · 石龙路",
+    "keywords": [
+      "石龙路",
+      "3号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0726",
+    "station_name": "祁华路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 祁华路",
+    "keywords": [
+      "祁华路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1546",
+    "station_name": "祁安路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 祁安路",
+    "keywords": [
+      "祁安路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1324",
+    "station_name": "祁连山南路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 祁连山南路",
+    "keywords": [
+      "祁连山南路",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1140",
+    "station_name": "祁连山路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 祁连山路",
+    "keywords": [
+      "祁连山路",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1161",
+    "station_name": "秀沿路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 秀沿路",
+    "keywords": [
+      "秀沿路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1521",
+    "station_name": "紫竹高新区",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 紫竹高新区",
+    "keywords": [
+      "紫竹高新区",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1019",
+    "station_name": "紫藤路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 紫藤路",
+    "keywords": [
+      "紫藤路",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1825",
+    "station_name": "繁荣路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 繁荣路",
+    "keywords": [
+      "繁荣路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1537",
+    "station_name": "红宝石路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 红宝石路",
+    "keywords": [
+      "红宝石路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0722",
+    "station_name": "罗南新村",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 罗南新村",
+    "keywords": [
+      "罗南新村",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1530",
+    "station_name": "罗秀路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 罗秀路",
+    "keywords": [
+      "罗秀路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0721",
+    "station_name": "美兰湖",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 美兰湖",
+    "keywords": [
+      "美兰湖",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0847",
+    "station_name": "翔殷路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 翔殷路",
+    "keywords": [
+      "翔殷路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0746",
+    "station_name": "耀华路",
+    "line_nos": [
+      "7",
+      "8"
+    ],
+    "line_labels": [
+      "7号线",
+      "8号线"
+    ],
+    "display_name": "7号线 / 8号线 · 耀华路",
+    "keywords": [
+      "耀华路",
+      "7号线",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0833",
+    "station_name": "老西门",
+    "line_nos": [
+      "8",
+      "10"
+    ],
+    "line_labels": [
+      "8号线",
+      "10号线"
+    ],
+    "display_name": "8号线 / 10号线 · 老西门",
+    "keywords": [
+      "老西门",
+      "8号线",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0821",
+    "station_name": "联航路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 联航路",
+    "keywords": [
+      "联航路",
+      "8号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0741",
+    "station_name": "肇嘉浜路",
+    "line_nos": [
+      "7",
+      "9"
+    ],
+    "line_labels": [
+      "7号线",
+      "9号线"
+    ],
+    "display_name": "7号线 / 9号线 · 肇嘉浜路",
+    "keywords": [
+      "肇嘉浜路",
+      "7号线",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1333",
+    "station_name": "自然博物馆",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 自然博物馆",
+    "keywords": [
+      "自然博物馆",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1018",
+    "station_name": "航中路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 航中路",
+    "keywords": [
+      "航中路",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1821",
+    "station_name": "航头",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 航头",
+    "keywords": [
+      "航头",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1626",
+    "station_name": "航头东",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 航头东",
+    "keywords": [
+      "航头东",
+      "16号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0646",
+    "station_name": "航津路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 航津路",
+    "keywords": [
+      "航津路",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0824",
+    "station_name": "芦恒路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 芦恒路",
+    "keywords": [
+      "芦恒路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0753",
+    "station_name": "花木路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 花木路",
+    "keywords": [
+      "花木路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0751",
+    "station_name": "芳华路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 芳华路",
+    "keywords": [
+      "芳华路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0944",
+    "station_name": "芳甸路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 芳甸路",
+    "keywords": [
+      "芳甸路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1831",
+    "station_name": "芳芯路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 芳芯路",
+    "keywords": [
+      "芳芯路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1347",
+    "station_name": "莲溪路",
+    "line_nos": [
+      "13",
+      "18"
+    ],
+    "line_labels": [
+      "13号线",
+      "18号线"
+    ],
+    "display_name": "13号线 / 18号线 · 莲溪路",
+    "keywords": [
+      "莲溪路",
+      "13号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0113",
+    "station_name": "莲花路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 莲花路",
+    "keywords": [
+      "莲花路",
+      "1号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0533",
+    "station_name": "萧塘",
+    "line_nos": [],
+    "line_labels": [],
+    "display_name": " · 萧塘",
+    "keywords": [
+      "萧塘"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0945",
+    "station_name": "蓝天路",
+    "line_nos": [
+      "9",
+      "14"
+    ],
+    "line_labels": [
+      "9号线",
+      "14号线"
+    ],
+    "display_name": "9号线 / 14号线 · 蓝天路",
+    "keywords": [
+      "蓝天路",
+      "9号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0419",
+    "station_name": "蓝村路",
+    "line_nos": [
+      "4",
+      "6"
+    ],
+    "line_labels": [
+      "4号线",
+      "6号线"
+    ],
+    "display_name": "4号线 / 6号线 · 蓝村路",
+    "keywords": [
+      "蓝村路",
+      "4号线",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0326",
+    "station_name": "虹口足球场",
+    "line_nos": [
+      "3",
+      "8"
+    ],
+    "line_labels": [
+      "3号线",
+      "8号线"
+    ],
+    "display_name": "3号线 / 8号线 · 虹口足球场",
+    "keywords": [
+      "虹口足球场",
+      "3号线",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1043",
+    "station_name": "虹桥1号航站楼",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 虹桥1号航站楼",
+    "keywords": [
+      "虹桥1号航站楼",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0236",
+    "station_name": "虹桥2号航站楼",
+    "line_nos": [
+      "2",
+      "10",
+      "51"
+    ],
+    "line_labels": [
+      "2号线",
+      "10号线",
+      "市域机场线"
+    ],
+    "display_name": "2号线 / 10号线 / 市域机场线 · 虹桥2号航站楼",
+    "keywords": [
+      "虹桥2号航站楼",
+      "2号线",
+      "10号线",
+      "市域机场线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0235",
+    "station_name": "虹桥火车站",
+    "line_nos": [
+      "2",
+      "10",
+      "17"
+    ],
+    "line_labels": [
+      "2号线",
+      "10号线",
+      "17号线"
+    ],
+    "display_name": "2号线 / 10号线 / 17号线 · 虹桥火车站",
+    "keywords": [
+      "虹桥火车站",
+      "2号线",
+      "10号线",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0316",
+    "station_name": "虹桥路",
+    "line_nos": [
+      "3",
+      "4",
+      "10"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线",
+      "10号线"
+    ],
+    "display_name": "3号线 / 4号线 / 10号线 · 虹桥路",
+    "keywords": [
+      "虹桥路",
+      "3号线",
+      "4号线",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1527",
+    "station_name": "虹梅南路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 虹梅南路",
+    "keywords": [
+      "虹梅南路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1224",
+    "station_name": "虹梅路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 虹梅路",
+    "keywords": [
+      "虹梅路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1225",
+    "station_name": "虹漕路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 虹漕路",
+    "keywords": [
+      "虹漕路",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1221",
+    "station_name": "虹莘路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 虹莘路",
+    "keywords": [
+      "虹莘路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0233",
+    "station_name": "蟠祥路·国家会计学院",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 蟠祥路·国家会计学院",
+    "keywords": [
+      "蟠祥路·国家会计学院",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1723",
+    "station_name": "蟠龙路",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 蟠龙路",
+    "keywords": [
+      "蟠龙路",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0732",
+    "station_name": "行知路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 行知路",
+    "keywords": [
+      "行知路",
+      "7号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0119",
+    "station_name": "衡山路",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 衡山路",
+    "keywords": [
+      "衡山路",
+      "1号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1734",
+    "station_name": "西岑",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 西岑",
+    "keywords": [
+      "西岑",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0838",
+    "station_name": "西藏北路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 西藏北路",
+    "keywords": [
+      "西藏北路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0422",
+    "station_name": "西藏南路",
+    "line_nos": [
+      "4",
+      "8"
+    ],
+    "line_labels": [
+      "4号线",
+      "8号线"
+    ],
+    "display_name": "4号线 / 8号线 · 西藏南路",
+    "keywords": [
+      "西藏南路",
+      "4号线",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1055",
+    "station_name": "豫园",
+    "line_nos": [
+      "10",
+      "14"
+    ],
+    "line_labels": [
+      "10号线",
+      "14号线"
+    ],
+    "display_name": "10号线 / 14号线 · 豫园",
+    "keywords": [
+      "豫园",
+      "10号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1727",
+    "station_name": "赵巷",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 赵巷",
+    "keywords": [
+      "赵巷",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1833",
+    "station_name": "迎春路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 迎春路",
+    "keywords": [
+      "迎春路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0261",
+    "station_name": "远东大道",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 远东大道",
+    "keywords": [
+      "远东大道",
+      "2号线"
+    ],
+    "legend_types": [
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1163",
+    "station_name": "迪士尼",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 迪士尼",
+    "keywords": [
+      "迪士尼",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1847",
+    "station_name": "通南路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 通南路",
+    "keywords": [
+      "通南路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1060",
+    "station_name": "邮电新村",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 邮电新村",
+    "keywords": [
+      "邮电新村",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1249",
+    "station_name": "金京路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 金京路",
+    "keywords": [
+      "金京路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0948",
+    "station_name": "金吉路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 金吉路",
+    "keywords": [
+      "金吉路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0947",
+    "station_name": "金桥",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 金桥",
+    "keywords": [
+      "金桥",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0638",
+    "station_name": "金桥路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 金桥路",
+    "keywords": [
+      "金桥路",
+      "6号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1322",
+    "station_name": "金沙江西路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 金沙江西路",
+    "keywords": [
+      "金沙江西路",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0319",
+    "station_name": "金沙江路",
+    "line_nos": [
+      "3",
+      "4",
+      "13"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线",
+      "13号线"
+    ],
+    "display_name": "3号线 / 4号线 / 13号线 · 金沙江路",
+    "keywords": [
+      "金沙江路",
+      "3号线",
+      "4号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0537",
+    "station_name": "金海湖",
+    "line_nos": [
+      "5"
+    ],
+    "line_labels": [
+      "5号线"
+    ],
+    "display_name": "5号线 · 金海湖",
+    "keywords": [
+      "金海湖",
+      "5号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0949",
+    "station_name": "金海路",
+    "line_nos": [
+      "9",
+      "12"
+    ],
+    "line_labels": [
+      "9号线",
+      "12号线"
+    ],
+    "display_name": "9号线 / 12号线 · 金海路",
+    "keywords": [
+      "金海路",
+      "9号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0254",
+    "station_name": "金科路",
+    "line_nos": [
+      "2"
+    ],
+    "line_labels": [
+      "2号线"
+    ],
+    "display_name": "2号线 · 金科路",
+    "keywords": [
+      "金科路",
+      "2号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1450",
+    "station_name": "金粤路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 金粤路",
+    "keywords": [
+      "金粤路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1321",
+    "station_name": "金运路",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 金运路",
+    "keywords": [
+      "金运路",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1428",
+    "station_name": "铜川路",
+    "line_nos": [
+      "14",
+      "15"
+    ],
+    "line_labels": [
+      "14号线",
+      "15号线"
+    ],
+    "display_name": "14号线 / 15号线 · 铜川路",
+    "keywords": [
+      "铜川路",
+      "14号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0114",
+    "station_name": "锦江乐园",
+    "line_nos": [
+      "1"
+    ],
+    "line_labels": [
+      "1号线"
+    ],
+    "display_name": "1号线 · 锦江乐园",
+    "keywords": [
+      "锦江乐园",
+      "1号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1549",
+    "station_name": "锦秋路",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 锦秋路",
+    "keywords": [
+      "锦秋路",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0750",
+    "station_name": "锦绣路",
+    "line_nos": [
+      "7"
+    ],
+    "line_labels": [
+      "7号线"
+    ],
+    "display_name": "7号线 · 锦绣路",
+    "keywords": [
+      "锦绣路",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0321",
+    "station_name": "镇坪路",
+    "line_nos": [
+      "3",
+      "4",
+      "7"
+    ],
+    "line_labels": [
+      "3号线",
+      "4号线",
+      "7号线"
+    ],
+    "display_name": "3号线 / 4号线 / 7号线 · 镇坪路",
+    "keywords": [
+      "镇坪路",
+      "3号线",
+      "4号线",
+      "7号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0737",
+    "station_name": "长寿路",
+    "line_nos": [
+      "7",
+      "13"
+    ],
+    "line_labels": [
+      "7号线",
+      "13号线"
+    ],
+    "display_name": "7号线 / 13号线 · 长寿路",
+    "keywords": [
+      "长寿路",
+      "7号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0331",
+    "station_name": "长江南路",
+    "line_nos": [
+      "3",
+      "18"
+    ],
+    "line_labels": [
+      "3号线",
+      "18号线"
+    ],
+    "display_name": "3号线 / 18号线 · 长江南路",
+    "keywords": [
+      "长江南路",
+      "3号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1848",
+    "station_name": "长江西路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 长江西路",
+    "keywords": [
+      "长江西路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0745",
+    "station_name": "长清路",
+    "line_nos": [
+      "7",
+      "13"
+    ],
+    "line_labels": [
+      "7号线",
+      "13号线"
+    ],
+    "display_name": "7号线 / 13号线 · 长清路",
+    "keywords": [
+      "长清路",
+      "7号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1539",
+    "station_name": "长风公园",
+    "line_nos": [
+      "15"
+    ],
+    "line_labels": [
+      "15号线"
+    ],
+    "display_name": "15号线 · 长风公园",
+    "keywords": [
+      "长风公园",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "4103",
+    "station_name": "闵瑞路",
+    "line_nos": [
+      "41"
+    ],
+    "line_labels": [
+      "浦江线"
+    ],
+    "display_name": "浦江线 · 闵瑞路",
+    "keywords": [
+      "闵瑞路",
+      "浦江线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0513",
+    "station_name": "闵行开发区",
+    "line_nos": [
+      "5"
+    ],
+    "line_labels": [
+      "5号线"
+    ],
+    "display_name": "5号线 · 闵行开发区",
+    "keywords": [
+      "闵行开发区",
+      "5号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0247",
+    "station_name": "陆家嘴",
+    "line_nos": [
+      "2",
+      "14"
+    ],
+    "line_labels": [
+      "2号线",
+      "14号线"
+    ],
+    "display_name": "2号线 / 14号线 · 陆家嘴",
+    "keywords": [
+      "陆家嘴",
+      "2号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0832",
+    "station_name": "陆家浜路",
+    "line_nos": [
+      "8",
+      "9"
+    ],
+    "line_labels": [
+      "8号线",
+      "9号线"
+    ],
+    "display_name": "8号线 / 9号线 · 陆家浜路",
+    "keywords": [
+      "陆家浜路",
+      "8号线",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1346",
+    "station_name": "陈春路 ",
+    "line_nos": [
+      "13"
+    ],
+    "line_labels": [
+      "13号线"
+    ],
+    "display_name": "13号线 · 陈春路 ",
+    "keywords": [
+      "陈春路 ",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1136",
+    "station_name": "陈翔公路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 陈翔公路",
+    "keywords": [
+      "陈翔公路",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0121",
+    "station_name": "陕西南路",
+    "line_nos": [
+      "1",
+      "10",
+      "12"
+    ],
+    "line_labels": [
+      "1号线",
+      "10号线",
+      "12号线"
+    ],
+    "display_name": "1号线 / 10号线 / 12号线 · 陕西南路",
+    "keywords": [
+      "陕西南路",
+      "1号线",
+      "10号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1146",
+    "station_name": "隆德路",
+    "line_nos": [
+      "11",
+      "13"
+    ],
+    "line_labels": [
+      "11号线",
+      "13号线"
+    ],
+    "display_name": "11号线 / 13号线 · 隆德路",
+    "keywords": [
+      "隆德路",
+      "11号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1243",
+    "station_name": "隆昌路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 隆昌路",
+    "keywords": [
+      "隆昌路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1729",
+    "station_name": "青浦新城",
+    "line_nos": [
+      "17"
+    ],
+    "line_labels": [
+      "17号线"
+    ],
+    "display_name": "17号线 · 青浦新城",
+    "keywords": [
+      "青浦新城",
+      "17号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0243",
+    "station_name": "静安寺",
+    "line_nos": [
+      "2",
+      "7",
+      "14"
+    ],
+    "line_labels": [
+      "2号线",
+      "7号线",
+      "14号线"
+    ],
+    "display_name": "2号线 / 7号线 / 14号线 · 静安寺",
+    "keywords": [
+      "静安寺",
+      "2号线",
+      "7号线",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0842",
+    "station_name": "鞍山新村",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 鞍山新村",
+    "keywords": [
+      "鞍山新村",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0950",
+    "station_name": "顾唐路",
+    "line_nos": [
+      "9"
+    ],
+    "line_labels": [
+      "9号线"
+    ],
+    "display_name": "9号线 · 顾唐路",
+    "keywords": [
+      "顾唐路",
+      "9号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1222",
+    "station_name": "顾戴路",
+    "line_nos": [
+      "12"
+    ],
+    "line_labels": [
+      "12号线"
+    ],
+    "display_name": "12号线 · 顾戴路",
+    "keywords": [
+      "顾戴路",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0725",
+    "station_name": "顾村公园",
+    "line_nos": [
+      "7",
+      "15"
+    ],
+    "line_labels": [
+      "7号线",
+      "15号线"
+    ],
+    "display_name": "7号线 / 15号线 · 顾村公园",
+    "keywords": [
+      "顾村公园",
+      "7号线",
+      "15号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0938",
+    "station_name": "马当路",
+    "line_nos": [
+      "9",
+      "13"
+    ],
+    "line_labels": [
+      "9号线",
+      "13号线"
+    ],
+    "display_name": "9号线 / 13号线 · 马当路",
+    "keywords": [
+      "马当路",
+      "9号线",
+      "13号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1135",
+    "station_name": "马陆",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 马陆",
+    "keywords": [
+      "马陆",
+      "11号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1072",
+    "station_name": "高桥",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 高桥",
+    "keywords": [
+      "高桥",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1071",
+    "station_name": "高桥西",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 高桥西",
+    "keywords": [
+      "高桥西",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0627",
+    "station_name": "高科西路",
+    "line_nos": [
+      "6",
+      "7"
+    ],
+    "line_labels": [
+      "6号线",
+      "7号线"
+    ],
+    "display_name": "6号线 / 7号线 · 高科西路",
+    "keywords": [
+      "高科西路",
+      "6号线",
+      "7号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0625",
+    "station_name": "高青路",
+    "line_nos": [
+      "6"
+    ],
+    "line_labels": [
+      "6号线"
+    ],
+    "display_name": "6号线 · 高青路",
+    "keywords": [
+      "高青路",
+      "6号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1625",
+    "station_name": "鹤沙航城",
+    "line_nos": [
+      "16"
+    ],
+    "line_labels": [
+      "16号线"
+    ],
+    "display_name": "16号线 · 鹤沙航城",
+    "keywords": [
+      "鹤沙航城",
+      "16号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1823",
+    "station_name": "鹤涛路",
+    "line_nos": [
+      "18"
+    ],
+    "line_labels": [
+      "18号线"
+    ],
+    "display_name": "18号线 · 鹤涛路",
+    "keywords": [
+      "鹤涛路",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0846",
+    "station_name": "黄兴公园",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 黄兴公园",
+    "keywords": [
+      "黄兴公园",
+      "8号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0844",
+    "station_name": "黄兴路",
+    "line_nos": [
+      "8"
+    ],
+    "line_labels": [
+      "8号线"
+    ],
+    "display_name": "8号线 · 黄兴路",
+    "keywords": [
+      "黄兴路",
+      "8号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1447",
+    "station_name": "黄杨路",
+    "line_nos": [
+      "14"
+    ],
+    "line_labels": [
+      "14号线"
+    ],
+    "display_name": "14号线 · 黄杨路",
+    "keywords": [
+      "黄杨路",
+      "14号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1151",
+    "station_name": "龙华",
+    "line_nos": [
+      "11",
+      "12"
+    ],
+    "line_labels": [
+      "11号线",
+      "12号线"
+    ],
+    "display_name": "11号线 / 12号线 · 龙华",
+    "keywords": [
+      "龙华",
+      "11号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0743",
+    "station_name": "龙华中路",
+    "line_nos": [
+      "7",
+      "12"
+    ],
+    "line_labels": [
+      "7号线",
+      "12号线"
+    ],
+    "display_name": "7号线 / 12号线 · 龙华中路",
+    "keywords": [
+      "龙华中路",
+      "7号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1020",
+    "station_name": "龙柏新村",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 龙柏新村",
+    "keywords": [
+      "龙柏新村",
+      "10号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1045",
+    "station_name": "龙溪路",
+    "line_nos": [
+      "10"
+    ],
+    "line_labels": [
+      "10号线"
+    ],
+    "display_name": "10号线 · 龙溪路",
+    "keywords": [
+      "龙溪路",
+      "10号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0313",
+    "station_name": "龙漕路",
+    "line_nos": [
+      "3",
+      "12"
+    ],
+    "line_labels": [
+      "3号线",
+      "12号线"
+    ],
+    "display_name": "3号线 / 12号线 · 龙漕路",
+    "keywords": [
+      "龙漕路",
+      "3号线",
+      "12号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet",
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "1153",
+    "station_name": "龙耀路",
+    "line_nos": [
+      "11"
+    ],
+    "line_labels": [
+      "11号线"
+    ],
+    "display_name": "11号线 · 龙耀路",
+    "keywords": [
+      "龙耀路",
+      "11号线"
+    ],
+    "legend_types": [
+      "outside_accessible",
+      "outside_toilet"
+    ]
+  },
+  {
+    "search_type": "station_detail",
+    "station_id": "0252",
+    "station_name": "龙阳路",
+    "line_nos": [
+      "2",
+      "7",
+      "16",
+      "18"
+    ],
+    "line_labels": [
+      "2号线",
+      "7号线",
+      "16号线",
+      "18号线"
+    ],
+    "display_name": "2号线 / 7号线 / 16号线 / 18号线 · 龙阳路",
+    "keywords": [
+      "龙阳路",
+      "2号线",
+      "7号线",
+      "16号线",
+      "18号线"
+    ],
+    "legend_types": [
+      "inside_accessible",
+      "inside_toilet"
+    ]
+  }
+]

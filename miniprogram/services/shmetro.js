@@ -1,4 +1,9 @@
-const data = require('../data/shmetro-data')
+const legendItems = require('../data/legend-items.json')
+const stationDetailMap = require('../data/station-detail-map.json')
+const rawStationToEntity = require('../data/raw-station-to-entity.json')
+const browseDataJson = require('../data/browse-data.json')
+const routeSearchIndexJson = require('../data/route-search-index.json')
+const stationSearchIndexJson = require('../data/station-search-index.json')
 const routeMock = require('../mock/route')
 const ROUTE_API_BASE = 'https://m.shmetro.com/interface/plantrip/pt.aspx'
 
@@ -83,9 +88,9 @@ function lineNoToLabel(lineNo) {
 }
 
 function getDetailByRawStationId(rawStationId) {
-  const entityId = data.rawStationToEntity[rawStationId]
+  const entityId = rawStationToEntity[rawStationId]
   if (!entityId) return null
-  const detail = data.stationDetailMap[entityId]
+  const detail = stationDetailMap[entityId]
   return detail ? normalizeStationDetail(detail) : null
 }
 
@@ -162,11 +167,11 @@ function requestRoutePlan(startId, endId) {
 }
 
 function getLegendItems() {
-  return delay(data.legendItems)
+  return delay(legendItems)
 }
 
 function getRouteSearchSuggestions(keyword) {
-  const items = data.routeSearchIndex.map(normalizeRouteSearchItem)
+  const items = routeSearchIndexJson.map(normalizeRouteSearchItem)
   if (!keyword) {
     return delay(items.slice(0, 8))
   }
@@ -181,7 +186,7 @@ function getRouteSearchSuggestions(keyword) {
 }
 
 function getStationSearchSuggestions(keyword) {
-  const items = data.stationSearchIndex.map(normalizeStationSearchItem)
+  const items = stationSearchIndexJson.map(normalizeStationSearchItem)
   if (!keyword) {
     return delay(items.slice(0, 8))
   }
@@ -243,8 +248,8 @@ async function planRoutes(startStationId, endStationId) {
 
 function getBrowseData() {
   return delay({
-    all: (data.browseData.all || []).map(normalizeBrowseStation),
-    lines: (data.browseData.lines || []).map((section) => ({
+    all: (browseDataJson.all || []).map(normalizeBrowseStation),
+    lines: (browseDataJson.lines || []).map((section) => ({
       lineNo: section.line_no || section.lineNo,
       lineLabel: section.line_label || section.lineLabel,
       stations: (section.stations || []).map(normalizeBrowseStation),
@@ -253,7 +258,7 @@ function getBrowseData() {
 }
 
 function getStationDetail(stationId) {
-  const detail = data.stationDetailMap[stationId]
+  const detail = stationDetailMap[stationId]
   if (!detail) {
     return delay(null)
   }
@@ -262,7 +267,7 @@ function getStationDetail(stationId) {
 
 function getRouteLineOptions() {
   const seen = new Map()
-  data.routeSearchIndex.map(normalizeRouteSearchItem).forEach((item) => {
+  routeSearchIndexJson.map(normalizeRouteSearchItem).forEach((item) => {
     if (!seen.has(item.lineNo)) {
       seen.set(item.lineNo, {
         lineNo: item.lineNo,
@@ -274,7 +279,7 @@ function getRouteLineOptions() {
 }
 
 function getRouteStationsByLine(lineNo) {
-  const results = data.routeSearchIndex
+  const results = routeSearchIndexJson
     .map(normalizeRouteSearchItem)
     .filter((item) => item.lineNo === lineNo)
   return delay(results)
