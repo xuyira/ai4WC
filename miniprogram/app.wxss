@@ -196,6 +196,30 @@ page {
   background: #fef3f2;
 }
 
+.route-filter-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20rpx;
+  margin-top: 16rpx;
+}
+
+.route-filter-label {
+  flex: 1;
+  min-width: 0;
+}
+
+.route-filter-trigger {
+  min-width: 220rpx;
+  padding: 12rpx 18rpx;
+  border: 2rpx solid #d8dee6;
+  border-radius: 14rpx;
+  background: #ffffff;
+  color: #344054;
+  font-size: 24rpx;
+  text-align: center;
+}
+
 .picker-mask {
   position: fixed;
   inset: 0;

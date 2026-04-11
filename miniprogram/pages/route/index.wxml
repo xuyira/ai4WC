@@ -50,6 +50,12 @@
 
     <view wx:if="{{routeToiletStations.length}}" class="panel">
       <view class="section-title" style="font-size:30rpx;">沿途卫生间站点</view>
+      <view class="route-filter-row">
+        <view class="section-subtitle route-filter-label" style="margin-top:0;">沿途卫生间信息</view>
+        <picker mode="selector" range="{{routeStationFilterOptions}}" range-key="label" value="{{routeStationFilterIndex}}" bindchange="handleRouteStationFilterChange">
+          <view class="route-filter-trigger">{{routeStationFilterOptions[routeStationFilterIndex].label}}</view>
+        </picker>
+      </view>
       <block wx:for="{{routeToiletStations}}" wx:key="stationId">
         <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.currentLineNo}}">
           <view class="list-card__main">
@@ -87,7 +93,7 @@
       <view wx:if="{{pickerMode === 'search'}}" class="picker-body">
         <view class="picker-input-wrap" style="padding:24rpx;">
           <input class="picker-input" placeholder="输入站点名称" value="{{pickerKeyword}}" bindinput="handlePickerKeywordInput" />
-          <text wx:if="{{pickerKeyword}}" class="picker-clear" bindtap="handleClearPickerKeyword">清空</text>
+          <text wx:if="{{pickerKeyword}}" class="picker-clear" catchtap="handleClearPickerKeyword">清空</text>
         </view>
         <scroll-view scroll-y class="picker-scroll">
           <block wx:for="{{pickerSuggestions}}" wx:key="stationId">

@@ -7,7 +7,17 @@ Page({
     endStation: null,
     routeCandidates: [],
     activeRouteId: '',
+    allRouteToiletStations: [],
     routeToiletStations: [],
+    routeStationFilterOptions: [
+      { label: '所有', value: 'all' },
+      { label: '只看费区内', value: 'inside' },
+      { label: '只看费区外', value: 'outside' },
+      { label: '只看费区内外均有', value: 'inside_outside' },
+      { label: '只看无障碍卫生间', value: 'accessible' },
+    ],
+    routeStationFilterIndex: 0,
+    routeStationFilterValue: 'all',
     isLoadingRoutes: false,
     routeError: '',
     routeSource: '',
@@ -96,6 +106,39 @@ Page({
 
   noop() {},
 
+  getFilteredRouteStations(stations, filterValue) {
+    if (!filterValue || filterValue === 'all') {
+      return stations
+    }
+    return stations.filter((station) => {
+      const legendTypes = station.legendTypes || []
+      const scopeTypes = station.scopeTypes || []
+      if (filterValue === 'inside') {
+        return scopeTypes.includes('inside')
+      }
+      if (filterValue === 'outside') {
+        return scopeTypes.includes('outside')
+      }
+      if (filterValue === 'inside_outside') {
+        return scopeTypes.includes('inside_outside') || (scopeTypes.includes('inside') && scopeTypes.includes('outside'))
+      }
+      if (filterValue === 'accessible') {
+        return legendTypes.some((type) => type.indexOf('accessible') !== -1)
+      }
+      return true
+    })
+  },
+
+  applyRouteStationFilter(nextState = {}) {
+    const allRouteToiletStations = Object.prototype.hasOwnProperty.call(nextState, 'allRouteToiletStations')
+      ? nextState.allRouteToiletStations
+      : this.data.allRouteToiletStations
+    const routeStationFilterValue = Object.prototype.hasOwnProperty.call(nextState, 'routeStationFilterValue')
+      ? nextState.routeStationFilterValue
+      : this.data.routeStationFilterValue
+    return this.getFilteredRouteStations(allRouteToiletStations, routeStationFilterValue)
+  },
+
   async handleSearch() {
     if (!this.data.startStation || !this.data.endStation) {
       wx.showToast({ title: '请先选择起点和终点', icon: 'none' })
@@ -110,7 +153,10 @@ Page({
       routeError: '',
       routeCandidates: [],
       activeRouteId: '',
+      allRouteToiletStations: [],
       routeToiletStations: [],
+      routeStationFilterIndex: 0,
+      routeStationFilterValue: 'all',
     })
     const { routeCandidates, source, errorMessage } = await shmetroService.planRoutes(
       this.data.startStation.stationId,
@@ -118,12 +164,13 @@ Page({
     )
     const activeRouteId = routeCandidates[0] ? routeCandidates[0].id : ''
     const activeRoute = routeCandidates.find((item) => item.id === activeRouteId)
-    const routeToiletStations = activeRoute ? (activeRoute.routeToiletStations || []) : []
+    const allRouteToiletStations = activeRoute ? (activeRoute.routeToiletStations || []) : []
     this.setData({
       isLoadingRoutes: false,
       routeCandidates,
       activeRouteId,
-      routeToiletStations,
+      allRouteToiletStations,
+      routeToiletStations: this.getFilteredRouteStations(allRouteToiletStations, 'all'),
       routeSource: source,
       routeError: source === 'mock' ? errorMessage : (routeCandidates.length ? '' : '未找到可行路线'),
     })
@@ -135,9 +182,22 @@ Page({
   handleSelectRoute(event) {
     const routeId = event.currentTarget.dataset.routeId
     const route = this.data.routeCandidates.find((item) => item.id === routeId)
+    const allRouteToiletStations = route ? (route.routeToiletStations || []) : []
     this.setData({
       activeRouteId: routeId,
-      routeToiletStations: route ? (route.routeToiletStations || []) : [],
+      allRouteToiletStations,
+      routeToiletStations: this.applyRouteStationFilter({ allRouteToiletStations }),
+    })
+  },
+
+  handleRouteStationFilterChange(event) {
+    const routeStationFilterIndex = Number(event.detail.value || 0)
+    const option = this.data.routeStationFilterOptions[routeStationFilterIndex] || this.data.routeStationFilterOptions[0]
+    const routeStationFilterValue = option.value
+    this.setData({
+      routeStationFilterIndex,
+      routeStationFilterValue,
+      routeToiletStations: this.applyRouteStationFilter({ routeStationFilterValue }),
     })
   },
 

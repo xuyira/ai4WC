@@ -238,6 +238,7 @@ function mapRouteStations(route) {
       stationLineLabels: detail.lineLabels,
       stationLineLabelText: detail.lineLabels.join(' / '),
       stationLineChips: detail.lineChips || [],
+      scopeTypes: detail.scope_types || detail.scopeTypes || [],
       legendTypes: detail.legendTypes || [],
       legendIcons: legendTypesToIcons(collapseLegendTypesForStation(detail.legendTypes || [])),
     })
@@ -255,6 +256,7 @@ function normalizeRouteToiletStation(item) {
     stationLineLabels: item.stationLineLabels || item.station_line_labels || [],
     stationLineLabelText: (item.stationLineLabels || item.station_line_labels || []).join(' / '),
     stationLineChips: lineColors.buildLineChips([], item.stationLineLabels || item.station_line_labels || []),
+    scopeTypes: item.scopeTypes || item.scope_types || [],
     legendTypes,
     legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
   }
