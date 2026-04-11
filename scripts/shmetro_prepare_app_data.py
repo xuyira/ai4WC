@@ -91,6 +91,8 @@ def merge_station_entities(stations: list[dict[str, Any]]) -> list[dict[str, Any
                     {
                         "station_id": station["station_id"],
                         "lines": list(station.get("lines", [])),
+                        "has_floorplan": station.get("has_floorplan", False),
+                        "floorplan_local_path": station.get("floorplan_local_path"),
                     }
                 ],
                 "lines": list(station.get("lines", [])),
@@ -109,6 +111,8 @@ def merge_station_entities(stations: list[dict[str, Any]]) -> list[dict[str, Any
             {
                 "station_id": station["station_id"],
                 "lines": list(station.get("lines", [])),
+                "has_floorplan": station.get("has_floorplan", False),
+                "floorplan_local_path": station.get("floorplan_local_path"),
             }
         )
         target["lines"] = sorted(
@@ -178,6 +182,33 @@ def build_station_detail(station: dict[str, Any]) -> dict[str, Any]:
             }
         )
 
+    floorplan_groups_by_path: dict[str, dict[str, Any]] = {}
+    for raw_record in station.get("raw_records", []):
+        if not raw_record.get("has_floorplan") or not raw_record.get("floorplan_local_path"):
+            continue
+        raw_station_id = raw_record.get("station_id")
+        line_no = derive_primary_line_from_station_id(raw_station_id or "")
+        if not line_no:
+            continue
+        floorplan_local_path = raw_record["floorplan_local_path"]
+        group = floorplan_groups_by_path.get(floorplan_local_path)
+        if group is None:
+            group = {
+                "line_nos": [],
+                "line_labels": [],
+                "floorplan_local_path": floorplan_local_path,
+                "floorplan_url": f"https://service.shmetro.com/skin/zct/{raw_station_id}.jpg",
+            }
+            floorplan_groups_by_path[floorplan_local_path] = group
+        if line_no not in group["line_nos"]:
+            group["line_nos"].append(line_no)
+            group["line_labels"].append(line_label(line_no))
+
+    floorplan_groups = sorted(
+        floorplan_groups_by_path.values(),
+        key=lambda item: line_sort_key(item["line_nos"][0]) if item["line_nos"] else (999, ""),
+    )
+
     return {
         "station_id": station["entity_id"],
         "station_name": station["station_name"],
@@ -192,6 +223,7 @@ def build_station_detail(station: dict[str, Any]) -> dict[str, Any]:
             else ""
         ),
         "has_floorplan": station.get("has_floorplan", False),
+        "floorplan_groups": floorplan_groups,
         "has_display_toilet": station.get("has_display_toilet", False),
         "legend_types": station.get("legend_types", []),
         "scope_types": station.get("scope_types", []),

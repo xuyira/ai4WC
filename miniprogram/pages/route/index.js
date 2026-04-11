@@ -52,7 +52,9 @@ Page({
   },
 
   async handlePickerKeywordInput(event) {
-    const pickerKeyword = event.detail.value
+    const pickerKeyword = event && event.detail && typeof event.detail.value === 'string'
+      ? event.detail.value
+      : ''
     const token = Date.now()
     this.pickerSearchToken = token
     const pickerSuggestions = await shmetroService.getRouteSearchSuggestions(pickerKeyword)

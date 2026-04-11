@@ -42,6 +42,30 @@ function legendTypesToIcons(legendTypes = []) {
   return icons
 }
 
+function collapseLegendTypesForStation(legendTypes = []) {
+  const set = new Set(legendTypes)
+  const result = []
+
+  if (set.has('inside_outside_toilet') || (set.has('inside_toilet') && set.has('outside_toilet'))) {
+    result.push('inside_outside_toilet')
+  } else {
+    if (set.has('inside_toilet')) result.push('inside_toilet')
+    if (set.has('outside_toilet')) result.push('outside_toilet')
+  }
+
+  if (
+    set.has('inside_outside_accessible') ||
+    (set.has('inside_accessible') && set.has('outside_accessible'))
+  ) {
+    result.push('inside_outside_accessible')
+  } else {
+    if (set.has('inside_accessible')) result.push('inside_accessible')
+    if (set.has('outside_accessible')) result.push('outside_accessible')
+  }
+
+  return result
+}
+
 function normalizeRouteSearchItem(item) {
   return {
     stationId: item.station_id || item.stationId,
@@ -56,25 +80,27 @@ function normalizeRouteSearchItem(item) {
 }
 
 function normalizeStationSearchItem(item) {
+  const legendTypes = item.legend_types || item.legendTypes || []
   return {
     stationId: item.station_id || item.stationId,
     stationName: item.station_name || item.stationName,
     lineLabels: item.line_labels || item.lineLabels || [],
     displayName: item.display_name || item.displayName,
     keywords: item.keywords || [],
-    legendTypes: item.legend_types || item.legendTypes || [],
-    legendIcons: legendTypesToIcons(item.legend_types || item.legendTypes || []),
+    legendTypes,
+    legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
   }
 }
 
 function normalizeBrowseStation(item) {
+  const legendTypes = item.legend_types || item.legendTypes || []
   return {
     stationId: item.station_id || item.stationId,
     stationName: item.station_name || item.stationName,
     lineLabel: item.line_label || item.lineLabel || '',
     stationLineLabels: item.station_line_labels || item.stationLineLabels || [],
-    legendTypes: item.legend_types || item.legendTypes || [],
-    legendIcons: legendTypesToIcons(item.legend_types || item.legendTypes || []),
+    legendTypes,
+    legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
     scopeTypes: item.scope_types || item.scopeTypes || [],
     hasFloorplan: item.has_floorplan || item.hasFloorplan || false,
   }
@@ -91,7 +117,15 @@ function normalizeStationDetail(detail) {
     hasDisplayToilet: detail.has_display_toilet || detail.hasDisplayToilet || false,
     lineLabels: detail.line_labels || detail.lineLabels || [],
     legendTypes: detail.legend_types || detail.legendTypes || [],
-    legendIcons: legendTypesToIcons(detail.legend_types || detail.legendTypes || []),
+    legendIcons: legendTypesToIcons(
+      collapseLegendTypesForStation(detail.legend_types || detail.legendTypes || [])
+    ),
+    floorplanGroups: (detail.floorplan_groups || detail.floorplanGroups || []).map((group) => ({
+      lineNos: group.line_nos || group.lineNos || [],
+      lineLabels: group.line_labels || group.lineLabels || [],
+      floorplanUrl: group.floorplan_url || group.floorplanUrl || '',
+      floorplanLocalPath: group.floorplan_local_path || group.floorplanLocalPath || '',
+    })),
     toiletLineGroups: (detail.toilet_line_groups || detail.toiletLineGroups || []).map((group) => ({
       lineNo: group.line_no || group.lineNo,
       lineLabel: group.line_label || group.lineLabel,
@@ -154,7 +188,7 @@ function mapRouteStations(route) {
   const result = []
   ;(route.passStationList || []).forEach((station) => {
     const detail = getDetailByRawStationId(station.stationId)
-    if (!detail || !detail.has_display_toilet) {
+    if (!detail || !detail.hasDisplayToilet) {
       return
     }
     if (seen.has(detail.stationId)) {
@@ -165,8 +199,8 @@ function mapRouteStations(route) {
       stationId: detail.stationId,
       stationName: detail.stationName,
       stationLineLabels: detail.lineLabels,
-      legendTypes: detail.legend_types || detail.legendTypes || [],
-      legendIcons: legendTypesToIcons(detail.legend_types || detail.legendTypes || []),
+      legendTypes: detail.legendTypes || [],
+      legendIcons: legendTypesToIcons(collapseLegendTypesForStation(detail.legendTypes || [])),
     })
   })
   return result
@@ -179,7 +213,7 @@ function normalizeRouteToiletStation(item) {
     stationName: item.stationName || item.station_name,
     stationLineLabels: item.stationLineLabels || item.station_line_labels || [],
     legendTypes,
-    legendIcons: legendTypesToIcons(legendTypes),
+    legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
   }
 }
 

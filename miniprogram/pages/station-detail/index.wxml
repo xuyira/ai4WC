@@ -36,8 +36,24 @@
 
   <view wx:if="{{stationDetail}}" class="panel">
     <view class="section-title" style="font-size:30rpx;">站层图</view>
+    <block wx:if="{{stationDetail.floorplanGroups && stationDetail.floorplanGroups.length}}">
+      <block wx:for="{{stationDetail.floorplanGroups}}" wx:key="floorplanUrl">
+        <view style="margin-top:24rpx;">
+          <view class="chip-row">
+            <view class="line-chip">{{item.lineLabels.join(' / ')}}</view>
+          </view>
+          <image
+            wx:if="{{item.floorplanUrl || item.floorplanLocalPath}}"
+            src="{{item.floorplanUrl || item.floorplanLocalPath}}"
+            mode="widthFix"
+            style="width:100%; margin-top:16rpx; border-radius:16rpx;"
+          />
+          <view wx:else class="empty-state" style="margin:16rpx 0 0;">该线路暂无站层图</view>
+        </view>
+      </block>
+    </block>
     <image
-      wx:if="{{stationDetail.hasFloorplan}}"
+      wx:elif="{{stationDetail.hasFloorplan}}"
       src="{{stationDetail.floorplanUrl || stationDetail.floorplanLocalPath}}"
       mode="widthFix"
       style="width:100%; margin-top:24rpx; border-radius:16rpx;"

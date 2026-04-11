@@ -20,6 +20,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1053_一大会址_新天地.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1053.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1053_一大会址_新天地.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1053.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1336_一大会址_新天地.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1336.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -89,6 +111,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0122_一大会址_黄陂南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0122.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0122_一大会址_黄陂南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0122.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1435_一大会址_黄陂南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1435.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -167,6 +211,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0928_七宝.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0928.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0928_七宝.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0928.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -215,6 +271,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1220_七莘路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1220.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1220_七莘路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1220.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -263,6 +331,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1155_三林.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1155.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1155_三林.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1155.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -338,6 +418,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1156_三林东.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1156.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1156_三林东.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1156.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -401,6 +493,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/5134_三林南.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/5134.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5134_三林南.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5134.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -476,6 +580,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1066_三门路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1066.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1066_三门路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1066.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -524,6 +640,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/4102_三鲁公路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/4102.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "41"
+        ],
+        "line_labels": [
+          "浦江线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/4102_三鲁公路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/4102.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -572,6 +700,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0623_上南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0623.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0623_上南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0623.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -620,6 +760,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0729_上大路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0729.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0729_上大路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0729.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -668,6 +820,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0426_上海体育场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0426.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0426_上海体育场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0426.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -695,6 +859,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0117_上海体育馆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0117.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0117_上海体育馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0117.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0401_上海体育馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0401.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -761,6 +947,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0629_上海儿童医学中心.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0629.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0629_上海儿童医学中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0629.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -809,6 +1007,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1044_上海动物园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1044.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1044_上海动物园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1044.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -878,6 +1088,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0115_上海南站.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0115.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0115_上海南站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0115.jpg"
+      },
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0311_上海南站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0311.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1532_上海南站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1532.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -962,6 +1204,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/5136_上海国际旅游度假区.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/5136.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5136_上海国际旅游度假区.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5136.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1049,6 +1303,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1051_上海图书馆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1051.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1051_上海图书馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1051.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1112,6 +1378,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0727_上海大学.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0727.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0727_上海大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0727.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1175,6 +1453,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0918_上海松江站.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0918.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0918_上海松江站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0918.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1235,6 +1525,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1118_上海汽车城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1118.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1118_上海汽车城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1118.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1283,6 +1585,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1150_上海游泳馆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1150.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1150_上海游泳馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1150.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -1337,6 +1651,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0126_上海火车站.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0126.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0126_上海火车站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0126.jpg"
+      },
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0323_上海火车站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0323.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0410_上海火车站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0410.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1419,6 +1765,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0250_上海科技馆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0250.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0250_上海科技馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0250.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1470,6 +1828,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1142_上海西站.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1142.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1142_上海西站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1142.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1543_上海西站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1543.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1551,6 +1931,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1844_上海财经大学.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1844.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1844_上海财经大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1844.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1593,6 +1985,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1120_上海赛车场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1120.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1120_上海赛车场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1120.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -1619,6 +2023,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0129_上海马戏城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0129.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0129_上海马戏城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0129.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -1643,6 +2059,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1344_下南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1344.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1344_下南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1344.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1691,6 +2119,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1822_下沙.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1822.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1822_下沙.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1822.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1739,6 +2179,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1338_世博会博物馆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1338.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1338_世博会博物馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1338.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -1787,6 +2239,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1339_世博大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1339.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1339_世博大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1339.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -1835,6 +2299,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0251_世纪公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0251.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0251_世纪公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0251.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1892,6 +2368,48 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0249_世纪大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0249.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0249_世纪大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0249.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0417_世纪大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0417.jpg"
+      },
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0632_世纪大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0632.jpg"
+      },
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0942_世纪大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0942.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -1994,6 +2512,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1223_东兰路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1223.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1223_东兰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1223.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2042,6 +2572,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/4105_东城一路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/4105.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "41"
+        ],
+        "line_labels": [
+          "浦江线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/4105_东城一路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/4105.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -2093,6 +2635,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0425_东安路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0425.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0425_东安路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0425.jpg"
+      },
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0742_东安路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0742.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2162,6 +2726,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0325_东宝兴路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0325.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0325_东宝兴路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0325.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_outside_toilet"
@@ -2208,6 +2784,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0509_东川路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0509.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0509_东川路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0509.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -2238,6 +2826,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0621_东方体育中心.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0621.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0621_东方体育中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0621.jpg"
+      },
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0826_东方体育中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0826.jpg"
+      },
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1154_东方体育中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1154.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2334,6 +2954,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1733_东方绿舟.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1733.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1733_东方绿舟.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1733.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2385,6 +3017,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0626_东明路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0626.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0626_东明路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0626.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1342_东明路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1342.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2451,6 +3105,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1246_东陆路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1246.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1246_东陆路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1246.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -2499,6 +3165,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0642_东靖路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0642.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0642_东靖路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0642.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2547,6 +3225,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0837_中兴路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0837.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0837_中兴路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0837.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2595,6 +3285,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0830_中华艺术宫.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0830.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0830_中华艺术宫.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0830.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2643,6 +3345,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1430_中宁路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1430.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1430_中宁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1430.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2697,6 +3411,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0241_中山公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0241.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0241_中山公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0241.jpg"
+      },
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0318_中山公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0318.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0405_中山公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0405.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2781,6 +3527,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0127_中山北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0127.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0127_中山北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0127.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -2832,6 +3590,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0927_中春路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0927.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0927_中春路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0927.jpg"
+      },
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5132_中春路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5132.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -2913,6 +3693,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0322_中潭路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0322.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0322_中潭路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0322.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0409_中潭路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0409.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_toilet"
@@ -2976,6 +3778,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1349_中科路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1349.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1349_中科路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1349.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3024,6 +3838,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1323_丰庄.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1323.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1323_丰庄.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1323.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3087,6 +3913,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1548_丰翔路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1548.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1548_丰翔路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1548.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3135,6 +3973,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0413_临平路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0413.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0413_临平路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0413.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -3159,6 +4009,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0628_临沂新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0628.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0628_临沂新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0628.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3207,6 +4069,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1423_临洮路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1423.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1423_临洮路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1423.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3255,6 +4129,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1632_临港大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1632.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1632_临港大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1632.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -3303,6 +4189,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1837_丹阳路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1837.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1837_丹阳路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1837.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3351,6 +4249,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1422_乐秀路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1422.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1422_乐秀路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1422.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3399,6 +4309,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0926_九亭.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0926.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0926_九亭.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0926.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -3447,6 +4369,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1631_书院.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1631.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1631_书院.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1631.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3495,6 +4429,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0747_云台路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0747.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0747_云台路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0747.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -3546,6 +4492,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0637_云山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0637.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0637_云山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0637.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1445_云山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1445.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3612,6 +4580,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1152_云锦路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1152.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1152_云锦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1152.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3687,6 +4667,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1448_云顺路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1448.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1448_云顺路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1448.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3735,6 +4727,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0643_五洲大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0643.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0643_五洲大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0643.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3783,6 +4787,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0640_五莲路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0640.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0640_五莲路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0640.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3831,6 +4847,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1064_五角场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1064.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1064_五角场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1064.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -3897,6 +4925,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1050_交通大学.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1050.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1050_交通大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1050.jpg"
+      },
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1148_交通大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1148.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -3969,6 +5019,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0123_人民广场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0123.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0123_人民广场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0123.jpg"
+      },
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0245_人民广场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0245.jpg"
+      },
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0835_人民广场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0835.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4053,6 +5135,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1047_伊犁路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1047.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1047_伊犁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1047.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -4101,6 +5195,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0924_佘山.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0924.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0924_佘山.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0924.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4125,6 +5231,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1523_元江路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1523.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1523_元江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1523.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4173,6 +5291,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1116_兆丰路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1116.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1116_兆丰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1116.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4221,6 +5351,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1115_光明路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1115.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1115_光明路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1115.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4269,6 +5411,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0135_共富新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0135.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0135_共富新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0135.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4293,6 +5447,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0132_共康路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0132.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0132_共康路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0132.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4311,6 +5477,7 @@ const stationDetailMap = {
     "floorplan_local_path": "",
     "floorplan_url": "",
     "has_floorplan": false,
+    "floorplan_groups": [],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4331,6 +5498,7 @@ const stationDetailMap = {
     "floorplan_local_path": "",
     "floorplan_url": "",
     "has_floorplan": false,
+    "floorplan_groups": [],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4357,6 +5525,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0825_凌兆新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0825.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0825_凌兆新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0825.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4405,6 +5585,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0260_凌空路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0260.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0260_凌空路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0260.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -4453,6 +5645,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0724_刘行.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0724.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0724_刘行.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0724.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -4501,6 +5705,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0257_创新中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0257.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0257_创新中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0257.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4576,6 +5792,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0508_剑川路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0508.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0508_剑川路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0508.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4600,6 +5828,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1830_北中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1830.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1830_北中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1830.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4648,6 +5888,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0238_北新泾.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0238.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0238_北新泾.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0238.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4696,6 +5948,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0507_北桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0507.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0507_北桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0507.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -4720,6 +5984,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0635_北洋泾路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0635.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0635_北洋泾路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0635.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -4768,6 +6044,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1345_北蔡.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1345.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1345_北蔡.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1345.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4816,6 +6104,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1531_华东理工大学.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1531.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1531_华东理工大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1531.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4864,6 +6164,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0258_华夏东路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0258.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0258_华夏东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0258.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -4942,6 +6254,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1348_华夏中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1348.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1348_华夏中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1348.jpg"
+      },
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1622_华夏中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1622.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5008,6 +6342,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0624_华夏西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0624.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0624_华夏西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0624.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_toilet"
@@ -5054,6 +6400,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0511_华宁路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0511.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0511_华宁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0511.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -5078,6 +6436,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1343_华鹏路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1343.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1343_华鹏路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1343.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5129,6 +6499,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0246_南京东路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0246.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0246_南京东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0246.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1056_南京东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1056.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5201,6 +6593,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0244_南京西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0244.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0244_南京西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0244.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1234_南京西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1234.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1334_南京西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1334.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5300,6 +6724,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1547_南大路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1547.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1547_南大路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1547.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5348,6 +6784,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0421_南浦大桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0421.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0421_南浦大桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0421.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5396,6 +6844,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1137_南翔.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1137.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1137_南翔.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1137.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5459,6 +6919,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0728_南陈路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0728.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0728_南陈路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0728.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -5507,6 +6979,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0639_博兴路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0639.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0639_博兴路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0639.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5555,6 +7039,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0137_友谊西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0137.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0137_友谊西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0137.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5603,6 +7099,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0337_友谊路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0337.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0337_友谊路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0337.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5651,6 +7159,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1524_双柏路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1524.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1524_双柏路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1524.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5699,6 +7219,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1070_双江路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1070.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1070_双江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1070.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -5747,6 +7279,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1545_古浪路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1545.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1545_古浪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1545.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5807,6 +7351,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0946_台儿庄路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0946.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0946_台儿庄路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0946.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -5855,6 +7411,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0930_合川路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0930.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0930_合川路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0930.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -5879,6 +7447,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1062_同济大学.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1062.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1062_同济大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1062.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -5927,6 +7507,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0744_后滩.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0744.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0744_后滩.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0744.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -5975,6 +7567,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0418_向城路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0418.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0418_向城路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0418.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -5999,6 +7603,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1535_吴中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1535.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1535_吴中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1535.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6047,6 +7663,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1826_周浦.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1826.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1826_周浦.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1826.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6095,6 +7723,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1624_周浦东.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1624.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1624_周浦东.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1624.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -6146,6 +7786,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0134_呼兰路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0134.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0134_呼兰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0134.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1851_呼兰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1851.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6194,6 +7856,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0256_唐镇.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0256.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0256_唐镇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0256.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -6218,6 +7892,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0941_商城路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0941.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0941_商城路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0941.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6284,6 +7970,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0936_嘉善路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0936.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0936_嘉善路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0936.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1232_嘉善路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1232.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -6350,6 +8058,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1131_嘉定北.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1131.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1131_嘉定北.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1131.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -6374,6 +8094,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1134_嘉定新城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1134.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1134_嘉定新城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1134.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6437,6 +8169,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1132_嘉定西.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1132.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1132_嘉定西.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1132.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6500,6 +8244,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1424_嘉怡路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1424.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1424_嘉怡路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1424.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6548,6 +8304,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1726_嘉松中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1726.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1726_嘉松中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1726.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6607,6 +8375,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1058_四川北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1058.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1058_四川北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1058.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6658,6 +8438,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0841_四平路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0841.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0841_四平路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0841.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1061_四平路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1061.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6755,6 +8557,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0234_国家会展中心.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0234.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0234_国家会展中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0234.jpg"
+      },
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1722_国家会展中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1722.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6824,6 +8648,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1069_国帆路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1069.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1069_国帆路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1069.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -6875,6 +8711,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1063_国权路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1063.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1063_国权路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1063.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1842_国权路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1842.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -6968,6 +8826,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1238_国际客运中心.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1238.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1238_国际客运中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1238.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7016,6 +8886,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0730_场中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0730.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0730_场中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0730.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7064,6 +8946,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1074_基隆路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1074.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1074_基隆路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1074.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7112,6 +9006,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0420_塘桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0420.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0420_塘桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0420.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7160,6 +9066,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1245_复兴岛.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1245.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1245_复兴岛.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1245.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7208,6 +9126,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1843_复旦大学.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1843.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1843_复旦大学.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1843.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7263,6 +9193,7 @@ const stationDetailMap = {
     "floorplan_local_path": "",
     "floorplan_url": "",
     "has_floorplan": false,
+    "floorplan_groups": [],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -7283,6 +9214,7 @@ const stationDetailMap = {
     "floorplan_local_path": "",
     "floorplan_url": "",
     "has_floorplan": false,
+    "floorplan_groups": [],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -7309,6 +9241,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0112_外环路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0112.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0112_外环路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0112.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -7333,6 +9277,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0647_外高桥保税区北.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0647.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0647_外高桥保税区北.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0647.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7381,6 +9337,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0645_外高桥保税区南.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0645.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0645_外高桥保税区南.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0645.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7432,6 +9400,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0834_大世界.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0834.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0834_大世界.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0834.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1436_大世界.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1436.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7498,6 +9488,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0733_大华三路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0733.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0733_大华三路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0733.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7546,6 +9548,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0731_大场镇.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0731.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0731_大场镇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0731.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7597,6 +9611,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0424_大木桥路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0424.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0424_大木桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0424.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1231_大木桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1231.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -7663,6 +9699,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0328_大柏树.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0328.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0328_大柏树.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0328.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_toilet"
@@ -7712,6 +9760,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1326_大渡河路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1326.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1326_大渡河路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1326.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1540_大渡河路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1540.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7784,6 +9854,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0414_大连路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0414.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0414_大连路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0414.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1240_大连路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1240.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7856,6 +9948,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1057_天潼路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1057.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1057_天潼路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1057.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1237_天潼路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1237.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7922,6 +10036,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0534_奉浦大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0534.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0534_奉浦大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0534.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -7946,6 +10072,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0538_奉贤新城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0538.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0538_奉贤新城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0538.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -7994,6 +10132,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1536_姚虹路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1536.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1536_姚虹路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1536.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8042,6 +10192,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0239_威宁路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0239.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0239_威宁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0239.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8093,6 +10255,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0240_娄山关路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0240.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0240_娄山关路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0240.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1538_娄山关路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1538.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8171,6 +10355,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0848_嫩江路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0848.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0848_嫩江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0848.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8219,6 +10415,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1350_学林路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1350.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1350_学林路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1350.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8267,6 +10475,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1242_宁国路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1242.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1242_宁国路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1242.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -8315,6 +10535,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1117_安亭.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1117.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1117_安亭.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1117.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -8363,6 +10595,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1048_宋园路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1048.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1048_宋园路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1048.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8411,6 +10655,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1425_定边路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1425.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1425_定边路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1425.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8465,6 +10721,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0315_宜山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0315.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0315_宜山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0315.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0402_宜山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0402.jpg"
+      },
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0933_宜山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0933.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8562,6 +10850,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0136_宝安公路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0136.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0136_宝安公路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0136.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -8613,6 +10913,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0324_宝山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0324.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0324_宝山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0324.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0411_宝山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0411.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8679,6 +11001,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0336_宝杨路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0336.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0336_宝杨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0336.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8727,6 +11061,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0138_富锦路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0138.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0138_富锦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0138.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8775,6 +11121,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1421_封浜.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1421.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1421_封浜.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1421.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8823,6 +11181,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0940_小南门.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0940.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0940_小南门.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0940.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8871,6 +11241,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0735_岚皋路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0735.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0735_岚皋路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0735.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -8919,6 +11301,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0259_川沙.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0259.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0259_川沙.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0259.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -8985,6 +11379,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0641_巨峰路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0641.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0641_巨峰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0641.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1247_巨峰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1247.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9051,6 +11467,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0849_市光路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0849.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0849_市光路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0849.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9102,6 +11530,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0120_常熟路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0120.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0120_常熟路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0120.jpg"
+      },
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0740_常熟路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0740.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9171,6 +11621,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1838_平凉路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1838.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1838_平凉路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1838.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9231,6 +11693,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0255_广兰路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0255.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0255_广兰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0255.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9291,6 +11765,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1158_康恒路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1158.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1158_康恒路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1158.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_toilet",
@@ -9363,6 +11849,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1852_康文路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1852.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1852_康文路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1852.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9411,6 +11909,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1162_康新公路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1162.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1162_康新公路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1162.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9459,6 +11969,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1827_康桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1827.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1827_康桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1827.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9507,6 +12029,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/5135_康桥东.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/5135.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5135_康桥东.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5135.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9567,6 +12101,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0845_延吉中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0845.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0845_延吉中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0845.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9618,6 +12164,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0317_延安西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0317.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0317_延安西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0317.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0404_延安西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0404.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_toilet"
@@ -9681,6 +12249,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0128_延长路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0128.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0128_延长路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0128.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -9729,6 +12309,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0333_张华浜.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0333.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0333_张华浜.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0333.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9777,6 +12369,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1351_张江路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1351.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1351_张江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1351.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -9825,6 +12429,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0253_张江高科.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0253.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0253_张江高科.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0253.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -9873,6 +12489,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0131_彭浦新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0131.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0131_彭浦新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0131.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -9903,6 +12531,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0118_徐家汇.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0118.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0118_徐家汇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0118.jpg"
+      },
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0934_徐家汇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0934.jpg"
+      },
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1149_徐家汇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1149.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10001,6 +12661,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1725_徐泾北城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1725.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1725_徐泾北城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1725.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10049,6 +12721,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1724_徐盈路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1724.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1724_徐盈路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1724.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10100,6 +12784,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1159_御桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1159.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1159_御桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1159.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1828_御桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1828.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10205,6 +12911,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0636_德平路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0636.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0636_德平路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0636.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10253,6 +12971,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1629_惠南.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1629.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1629_惠南.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1629.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10301,6 +13031,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1630_惠南东.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1630.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1630_惠南东.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1630.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10352,6 +13094,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0828_成山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0828.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0828_成山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0828.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1341_成山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1341.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10418,6 +13182,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0937_打浦桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0937.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0937_打浦桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0937.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -10442,6 +13218,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1841_抚顺路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1841.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1841_抚顺路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1841.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10490,6 +13278,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1239_提篮桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1239.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1239_提篮桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1239.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10538,6 +13338,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0512_文井路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0512.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0512_文井路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0512.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10586,6 +13398,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1627_新场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1627.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1627_新场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1627.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -10610,6 +13434,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0734_新村路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0734.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0734_新村路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0734.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10658,6 +13494,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1068_新江湾城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1068.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1068_新江湾城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1068.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10706,6 +13554,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0124_新闸路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0124.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0124_新闸路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0124.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10754,6 +13614,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1119_昌吉东路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1119.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1119_昌吉东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1119.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10814,6 +13686,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0738_昌平路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0738.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0738_昌平路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0738.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -10865,6 +13749,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1442_昌邑路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1442.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1442_昌邑路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1442.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1836_昌邑路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1836.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10931,6 +13837,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0929_星中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0929.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0929_星中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0929.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -10979,6 +13897,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0502_春申路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0502.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0502_春申路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0502.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -11006,6 +13936,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1528_景洪路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1528.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1528_景洪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1528.jpg"
+      },
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5133_景洪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5133.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11096,6 +14048,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1526_景西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1526.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1526_景西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1526.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11144,6 +14108,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1525_曙建路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1525.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1525_曙建路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1525.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11195,6 +14171,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0836_曲阜路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0836.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0836_曲阜路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0836.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1236_曲阜路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1236.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11273,6 +14271,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0840_曲阳路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0840.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0840_曲阳路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0840.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11330,6 +14340,48 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0320_曹杨路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0320.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0320_曹杨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0320.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0407_曹杨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0407.jpg"
+      },
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1145_曹杨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1145.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1431_曹杨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1431.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11459,6 +14511,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0952_曹路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0952.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0952_曹路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0952.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11507,6 +14571,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0536_望园路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0536.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0536_望园路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0536.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11555,6 +14631,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1732_朱家角.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1732.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1732_朱家角.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1732.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11603,6 +14691,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1529_朱梅路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1529.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1529_朱梅路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1529.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11651,6 +14751,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1141_李子园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1141.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1141_李子园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1141.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11714,6 +14826,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0827_杨思.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0827.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0827_杨思.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0827.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -11762,6 +14886,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0415_杨树浦路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0415.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0415_杨树浦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0415.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11813,6 +14949,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0943_杨高中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0943.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0943_杨高中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0943.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1834_杨高中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1834.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -11882,6 +15040,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1248_杨高北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1248.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1248_杨高北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1248.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -11930,6 +15100,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0749_杨高南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0749.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0749_杨高南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0749.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -11978,6 +15160,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0920_松江体育中心.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0920.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0920_松江体育中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0920.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12041,6 +15235,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0922_松江大学城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0922.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0922_松江大学城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0922.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -12065,6 +15271,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0921_松江新城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0921.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0921_松江新城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0921.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -12089,6 +15307,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1144_枫桥路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1144.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1144_枫桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1144.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -12140,6 +15370,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1226_桂林公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1226.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1226_桂林公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1226.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1533_桂林公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1533.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12212,6 +15464,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0932_桂林路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0932.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0932_桂林路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0932.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1534_桂林路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1534.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12281,6 +15555,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1451_桂桥路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1451.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1451_桂桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1451.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12329,6 +15615,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1138_桃浦新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1138.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1138_桃浦新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1138.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12377,6 +15675,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1541_梅岭北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1541.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1541_梅岭北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1541.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12425,6 +15735,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1443_歇浦路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1443.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1443_歇浦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1443.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12473,6 +15795,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1544_武威东路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1544.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1544_武威东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1544.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12521,6 +15855,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1139_武威路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1139.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1139_武威路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1139.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -12572,6 +15918,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1329_武宁路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1329.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1329_武宁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1329.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1432_武宁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1432.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12653,6 +16021,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1433_武定路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1433.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1433_武定路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1433.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12701,6 +16081,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1067_殷高东路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1067.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1067_殷高东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1067.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12749,6 +16141,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0330_殷高西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0330.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0330_殷高西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0330.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12797,6 +16201,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1845_殷高路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1845.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1845_殷高路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1845.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12848,6 +16264,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0634_民生路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0634.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0634_民生路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0634.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1835_民生路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1835.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12914,6 +16352,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0951_民雷路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0951.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0951_民雷路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0951.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -12962,6 +16412,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0335_水产路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0335.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0335_水产路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0335.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13010,6 +16472,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1046_水城路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1046.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1046_水城路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1046.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -13058,6 +16532,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1522_永德路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1522.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1522_永德路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1522.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13106,6 +16592,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/4106_汇臻路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/4106.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "41"
+        ],
+        "line_labels": [
+          "浦江线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/4106_汇臻路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/4106.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -13154,6 +16652,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1728_汇金路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1728.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1728_汇金路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1728.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13208,6 +16718,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0125_汉中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0125.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0125_汉中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0125.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1235_汉中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1235.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1332_汉中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1332.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13292,6 +16834,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1331_江宁路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1331.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1331_江宁路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1331.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -13340,6 +16894,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0531_江川路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0531.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0531_江川路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0531.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -13364,6 +16930,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0822_江月路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0822.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0822_江月路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0822.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -13412,6 +16990,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0339_江杨北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0339.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0339_江杨北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0339.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13463,6 +17053,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1241_江浦公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1241.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1241_江浦公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1241.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1839_江浦公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1839.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13547,6 +17159,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0843_江浦路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0843.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0843_江浦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0843.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1840_江浦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1840.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13625,6 +17259,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1065_江湾体育场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1065.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1065_江湾体育场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1065.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13688,6 +17334,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0329_江湾镇.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0329.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0329_江湾镇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0329.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -13739,6 +17397,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0242_江苏路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0242.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0242_江苏路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0242.jpg"
+      },
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1147_江苏路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1147.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13808,6 +17488,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0130_汶水路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0130.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0130_汶水路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0130.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -13835,6 +17527,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0820_沈杜公路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0820.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0820_沈杜公路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0820.jpg"
+      },
+      {
+        "line_nos": [
+          "41"
+        ],
+        "line_labels": [
+          "浦江线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/4101_沈杜公路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/4101.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -13859,6 +17573,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1824_沈梅路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1824.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1824_沈梅路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1824.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -13907,6 +17633,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0925_泗泾.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0925.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0925_泗泾.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0925.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -13931,6 +17669,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0923_洞泾.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0923.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0923_洞泾.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0923.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -13955,6 +17705,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0644_洲海路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0644.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0644_洲海路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0644.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -14003,6 +17765,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1157_浦三路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1157.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1157_浦三路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1157.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14055,6 +17829,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0263_浦东1号2号航站楼.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0263.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0263_浦东1号2号航站楼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0263.jpg"
+      },
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5137_浦东1号2号航站楼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5137.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14134,6 +17930,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0248_浦东南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0248.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0248_浦东南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0248.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1439_浦东南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1439.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14203,6 +18021,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0416_浦东大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0416.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0416_浦东大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0416.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1440_浦东大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1440.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14269,6 +18109,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1449_浦东足球场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1449.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1449_浦东足球场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1449.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14317,6 +18169,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0823_浦江镇.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0823.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0823_浦江镇.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0823.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -14365,6 +18229,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0631_浦电路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0631.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0631_浦电路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0631.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14413,6 +18289,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/4104_浦航路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/4104.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "41"
+        ],
+        "line_labels": [
+          "浦江线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/4104_浦航路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/4104.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -14464,6 +18352,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0412_海伦路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0412.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0412_海伦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0412.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1059_海伦路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1059.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14545,6 +18455,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0262_海天三路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0262.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0262_海天三路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0262.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14593,6 +18515,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1731_淀山湖大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1731.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1731_淀山湖大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1731.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14641,6 +18575,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0332_淞发路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0332.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0332_淞发路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0332.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14689,6 +18635,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0334_淞滨路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0334.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0334_淞滨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0334.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_toilet"
@@ -14735,6 +18693,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0237_淞虹路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0237.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0237_淞虹路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0237.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -14798,6 +18768,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1335_淮海中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1335.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1335_淮海中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1335.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -14849,6 +18831,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0648_港城路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0648.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0648_港城路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0648.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1073_港城路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1073.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -14915,6 +18919,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0633_源深体育中心.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0633.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0633_源深体育中心.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0633.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -14963,6 +18979,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1441_源深路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1441.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1441_源深路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1441.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15023,6 +19051,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1633_滴水湖.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1633.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1633_滴水湖.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1633.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15074,6 +19114,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0116_漕宝路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0116.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0116_漕宝路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0116.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1227_漕宝路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1227.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15122,6 +19184,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0931_漕河泾开发区.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0931.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0931_漕河泾开发区.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0931.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15170,6 +19244,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0314_漕溪路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0314.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0314_漕溪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0314.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15218,6 +19304,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1730_漕盈路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1730.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1730_漕盈路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1730.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15266,6 +19364,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0723_潘广路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0723.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0723_潘广路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0723.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15314,6 +19424,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0622_灵岩南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0622.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0622_灵岩南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0622.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15362,6 +19484,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1244_爱国路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1244.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1244_爱国路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1244.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15410,6 +19544,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1850_爱辉路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1850.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1850_爱辉路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1850.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15458,6 +19604,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0535_环城东路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0535.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0535_环城东路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0535.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15506,6 +19664,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1250_申江路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1250.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1250_申江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1250.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15554,6 +19724,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1133_白银路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1133.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1133_白银路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1133.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15602,6 +19784,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1427_真光路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1427.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1427_真光路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1427.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15650,6 +19844,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1325_真北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1325.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1325_真北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1325.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -15677,6 +19883,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1143_真如.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1143.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1143_真如.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1143.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1429_真如.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1429.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15743,6 +19971,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1426_真新新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1426.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1426_真新新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1426.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15791,6 +20031,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0312_石龙路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0312.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0312_石龙路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0312.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15839,6 +20091,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0726_祁华路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0726.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0726_祁华路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0726.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -15887,6 +20151,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1546_祁安路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1546.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1546_祁安路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1546.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15935,6 +20211,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1324_祁连山南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1324.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1324_祁连山南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1324.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -15998,6 +20286,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1140_祁连山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1140.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1140_祁连山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1140.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -16046,6 +20346,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1161_秀沿路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1161.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1161_秀沿路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1161.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16094,6 +20406,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1521_紫竹高新区.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1521.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1521_紫竹高新区.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1521.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16157,6 +20481,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1019_紫藤路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1019.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1019_紫藤路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1019.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16205,6 +20541,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1825_繁荣路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1825.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1825_繁荣路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1825.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16253,6 +20601,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1537_红宝石路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1537.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1537_红宝石路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1537.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16301,6 +20661,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0722_罗南新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0722.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0722_罗南新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0722.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -16352,6 +20724,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1160_罗山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1160.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1160_罗山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1160.jpg"
+      },
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1623_罗山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1623.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -16376,6 +20770,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1530_罗秀路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1530.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1530_罗秀路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1530.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16424,6 +20830,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0721_美兰湖.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0721.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0721_美兰湖.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0721.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -16472,6 +20890,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0847_翔殷路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0847.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0847_翔殷路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0847.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16523,6 +20953,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0746_耀华路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0746.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0746_耀华路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0746.jpg"
+      },
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0829_耀华路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0829.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16592,6 +21044,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0833_老西门.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0833.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0833_老西门.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0833.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1054_老西门.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1054.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16673,6 +21147,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0821_联航路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0821.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0821_联航路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0821.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -16724,6 +21210,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0741_肇嘉浜路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0741.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0741_肇嘉浜路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0741.jpg"
+      },
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0935_肇嘉浜路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0935.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16817,6 +21325,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1333_自然博物馆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1333.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1333_自然博物馆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1333.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16880,6 +21400,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1018_航中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1018.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1018_航中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1018.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -16928,6 +21460,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1821_航头.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1821.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1821_航头.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1821.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -16976,6 +21520,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1626_航头东.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1626.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1626_航头东.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1626.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -17024,6 +21580,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0646_航津路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0646.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0646_航津路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0646.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -17072,6 +21640,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0824_芦恒路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0824.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0824_芦恒路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0824.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17120,6 +21700,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0753_花木路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0753.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0753_花木路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0753.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -17168,6 +21760,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1114_花桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1114.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1114_花桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1114.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -17192,6 +21796,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0751_芳华路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0751.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0751_芳华路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0751.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -17240,6 +21856,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0944_芳甸路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0944.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0944_芳甸路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0944.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17288,6 +21916,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1831_芳芯路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1831.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1831_芳芯路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1831.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17339,6 +21979,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0111_莘庄.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0111.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0111_莘庄.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0111.jpg"
+      },
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0501_莘庄.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0501.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -17366,6 +22028,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1347_莲溪路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1347.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1347_莲溪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1347.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1829_莲溪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1829.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17444,6 +22128,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0113_莲花路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0113.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0113_莲花路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0113.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17488,6 +22184,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0533_萧塘.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0533.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0533_萧塘.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0533.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -17539,6 +22247,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0945_蓝天路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0945.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0945_蓝天路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0945.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1446_蓝天路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1446.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17608,6 +22338,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0419_蓝村路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0419.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0419_蓝村路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0419.jpg"
+      },
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0630_蓝村路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0630.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17677,6 +22429,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0326_虹口足球场.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0326.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0326_虹口足球场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0326.jpg"
+      },
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0839_虹口足球场.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0839.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17743,6 +22517,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1043_虹桥1号航站楼.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1043.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1043_虹桥1号航站楼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1043.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -17798,6 +22584,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0236_虹桥2号航站楼.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0236.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0236_虹桥2号航站楼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0236.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1042_虹桥2号航站楼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1042.jpg"
+      },
+      {
+        "line_nos": [
+          "51"
+        ],
+        "line_labels": [
+          "市域机场线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/5131_虹桥2号航站楼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/5131.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -17987,6 +22805,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0235_虹桥火车站.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0235.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0235_虹桥火车站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0235.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1041_虹桥火车站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1041.jpg"
+      },
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1721_虹桥火车站.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1721.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18077,6 +22927,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0316_虹桥路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0316.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0316_虹桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0316.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0403_虹桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0403.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1049_虹桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1049.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -18173,6 +23055,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1527_虹梅南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1527.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1527_虹梅南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1527.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18221,6 +23115,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1224_虹梅路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1224.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1224_虹梅路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1224.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -18269,6 +23175,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1225_虹漕路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1225.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1225_虹漕路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1225.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18332,6 +23250,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1221_虹莘路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1221.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1221_虹莘路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1221.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -18380,6 +23310,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0233_蟠祥路_国家会计学院.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0233.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0233_蟠祥路_国家会计学院.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0233.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18428,6 +23370,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1723_蟠龙路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1723.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1723_蟠龙路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1723.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18476,6 +23430,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0732_行知路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0732.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0732_行知路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0732.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18539,6 +23505,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0119_衡山路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0119.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0119_衡山路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0119.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18587,6 +23565,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1734_西岑.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1734.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1734_西岑.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1734.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18635,6 +23625,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0532_西渡.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0532.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0532_西渡.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0532.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -18659,6 +23661,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0838_西藏北路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0838.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0838_西藏北路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0838.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18710,6 +23724,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0422_西藏南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0422.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0422_西藏南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0422.jpg"
+      },
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0831_西藏南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0831.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18779,6 +23815,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1055_豫园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1055.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1055_豫园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1055.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1437_豫园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1437.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18848,6 +23906,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0327_赤峰路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0327.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0327_赤峰路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0327.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -18872,6 +23942,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1727_赵巷.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1727.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1727_赵巷.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1727.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18932,6 +24014,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1833_迎春路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1833.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1833_迎春路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1833.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -18980,6 +24074,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0261_远东大道.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0261.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0261_远东大道.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0261.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_toilet"
@@ -19026,6 +24132,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1163_迪士尼.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1163.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1163_迪士尼.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1163.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19074,6 +24192,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1847_通南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1847.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1847_通南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1847.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19122,6 +24252,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0133_通河新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0133.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0133_通河新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0133.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -19146,6 +24288,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1060_邮电新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1060.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1060_邮电新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1060.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19221,6 +24375,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0919_醉白池.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0919.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0919_醉白池.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0919.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -19245,6 +24411,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1628_野生动物园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1628.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1628_野生动物园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1628.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -19269,6 +24447,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1249_金京路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1249.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1249_金京路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1249.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -19317,6 +24507,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0948_金吉路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0948.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0948_金吉路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0948.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19365,6 +24567,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0510_金平路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0510.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0510_金平路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0510.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -19389,6 +24603,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0947_金桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0947.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0947_金桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0947.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19437,6 +24663,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0638_金桥路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0638.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0638_金桥路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0638.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -19485,6 +24723,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1322_金沙江西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1322.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1322_金沙江西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1322.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19554,6 +24804,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0319_金沙江路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0319.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0319_金沙江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0319.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0406_金沙江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0406.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1327_金沙江路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1327.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19651,6 +24933,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0537_金海湖.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0537.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0537_金海湖.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0537.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19702,6 +24996,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0949_金海路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0949.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0949_金海路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0949.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1251_金海路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1251.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19768,6 +25084,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0254_金科路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0254.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0254_金科路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0254.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19816,6 +25144,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1450_金粤路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1450.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1450_金粤路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1450.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -19864,6 +25204,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1321_金运路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1321.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1321_金运路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1321.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -19912,6 +25264,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0338_铁力路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0338.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0338_铁力路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0338.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -19939,6 +25303,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1428_铜川路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1428.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1428_铜川路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1428.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1542_铜川路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1542.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20005,6 +25391,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0503_银都路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0503.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0503_银都路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0503.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -20029,6 +25427,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0114_锦江乐园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0114.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0114_锦江乐园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0114.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20077,6 +25487,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1549_锦秋路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1549.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1549_锦秋路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1549.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20125,6 +25547,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0750_锦绣路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0750.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0750_锦绣路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0750.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -20179,6 +25613,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0321_镇坪路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0321.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0321_镇坪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0321.jpg"
+      },
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0408_镇坪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0408.jpg"
+      },
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0736_镇坪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0736.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20269,6 +25735,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0737_长寿路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0737.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0737_长寿路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0737.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1330_长寿路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1330.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -20338,6 +25826,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0331_长江南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0331.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0331_长江南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0331.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1846_长江南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1846.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20415,6 +25925,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1848_长江西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1848.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1848_长江西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1848.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20466,6 +25988,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0745_长清路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0745.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0745_长清路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0745.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1340_长清路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1340.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -20532,6 +26076,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1539_长风公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1539.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1539_长风公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1539.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20592,6 +26148,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/4103_闵瑞路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/4103.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "41"
+        ],
+        "line_labels": [
+          "浦江线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/4103_闵瑞路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/4103.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -20640,6 +26208,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0513_闵行开发区.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0513.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0513_闵行开发区.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0513.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -20691,6 +26271,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0247_陆家嘴.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0247.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0247_陆家嘴.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0247.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1438_陆家嘴.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1438.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20760,6 +26362,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0832_陆家浜路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0832.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0832_陆家浜路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0832.jpg"
+      },
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0939_陆家浜路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0939.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20837,6 +26461,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1346_陈春路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1346.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1346_陈春路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1346.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20885,6 +26521,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1136_陈翔公路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1136.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1136_陈翔公路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1136.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -20954,6 +26602,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0121_陕西南路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0121.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "1"
+        ],
+        "line_labels": [
+          "1号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0121_陕西南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0121.jpg"
+      },
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1052_陕西南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1052.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1233_陕西南路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1233.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21056,6 +26736,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1146_隆德路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1146.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1146_隆德路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1146.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1328_隆德路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1328.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -21122,6 +26824,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1243_隆昌路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1243.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1243_隆昌路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1243.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -21170,6 +26884,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1729_青浦新城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1729.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "17"
+        ],
+        "line_labels": [
+          "17号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1729_青浦新城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1729.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21224,6 +26950,38 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0243_静安寺.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0243.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0243_静安寺.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0243.jpg"
+      },
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0739_静安寺.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0739.jpg"
+      },
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1434_静安寺.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1434.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21308,6 +27066,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0842_鞍山新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0842.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0842_鞍山新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0842.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21356,6 +27126,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0950_顾唐路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0950.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0950_顾唐路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0950.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21404,6 +27186,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1222_顾戴路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1222.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1222_顾戴路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1222.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -21455,6 +27249,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0725_顾村公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0725.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0725_顾村公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0725.jpg"
+      },
+      {
+        "line_nos": [
+          "15"
+        ],
+        "line_labels": [
+          "15号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1550_顾村公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1550.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21536,6 +27352,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0505_颛桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0505.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "5"
+        ],
+        "line_labels": [
+          "5号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0505_颛桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0505.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -21563,6 +27391,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0938_马当路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0938.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "9"
+        ],
+        "line_labels": [
+          "9号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0938_马当路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0938.jpg"
+      },
+      {
+        "line_nos": [
+          "13"
+        ],
+        "line_labels": [
+          "13号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1337_马当路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1337.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21611,6 +27461,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1135_马陆.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1135.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1135_马陆.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1135.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21674,6 +27536,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1072_高桥.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1072.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1072_高桥.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1072.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -21722,6 +27596,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1071_高桥西.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1071.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1071_高桥西.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1071.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -21773,6 +27659,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0627_高科西路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0627.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0627_高科西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0627.jpg"
+      },
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0748_高科西路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0748.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -21839,6 +27747,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0625_高青路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0625.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "6"
+        ],
+        "line_labels": [
+          "6号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0625_高青路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0625.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21887,6 +27807,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0423_鲁班路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0423.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "4"
+        ],
+        "line_labels": [
+          "4号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0423_鲁班路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0423.jpg"
+      }
+    ],
     "has_display_toilet": false,
     "legend_types": [],
     "scope_types": [],
@@ -21911,6 +27843,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1625_鹤沙航城.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1625.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1625_鹤沙航城.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1625.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -21959,6 +27903,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1823_鹤涛路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1823.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1823_鹤涛路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1823.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -22007,6 +27963,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0846_黄兴公园.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0846.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0846_黄兴公园.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0846.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -22055,6 +28023,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0844_黄兴路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0844.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "8"
+        ],
+        "line_labels": [
+          "8号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0844_黄兴路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0844.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -22103,6 +28083,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1447_黄杨路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1447.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "14"
+        ],
+        "line_labels": [
+          "14号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1447_黄杨路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1447.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -22154,6 +28146,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1151_龙华.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1151.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1151_龙华.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1151.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1229_龙华.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1229.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -22223,6 +28237,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0743_龙华中路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0743.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0743_龙华中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0743.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1230_龙华中路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1230.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -22304,6 +28340,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1020_龙柏新村.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1020.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1020_龙柏新村.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1020.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -22352,6 +28400,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1045_龙溪路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1045.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "10"
+        ],
+        "line_labels": [
+          "10号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1045_龙溪路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1045.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -22403,6 +28463,28 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0313_龙漕路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0313.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "3"
+        ],
+        "line_labels": [
+          "3号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0313_龙漕路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0313.jpg"
+      },
+      {
+        "line_nos": [
+          "12"
+        ],
+        "line_labels": [
+          "12号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1228_龙漕路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1228.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",
@@ -22484,6 +28566,18 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/1153_龙耀路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/1153.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "11"
+        ],
+        "line_labels": [
+          "11号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1153_龙耀路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1153.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "outside_accessible",
@@ -22541,6 +28635,48 @@ const stationDetailMap = {
     "floorplan_local_path": "output/shmetro/floorplans/0252_龙阳路.jpg",
     "floorplan_url": "https://service.shmetro.com/skin/zct/0252.jpg",
     "has_floorplan": true,
+    "floorplan_groups": [
+      {
+        "line_nos": [
+          "2"
+        ],
+        "line_labels": [
+          "2号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0252_龙阳路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0252.jpg"
+      },
+      {
+        "line_nos": [
+          "7"
+        ],
+        "line_labels": [
+          "7号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/0752_龙阳路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/0752.jpg"
+      },
+      {
+        "line_nos": [
+          "16"
+        ],
+        "line_labels": [
+          "16号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1621_龙阳路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1621.jpg"
+      },
+      {
+        "line_nos": [
+          "18"
+        ],
+        "line_labels": [
+          "18号线"
+        ],
+        "floorplan_local_path": "output/shmetro/floorplans/1832_龙阳路.jpg",
+        "floorplan_url": "https://service.shmetro.com/skin/zct/1832.jpg"
+      }
+    ],
     "has_display_toilet": true,
     "legend_types": [
       "inside_accessible",

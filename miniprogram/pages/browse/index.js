@@ -72,7 +72,9 @@ Page({
   },
 
   async handleSearchInput(event) {
-    const searchKeyword = event.detail.value
+    const searchKeyword = event && event.detail && typeof event.detail.value === 'string'
+      ? event.detail.value
+      : ''
     const token = Date.now()
     this.searchToken = token
     const searchResults = searchKeyword
