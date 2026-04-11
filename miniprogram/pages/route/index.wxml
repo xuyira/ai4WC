@@ -55,7 +55,11 @@
         <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.currentLineNo}}">
           <view class="list-card__main">
             <view class="list-card__title">{{item.stationName}}</view>
-            <view class="list-card__meta">{{item.stationLineLabelText}}</view>
+            <view class="chip-row" style="margin-top:10rpx;">
+              <block wx:for="{{item.stationLineChips}}" wx:key="lineLabel">
+                <view class="line-chip" style="{{item.style}}">{{item.lineLabel}}</view>
+              </block>
+            </view>
           </view>
           <view class="icon-row">
             <block wx:for="{{item.legendIcons}}" wx:key="key">
@@ -90,8 +94,10 @@
           <block wx:for="{{pickerSuggestions}}" wx:key="stationId">
             <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="search">
               <view>
-                <view class="picker-item__title">{{item.displayName}}</view>
-                <view class="picker-item__meta">用于官方路线规划的线路入口</view>
+                <view class="picker-item__title">{{item.stationName}}</view>
+                <view class="chip-row" style="margin-top:8rpx;">
+                  <view class="line-chip" style="{{item.lineChip.style}}">{{item.lineChip.lineLabel}}</view>
+                </view>
               </view>
             </view>
           </block>
@@ -102,7 +108,7 @@
       <view wx:if="{{pickerMode === 'line'}}" class="picker-body line-selector-layout">
         <scroll-view scroll-y class="line-selector-sidebar">
           <block wx:for="{{pickerLines}}" wx:key="lineNo">
-            <view class="line-selector-line {{pickerActiveLineNo === item.lineNo ? 'line-selector-line--active' : ''}}" bindtap="handleSelectPickerLine" data-line-no="{{item.lineNo}}">
+            <view class="line-selector-line {{pickerActiveLineNo === item.lineNo ? 'line-selector-line--active' : ''}}" style="{{item.lineStyle}}" bindtap="handleSelectPickerLine" data-line-no="{{item.lineNo}}">
               {{item.lineLabel}}
             </view>
           </block>
@@ -112,7 +118,9 @@
             <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="line">
               <view>
                 <view class="picker-item__title">{{item.stationName}}</view>
-                <view class="picker-item__meta">{{item.lineLabel}}</view>
+                <view class="chip-row" style="margin-top:8rpx;">
+                  <view class="line-chip" style="{{item.lineChip.style}}">{{item.lineChip.lineLabel}}</view>
+                </view>
               </view>
             </view>
           </block>

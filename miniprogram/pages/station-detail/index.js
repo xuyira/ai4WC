@@ -52,6 +52,7 @@ Page({
     return groups.map((group) => ({
       lineNo: group.lineNos && group.lineNos[0] ? group.lineNos[0] : '',
       lineLabelText: group.lineLabelText || '',
+      lineStyle: group.lineChips && group.lineChips[0] ? group.lineChips[0].style : '',
       active: !!(activeFloorplanLineNo && group.lineNos && group.lineNos.includes(activeFloorplanLineNo)),
     }))
   },

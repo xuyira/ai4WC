@@ -5,6 +5,7 @@ const browseDataJson = require('../data/browse-data')
 const routeSearchIndexJson = require('../data/route-search-index')
 const stationSearchIndexJson = require('../data/station-search-index')
 const routeMock = require('../mock/route')
+const lineColors = require('../utils/line-colors')
 const ROUTE_API_BASE = 'https://m.shmetro.com/interface/plantrip/pt.aspx'
 
 function clone(data) {
@@ -67,12 +68,15 @@ function collapseLegendTypesForStation(legendTypes = []) {
 }
 
 function normalizeRouteSearchItem(item) {
+  const lineNo = item.line_no || item.lineNo
+  const lineLabel = item.line_label || item.lineLabel
   return {
     stationId: item.station_id || item.stationId,
     stationEntityId: item.station_entity_id || item.stationEntityId,
     stationName: item.station_name || item.stationName,
-    lineNo: item.line_no || item.lineNo,
-    lineLabel: item.line_label || item.lineLabel,
+    lineNo,
+    lineLabel,
+    lineChip: lineColors.buildLineChip(lineNo, lineLabel),
     displayName: item.display_name || item.displayName,
     selectedLabel: item.station_name || item.stationName,
     keywords: item.keywords || [],
@@ -89,6 +93,7 @@ function normalizeStationSearchItem(item) {
     lineNos,
     lineLabels,
     lineLabelText: lineLabels.join(' / '),
+    lineChips: lineColors.buildLineChips(lineNos, lineLabels),
     displayName: item.display_name || item.displayName,
     keywords: item.keywords || [],
     legendTypes,
@@ -100,13 +105,17 @@ function normalizeStationSearchItem(item) {
 function normalizeBrowseStation(item) {
   const legendTypes = item.legend_types || item.legendTypes || []
   const stationLineLabels = item.station_line_labels || item.stationLineLabels || []
+  const lineNo = item.line_no || item.lineNo || ''
+  const lineLabel = item.line_label || item.lineLabel || ''
   return {
     stationId: item.station_id || item.stationId,
     stationName: item.station_name || item.stationName,
-    lineNo: item.line_no || item.lineNo || '',
-    lineLabel: item.line_label || item.lineLabel || '',
+    lineNo,
+    lineLabel,
+    lineChip: lineLabel ? lineColors.buildLineChip(lineNo, lineLabel) : null,
     stationLineLabels,
     stationLineLabelText: stationLineLabels.join(' / '),
+    stationLineChips: lineColors.buildLineChips([], stationLineLabels),
     legendTypes,
     legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
     scopeTypes: item.scope_types || item.scopeTypes || [],
@@ -125,6 +134,7 @@ function normalizeStationDetail(detail) {
     hasFloorplan: detail.has_floorplan || detail.hasFloorplan || false,
     hasDisplayToilet: detail.has_display_toilet || detail.hasDisplayToilet || false,
     lineLabels: detail.line_labels || detail.lineLabels || [],
+    lineChips: lineColors.buildLineChips(detail.lines || [], detail.line_labels || detail.lineLabels || []),
     legendTypes: detail.legend_types || detail.legendTypes || [],
     legendIcons: legendTypesToIcons(
       collapseLegendTypesForStation(detail.legend_types || detail.legendTypes || [])
@@ -133,12 +143,14 @@ function normalizeStationDetail(detail) {
       lineNos: group.line_nos || group.lineNos || [],
       lineLabels: group.line_labels || group.lineLabels || [],
       lineLabelText: (group.line_labels || group.lineLabels || []).join(' / '),
+      lineChips: lineColors.buildLineChips(group.line_nos || group.lineNos || [], group.line_labels || group.lineLabels || []),
       floorplanUrl: group.floorplan_url || group.floorplanUrl || '',
       floorplanLocalPath: group.floorplan_local_path || group.floorplanLocalPath || '',
     })),
     toiletLineGroups: (detail.toilet_line_groups || detail.toiletLineGroups || []).map((group) => ({
       lineNo: group.line_no || group.lineNo,
       lineLabel: group.line_label || group.lineLabel,
+      lineChipStyle: lineColors.getLineChipStyle(group.line_no || group.lineNo, group.line_label || group.lineLabel),
       entries: (group.entries || []).map((entry) => ({
         scopeType: entry.scope_type || entry.scopeType,
         description: entry.description,
@@ -225,6 +237,7 @@ function mapRouteStations(route) {
       currentLineLabel: currentLineNo ? lineNoToLabel(currentLineNo) : '',
       stationLineLabels: detail.lineLabels,
       stationLineLabelText: detail.lineLabels.join(' / '),
+      stationLineChips: detail.lineChips || [],
       legendTypes: detail.legendTypes || [],
       legendIcons: legendTypesToIcons(collapseLegendTypesForStation(detail.legendTypes || [])),
     })
@@ -241,6 +254,7 @@ function normalizeRouteToiletStation(item) {
     currentLineLabel: item.currentLineLabel || item.current_line_label || '',
     stationLineLabels: item.stationLineLabels || item.station_line_labels || [],
     stationLineLabelText: (item.stationLineLabels || item.station_line_labels || []).join(' / '),
+    stationLineChips: lineColors.buildLineChips([], item.stationLineLabels || item.station_line_labels || []),
     legendTypes,
     legendIcons: legendTypesToIcons(collapseLegendTypesForStation(legendTypes)),
   }
@@ -402,6 +416,7 @@ function getBrowseData() {
     lines: (browseDataJson.lines || []).map((section) => ({
       lineNo: section.line_no || section.lineNo,
       lineLabel: section.line_label || section.lineLabel,
+      lineStyle: lineColors.getLineChipStyle(section.line_no || section.lineNo, section.line_label || section.lineLabel),
       stations: (section.stations || []).map(normalizeBrowseStation),
     })),
   })
@@ -422,6 +437,7 @@ function getRouteLineOptions() {
       seen.set(item.lineNo, {
         lineNo: item.lineNo,
         lineLabel: item.lineLabel,
+        lineStyle: lineColors.getLineChipStyle(item.lineNo, item.lineLabel),
       })
     }
   })

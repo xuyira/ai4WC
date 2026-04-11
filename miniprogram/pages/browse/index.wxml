@@ -11,7 +11,12 @@
         <block wx:for="{{searchResults}}" wx:key="stationId">
           <view class="picker-item" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.preferredLineNo}}" data-index="{{index}}">
             <view>
-              <view class="picker-item__title">{{item.displayName}}</view>
+              <view class="picker-item__title">{{item.stationName}}</view>
+              <view class="chip-row" style="margin-top:8rpx;">
+                <block wx:for="{{item.lineChips}}" wx:key="lineLabel">
+                  <view class="line-chip" style="{{item.style}}">{{item.lineLabel}}</view>
+                </block>
+              </view>
             </view>
           </view>
         </block>
@@ -36,7 +41,7 @@
         全部
       </view>
       <block wx:for="{{browseData.lines}}" wx:key="lineNo">
-        <view class="browse-tab {{activeLineNo === item.lineNo ? 'browse-tab--active' : ''}}" bindtap="handleSelectLine" data-line-no="{{item.lineNo}}">
+        <view class="browse-tab {{activeLineNo === item.lineNo ? 'browse-tab--active' : ''}}" style="{{item.lineStyle}}" bindtap="handleSelectLine" data-line-no="{{item.lineNo}}">
           {{item.lineLabel}}
         </view>
       </block>
@@ -47,7 +52,11 @@
         <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.preferredLineNo}}" data-index="{{index}}">
           <view class="list-card__main">
             <view class="list-card__title">{{item.stationName}}</view>
-            <view class="list-card__meta">{{item.stationLineLabelText || item.lineLabelText}}</view>
+            <view class="chip-row" style="margin-top:10rpx;">
+              <block wx:for="{{item.stationLineChips || item.lineChips}}" wx:key="lineLabel">
+                <view class="line-chip" style="{{item.style}}">{{item.lineLabel}}</view>
+              </block>
+            </view>
           </view>
           <view class="icon-row">
             <block wx:for="{{item.legendIcons}}" wx:key="key">

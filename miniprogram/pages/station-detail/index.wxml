@@ -4,8 +4,8 @@
   <view wx:if="{{stationDetail}}" class="panel">
     <view class="section-title">{{stationDetail.stationName}}</view>
     <view class="chip-row" style="margin-top:20rpx;">
-      <block wx:for="{{stationDetail.lineLabels}}" wx:key="*this">
-        <view class="line-chip">{{item}}</view>
+      <block wx:for="{{stationDetail.lineChips}}" wx:key="lineLabel">
+        <view class="line-chip" style="{{item.style}}">{{item.lineLabel}}</view>
       </block>
     </view>
   </view>
@@ -16,7 +16,7 @@
     <block wx:for="{{stationDetail.toiletLineGroups}}" wx:key="lineNo">
       <view style="margin-top:24rpx;">
         <view class="chip-row">
-          <view class="line-chip">{{item.lineLabel}}</view>
+          <view class="line-chip" style="{{item.lineChipStyle}}">{{item.lineLabel}}</view>
         </view>
         <block wx:for="{{item.entries}}" wx:key="description">
           <view class="list-card" style="margin:16rpx 0 0;">
@@ -41,6 +41,7 @@
         <block wx:for="{{floorplanTabs}}" wx:key="lineNo">
           <view
             class="line-chip {{item.active ? 'line-chip--active' : ''}}"
+            style="{{item.lineStyle}}"
             bindtap="handleSwitchFloorplanLine"
             data-line-no="{{item.lineNo}}"
           >
@@ -50,9 +51,6 @@
       </view>
       <block wx:for="{{visibleFloorplanGroups}}" wx:key="floorplanUrl">
         <view style="margin-top:24rpx;">
-          <view class="chip-row">
-            <view class="line-chip">{{item.lineLabelText}}</view>
-          </view>
           <image
             wx:if="{{item.floorplanUrl || item.floorplanLocalPath}}"
             src="{{item.floorplanUrl || item.floorplanLocalPath}}"
