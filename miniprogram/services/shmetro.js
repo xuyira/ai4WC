@@ -1,5 +1,6 @@
 const data = require('../data/shmetro-data')
 const routeMock = require('../mock/route')
+const ROUTE_API_BASE = 'https://m.shmetro.com/interface/plantrip/pt.aspx'
 
 function clone(data) {
   return JSON.parse(JSON.stringify(data))
@@ -70,6 +71,96 @@ function normalizeStationDetail(detail) {
   }
 }
 
+function getCurrentWeekValue() {
+  const day = new Date().getDay()
+  return day === 0 ? '7' : String(day)
+}
+
+function lineNoToLabel(lineNo) {
+  if (String(lineNo) === '41') return '浦江线'
+  if (String(lineNo) === '51') return '市域机场线'
+  return `${lineNo}号线`
+}
+
+function getDetailByRawStationId(rawStationId) {
+  const entityId = data.rawStationToEntity[rawStationId]
+  if (!entityId) return null
+  const detail = data.stationDetailMap[entityId]
+  return detail ? normalizeStationDetail(detail) : null
+}
+
+function buildRouteSummary(route, routeIndex, startName, endName, toiletStationCount) {
+  const transfers = route.transferStationList || []
+  if (!transfers.length) {
+    return `路线${routeIndex}：暂无路径信息，含卫生间站点 ${toiletStationCount} 个`
+  }
+
+  const segments = []
+  for (let index = 0; index < transfers.length; index += 1) {
+    const current = transfers[index]
+    const next = transfers[index + 1]
+    const segmentStart = current.stationName
+    const segmentEnd = next ? next.stationName : endName
+    const prefix = index === 0 ? `路线${routeIndex}：` : '换乘 '
+    segments.push(`${prefix}${lineNoToLabel(current.line)}（${segmentStart} 至 ${segmentEnd}）`)
+  }
+
+  if (!segments.length) {
+    segments.push(`路线${routeIndex}：${startName} 至 ${endName}`)
+  }
+  return `${segments.join('，')}，含卫生间站点 ${toiletStationCount} 个`
+}
+
+function mapRouteStations(route) {
+  const seen = new Set()
+  const result = []
+  ;(route.passStationList || []).forEach((station) => {
+    const detail = getDetailByRawStationId(station.stationId)
+    if (!detail || !detail.has_display_toilet) {
+      return
+    }
+    if (seen.has(detail.stationId)) {
+      return
+    }
+    seen.add(detail.stationId)
+    result.push({
+      stationId: detail.stationId,
+      stationName: detail.stationName,
+      stationLineLabels: detail.lineLabels,
+      legendTypes: detail.legend_types || detail.legendTypes || [],
+    })
+  })
+  return result
+}
+
+function requestRoutePlan(startId, endId) {
+  return new Promise((resolve, reject) => {
+    wx.request({
+      url: ROUTE_API_BASE,
+      method: 'GET',
+      data: {
+        func: 'plantrip',
+        startId,
+        endId,
+        planTime: '12:00',
+        week: getCurrentWeekValue(),
+        ticket: 'metro',
+        type: 1,
+      },
+      success(res) {
+        if (res.statusCode >= 200 && res.statusCode < 300 && res.data && res.data.pathList) {
+          resolve(res.data)
+          return
+        }
+        reject(new Error('Invalid route response'))
+      },
+      fail(error) {
+        reject(error)
+      },
+    })
+  })
+}
+
 function getLegendItems() {
   return delay(data.legendItems)
 }
@@ -109,6 +200,43 @@ function getRouteCandidates() {
 
 function getRouteToiletStations(routeId) {
   return delay(routeMock.routeToiletStations[routeId] || [])
+}
+
+async function planRoutes(startStationId, endStationId) {
+  try {
+    const response = await requestRoutePlan(startStationId, endStationId)
+    const routeCandidates = (response.pathList || []).map((route, index) => {
+      const stations = mapRouteStations(route)
+      return {
+        id: `route-${index + 1}`,
+        summary: buildRouteSummary(
+          route,
+          index + 1,
+          response.startStName,
+          response.endStName,
+          stations.length
+        ),
+        toiletStationCount: stations.length,
+        routeToiletStations: stations,
+        stationCount: Number(route.stationNum || 0),
+        transferCount: Number(route.passLineCount || 0),
+      }
+    })
+
+    return {
+      source: 'remote',
+      routeCandidates,
+    }
+  } catch (error) {
+    return {
+      source: 'mock',
+      routeCandidates: routeMock.routeCandidates.map((item) => ({
+        ...item,
+        routeToiletStations: routeMock.routeToiletStations[item.id] || [],
+      })),
+      error,
+    }
+  }
 }
 
 function getBrowseData() {
@@ -158,6 +286,7 @@ module.exports = {
   getRouteStationsByLine,
   getRouteCandidates,
   getRouteToiletStations,
+  planRoutes,
   getBrowseData,
   getStationDetail,
 }

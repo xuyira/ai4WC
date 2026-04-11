@@ -33,11 +33,18 @@ def export(input_root: Path, output_path: Path) -> None:
         {"key": "inside_outside_accessible", "label": "费区内外均有无障碍卫生间", "color": "both", "type": "accessible"},
     ]
 
+    raw_station_to_entity = {}
+    for entity_id, detail in station_detail_map.items():
+        for raw_station_id in detail.get("raw_station_ids", []):
+            raw_station_to_entity[raw_station_id] = entity_id
+
     content = "\n".join(
         [
             "const legendItems = " + js_dump(legend_items),
             "",
             "const stationDetailMap = " + js_dump(station_detail_map),
+            "",
+            "const rawStationToEntity = " + js_dump(raw_station_to_entity),
             "",
             "const browseData = " + js_dump(browse_data),
             "",
@@ -48,6 +55,7 @@ def export(input_root: Path, output_path: Path) -> None:
             "module.exports = {",
             "  legendItems,",
             "  stationDetailMap,",
+            "  rawStationToEntity,",
             "  browseData,",
             "  routeSearchIndex,",
             "  stationSearchIndex,",

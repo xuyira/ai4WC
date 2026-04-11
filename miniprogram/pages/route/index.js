@@ -82,24 +82,29 @@ Page({
       wx.showToast({ title: '请先选择起点和终点', icon: 'none' })
       return
     }
-    const routeCandidates = await shmetroService.getRouteCandidates()
+    const { routeCandidates, source } = await shmetroService.planRoutes(
+      this.data.startStation.stationId,
+      this.data.endStation.stationId
+    )
     const activeRouteId = routeCandidates[0] ? routeCandidates[0].id : ''
-    const routeToiletStations = activeRouteId
-      ? await shmetroService.getRouteToiletStations(activeRouteId)
-      : []
+    const activeRoute = routeCandidates.find((item) => item.id === activeRouteId)
+    const routeToiletStations = activeRoute ? (activeRoute.routeToiletStations || []) : []
     this.setData({
       routeCandidates,
       activeRouteId,
       routeToiletStations,
     })
+    if (source === 'mock') {
+      wx.showToast({ title: '官方路线接口不可用，已回退示例数据', icon: 'none' })
+    }
   },
 
-  async handleSelectRoute(event) {
+  handleSelectRoute(event) {
     const routeId = event.currentTarget.dataset.routeId
-    const routeToiletStations = await shmetroService.getRouteToiletStations(routeId)
+    const route = this.data.routeCandidates.find((item) => item.id === routeId)
     this.setData({
       activeRouteId: routeId,
-      routeToiletStations,
+      routeToiletStations: route ? (route.routeToiletStations || []) : [],
     })
   },
 
