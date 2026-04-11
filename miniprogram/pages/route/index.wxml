@@ -1,0 +1,110 @@
+<view class="page-shell">
+  <view class="sticky-shell">
+    <view class="panel">
+      <view class="section-title">上海地铁卫生间指南</view>
+      <view class="section-subtitle">顶部搜索和图例固定，底部结果独立滚动。</view>
+      <view class="section-subtitle" style="margin-top:24rpx;">起始站</view>
+      <view class="search-trigger" bindtap="openPicker" data-target="start">
+        <text>{{startStation ? startStation.displayName : '请选择线路 / 站点'}}</text>
+        <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
+      </view>
+      <view class="section-subtitle" style="margin-top:24rpx;">终点站</view>
+      <view class="search-trigger" bindtap="openPicker" data-target="end">
+        <text>{{endStation ? endStation.displayName : '请选择线路 / 站点'}}</text>
+        <text class="search-trigger__placeholder">搜索 / 按线路选择</text>
+      </view>
+      <view class="primary-button" style="margin-top:24rpx;" bindtap="handleSearch">查询沿途卫生间</view>
+    </view>
+
+    <view class="panel" style="padding-top:20rpx;">
+      <view class="section-title" style="font-size:28rpx;">图例</view>
+      <view class="legend-grid">
+        <block wx:for="{{legends}}" wx:key="key">
+          <view class="legend-item">
+            <view class="legend-icon {{item.color}} {{item.type}}"></view>
+            <text>{{item.label}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="result-scroll">
+    <view wx:if="{{routeCandidates.length}}" class="panel">
+      <view class="section-title" style="font-size:30rpx;">可行路线</view>
+      <block wx:for="{{routeCandidates}}" wx:key="id">
+        <view class="list-card" bindtap="handleSelectRoute" data-route-id="{{item.id}}">
+          <view class="list-card__main">
+            <view class="list-card__title">{{item.summary}}</view>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <view wx:if="{{routeToiletStations.length}}" class="panel">
+      <view class="section-title" style="font-size:30rpx;">沿途卫生间站点</view>
+      <block wx:for="{{routeToiletStations}}" wx:key="stationId">
+        <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
+          <view class="list-card__main">
+            <view class="list-card__title">{{item.stationName}}</view>
+            <view class="list-card__meta">{{item.stationLineLabels.join(' / ')}}</view>
+          </view>
+          <view class="icon-row">
+            <block wx:for="{{item.legendTypes}}" wx:key="*this">
+              <view class="legend-icon {{item.includes('inside_outside') ? 'both' : item.includes('outside') ? 'outside' : 'inside'}} {{item.includes('accessible') ? 'accessible' : 'toilet'}}"></view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <view wx:if="{{!routeCandidates.length}}" class="empty-state">选择起点和终点后可查看路线候选与沿途卫生间。</view>
+  </scroll-view>
+
+  <view wx:if="{{pickerVisible}}" class="picker-mask" bindtap="closePicker">
+    <view class="picker-sheet" catchtap="noop">
+      <view class="picker-header">
+        <view class="section-title" style="font-size:30rpx;">{{pickerTarget === 'start' ? '选择起始站' : '选择终点站'}}</view>
+        <view class="picker-tabs">
+          <view class="picker-tab {{pickerMode === 'search' ? 'picker-tab--active' : ''}}" bindtap="handleSwitchPickerMode" data-mode="search">搜索</view>
+          <view class="picker-tab {{pickerMode === 'line' ? 'picker-tab--active' : ''}}" bindtap="handleSwitchPickerMode" data-mode="line">按线路选择</view>
+        </view>
+      </view>
+
+      <view wx:if="{{pickerMode === 'search'}}" class="picker-body">
+        <view style="padding:24rpx;">
+          <input class="picker-input" placeholder="输入站名或线路关键词" value="{{pickerKeyword}}" bindinput="handlePickerKeywordInput" />
+        </view>
+        <scroll-view scroll-y style="height:calc(56vh - 132rpx);">
+          <block wx:for="{{pickerSuggestions}}" wx:key="stationId">
+            <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="search">
+              <view>
+                <view class="picker-item__title">{{item.displayName}}</view>
+                <view class="picker-item__meta">用于官方路线规划的线路入口</view>
+              </view>
+            </view>
+          </block>
+        </scroll-view>
+      </view>
+
+      <view wx:if="{{pickerMode === 'line'}}" class="picker-body line-selector-layout">
+        <scroll-view scroll-y class="line-selector-sidebar">
+          <block wx:for="{{pickerLines}}" wx:key="lineNo">
+            <view class="line-selector-line {{pickerActiveLineNo === item.lineNo ? 'line-selector-line--active' : ''}}" bindtap="handleSelectPickerLine" data-line-no="{{item.lineNo}}">
+              {{item.lineLabel}}
+            </view>
+          </block>
+        </scroll-view>
+        <scroll-view scroll-y class="line-selector-main">
+          <block wx:for="{{pickerLineStations}}" wx:key="stationId">
+            <view class="picker-item" bindtap="handleChooseRouteStation" data-index="{{index}}" data-source="line">
+              <view>
+                <view class="picker-item__title">{{item.displayName}}</view>
+              </view>
+            </view>
+          </block>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>

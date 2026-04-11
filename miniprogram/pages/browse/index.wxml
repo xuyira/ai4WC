@@ -1,0 +1,60 @@
+<view class="page-shell">
+  <view class="sticky-shell">
+    <view class="panel">
+      <input class="picker-input" placeholder="搜索站点（始终按全网范围）" value="{{searchKeyword}}" bindinput="handleSearchInput" />
+      <view wx:if="{{searchKeyword}}" style="margin-top:16rpx;">
+        <view class="chip-row" style="justify-content:space-between; align-items:center;">
+          <text class="section-subtitle" style="margin-top:0;">搜索结果</text>
+          <text style="color:#667085; font-size:24rpx;" bindtap="handleClearSearch">清空</text>
+        </view>
+        <block wx:for="{{searchResults}}" wx:key="stationId">
+          <view class="picker-item" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
+            <view>
+              <view class="picker-item__title">{{item.displayName}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="panel">
+      <view class="section-title" style="font-size:28rpx;">图例</view>
+      <view class="legend-grid">
+        <block wx:for="{{legends}}" wx:key="key">
+          <view class="legend-item">
+            <view class="legend-icon {{item.color}} {{item.type}}"></view>
+            <text>{{item.label}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+
+  <view style="display:flex; height:calc(100vh - 360rpx);">
+    <scroll-view scroll-y style="width:200rpx; background:#fff;">
+      <view class="list-card" style="margin:0; border-radius:0;" bindtap="handleSelectAll">
+        <view class="list-card__title">全部</view>
+      </view>
+      <block wx:for="{{browseData.lines}}" wx:key="lineNo">
+        <view class="list-card" style="margin:0; border-radius:0;" bindtap="handleSelectLine" data-line-no="{{item.lineNo}}">
+          <view class="list-card__title">{{item.lineLabel}}</view>
+        </view>
+      </block>
+    </scroll-view>
+
+    <scroll-view scroll-y style="flex:1;">
+      <block wx:for="{{searchKeyword ? searchResults : visibleStations}}" wx:key="stationId">
+        <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}">
+          <view class="list-card__main">
+            <view class="list-card__title">{{item.stationName}}</view>
+            <view class="list-card__meta">{{item.stationLineLabels ? item.stationLineLabels.join(' / ') : item.lineLabels.join(' / ')}}</view>
+          </view>
+          <view class="icon-row">
+            <block wx:for="{{item.legendTypes}}" wx:key="*this">
+              <view class="legend-icon {{item.includes('inside_outside') ? 'both' : item.includes('outside') ? 'outside' : 'inside'}} {{item.includes('accessible') ? 'accessible' : 'toilet'}}"></view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

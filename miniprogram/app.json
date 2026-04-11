@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/route/index",
+    "pages/browse/index",
+    "pages/station-detail/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "上海地铁卫生间指南",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F7F9",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#111111",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/route/index",
+        "text": "按路线查询"
+      },
+      {
+        "pagePath": "pages/browse/index",
+        "text": "所有卫生间"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

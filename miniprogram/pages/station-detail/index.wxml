@@ -1,0 +1,44 @@
+<view class="page-shell">
+  <view wx:if="{{stationDetail}}" class="panel">
+    <view class="section-title">{{stationDetail.stationName}}</view>
+    <view class="chip-row" style="margin-top:20rpx;">
+      <block wx:for="{{stationDetail.lineLabels}}" wx:key="*this">
+        <view class="line-chip">{{item}}</view>
+      </block>
+    </view>
+  </view>
+
+  <view wx:if="{{stationDetail}}" class="panel">
+    <view class="section-title" style="font-size:30rpx;">卫生间</view>
+    <block wx:for="{{stationDetail.toiletLineGroups}}" wx:key="lineNo">
+      <view style="margin-top:24rpx;">
+        <view class="chip-row">
+          <view class="line-chip">{{item.lineLabel}}</view>
+        </view>
+        <block wx:for="{{item.entries}}" wx:key="description">
+          <view class="list-card" style="margin:16rpx 0 0;">
+            <view class="icon-row" style="justify-content:flex-start;">
+              <block wx:for="{{item.legendTypes}}" wx:key="*this">
+                <view class="legend-icon {{item.includes('inside_outside') ? 'both' : item.includes('outside') ? 'outside' : 'inside'}} {{item.includes('accessible') ? 'accessible' : 'toilet'}}"></view>
+              </block>
+            </view>
+            <view class="list-card__main">
+              <view class="list-card__meta">{{item.description}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+
+  <view wx:if="{{stationDetail}}" class="panel">
+    <view class="section-title" style="font-size:30rpx;">站层图</view>
+    <image
+      wx:if="{{stationDetail.hasFloorplan}}"
+      src="{{stationDetail.floorplanUrl || stationDetail.floorplanLocalPath}}"
+      mode="widthFix"
+      style="width:100%; margin-top:24rpx; border-radius:16rpx;"
+    />
+    <view wx:else class="empty-state">暂无站层图</view>
+  </view>
+</view>

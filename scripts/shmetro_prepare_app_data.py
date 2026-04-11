@@ -174,6 +174,11 @@ def build_station_detail(station: dict[str, Any]) -> dict[str, Any]:
         "lines": station["lines"],
         "line_labels": [line_label(line_no) for line_no in sorted(station["lines"], key=line_sort_key)],
         "floorplan_local_path": station.get("floorplan_local_path"),
+        "floorplan_url": (
+            f"https://service.shmetro.com/skin/zct/{station['entity_id']}.jpg"
+            if station.get("has_floorplan")
+            else ""
+        ),
         "has_floorplan": station.get("has_floorplan", False),
         "has_display_toilet": station.get("has_display_toilet", False),
         "legend_types": station.get("legend_types", []),
