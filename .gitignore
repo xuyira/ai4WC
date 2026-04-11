@@ -1,4 +1,7 @@
 output/
+.idea/
+.codex
+*.Zone.Identifier
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
