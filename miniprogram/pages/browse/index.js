@@ -9,6 +9,8 @@ Page({
     visibleStations: [],
     searchKeyword: '',
     searchResults: [],
+    displayStations: [],
+    emptyText: '当前分组下暂无可展示卫生间站点',
   },
 
   async onLoad() {
@@ -20,24 +22,50 @@ Page({
       legends,
       browseData,
       visibleStations: browseData.all,
+      displayStations: browseData.all,
     })
   },
 
+  syncDisplayStations(nextData = {}) {
+    const searchKeyword = Object.prototype.hasOwnProperty.call(nextData, 'searchKeyword')
+      ? nextData.searchKeyword
+      : this.data.searchKeyword
+    const searchResults = Object.prototype.hasOwnProperty.call(nextData, 'searchResults')
+      ? nextData.searchResults
+      : this.data.searchResults
+    const visibleStations = Object.prototype.hasOwnProperty.call(nextData, 'visibleStations')
+      ? nextData.visibleStations
+      : this.data.visibleStations
+
+    return {
+      displayStations: searchKeyword ? searchResults : visibleStations,
+      emptyText: searchKeyword ? '没有找到匹配站点' : '当前分组下暂无可展示卫生间站点',
+    }
+  },
+
   handleSelectAll() {
-    this.setData({
+    const nextData = {
       activeTab: 'all',
       activeLineNo: '',
       visibleStations: this.data.browseData.all,
+    }
+    this.setData({
+      ...nextData,
+      ...this.syncDisplayStations(nextData),
     })
   },
 
   handleSelectLine(event) {
     const lineNo = event.currentTarget.dataset.lineNo
     const section = this.data.browseData.lines.find((item) => item.lineNo === lineNo)
-    this.setData({
+    const nextData = {
       activeTab: 'line',
       activeLineNo: lineNo,
       visibleStations: section ? section.stations : [],
+    }
+    this.setData({
+      ...nextData,
+      ...this.syncDisplayStations(nextData),
     })
   },
 
@@ -46,11 +74,19 @@ Page({
     const searchResults = searchKeyword
       ? await shmetroService.getStationSearchSuggestions(searchKeyword)
       : []
-    this.setData({ searchKeyword, searchResults })
+    const nextData = { searchKeyword, searchResults }
+    this.setData({
+      ...nextData,
+      ...this.syncDisplayStations(nextData),
+    })
   },
 
   handleClearSearch() {
-    this.setData({ searchKeyword: '', searchResults: [] })
+    const nextData = { searchKeyword: '', searchResults: [] }
+    this.setData({
+      ...nextData,
+      ...this.syncDisplayStations(nextData),
+    })
   },
 
   handleOpenStation(event) {
