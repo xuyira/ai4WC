@@ -1,3 +1,9 @@
 {
-  "rules": []
+  "desc": "Allow all pages to be indexed by the mini program sitemap validator.",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
 }
