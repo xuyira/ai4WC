@@ -27,12 +27,12 @@
         </view>
         <block wx:for="{{item.entries}}" wx:key="description">
           <view class="list-card" style="margin:16rpx 0 0;">
-            <view class="icon-row" style="justify-content:flex-start; align-items:center; gap:14rpx;">
+            <view style="display:flex; align-items:center; width:100%; gap:14rpx;">
               <block wx:for="{{item.legendIcons}}" wx:key="key">
                 <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
               </block>
               <view class="list-card__meta" style="margin-top:0; flex:1;">{{item.description}}</view>
-              <view class="metric-pill metric-pill--success" style="margin-left:auto;">{{item.availabilityText}}</view>
+              <view class="metric-pill metric-pill--success" style="flex:0 0 auto; margin-left:auto;">{{item.availabilityText}}</view>
             </view>
           </view>
         </block>
