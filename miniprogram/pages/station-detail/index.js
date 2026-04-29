@@ -4,7 +4,7 @@ const COMMENT_IMAGE_PATH = '/assets/comment-sample.jpg'
 
 const STATION_DETAIL_MOCK = {
   '0115': {
-    fromStartText: '距离起点2站（8分钟）',
+    fromStartText: '距离起点11站（44分钟）',
     commentsCount: 1,
     draftPlaceholder: '说说你在上海南站找卫生间的经验...',
     toiletAvailability: {
@@ -15,7 +15,7 @@ const STATION_DETAIL_MOCK = {
     comments: [
       {
         id: 'comment-1',
-        username: '通勤研究员77',
+        username: '老赵',
         content: '坐15号线，顾村公园方向的，从地铁中段下来往右走就可以看见厕所了！很干净，推荐！',
         time: '4月29日 14:22',
         likesText: '点赞 18',

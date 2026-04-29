@@ -12,7 +12,7 @@
         </view>
       </view>
       <view class="section-header__aside" wx:if="{{stationDetail.fromStartText}}">
-        <view class="section-header__meta">{{stationDetail.fromStartText}}</view>
+        <view class="section-header__meta section-header__meta--muted">{{stationDetail.fromStartText}}</view>
       </view>
     </view>
   </view>
@@ -27,18 +27,12 @@
         </view>
         <block wx:for="{{item.entries}}" wx:key="description">
           <view class="list-card" style="margin:16rpx 0 0;">
-            <view class="detail-entry">
-              <view class="detail-entry__content">
-                <view class="detail-entry__icons">
-                  <block wx:for="{{item.legendIcons}}" wx:key="key">
-                    <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
-                  </block>
-                </view>
-                <view class="list-card__meta">{{item.description}}</view>
-              </view>
-              <view class="detail-entry__aside">
-                <view class="metric-pill metric-pill--success">{{item.availabilityText}}</view>
-              </view>
+            <view class="icon-row" style="justify-content:flex-start; align-items:center; gap:14rpx;">
+              <block wx:for="{{item.legendIcons}}" wx:key="key">
+                <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
+              </block>
+              <view class="list-card__meta" style="margin-top:0; flex:1;">{{item.description}}</view>
+              <view class="metric-pill metric-pill--success">{{item.availabilityText}}</view>
             </view>
           </view>
         </block>

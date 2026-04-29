@@ -434,6 +434,11 @@ page {
   line-height: 1.5;
 }
 
+.section-header__meta--muted {
+  color: #667085;
+  font-weight: 400;
+}
+
 .subtle-badge {
   display: inline-flex;
   align-items: center;
@@ -491,6 +496,14 @@ page {
   color: #475467;
   font-size: 24rpx;
   line-height: 1.5;
+}
+
+.list-card__meta-inline {
+  flex: 0 0 auto;
+  color: #98a2b3;
+  font-size: 24rpx;
+  line-height: 1.5;
+  white-space: nowrap;
 }
 
 .detail-entry {
