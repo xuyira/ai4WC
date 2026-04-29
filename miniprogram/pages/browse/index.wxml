@@ -1,6 +1,15 @@
 <view class="page-shell">
   <view class="sticky-shell">
     <view class="panel">
+      <view class="section-header">
+        <view class="section-header__main">
+          <view class="section-title">按站点查询</view>
+          <view class="section-subtitle">搜索站点或按线路筛选，查看离你最近的卫生间站点</view>
+        </view>
+        <view class="section-header__aside">
+          <view class="subtle-badge">静态定位演示</view>
+        </view>
+      </view>
       <input class="picker-input" placeholder="搜索站点(在全部站点中搜索)" value="{{searchKeyword}}" bindinput="handleSearchInput" />
       <view wx:if="{{searchKeyword}}" style="margin-top:16rpx;">
         <view class="chip-row" style="justify-content:space-between; align-items:center;">
@@ -22,6 +31,9 @@
           </view>
         </block>
       </view>
+    </view>
+    <view class="info-banner">
+      已默认获取你的位置：上海南站附近。当前列表按距离从近到远排序，便于截图展示后续“附近站点推荐”能力。
     </view>
     <view class="panel">
       <view class="section-title" style="font-size:28rpx;">图例</view>
@@ -53,16 +65,20 @@
         <view class="list-card" bindtap="handleOpenStation" data-station-id="{{item.stationId}}" data-line-no="{{item.preferredLineNo}}" data-index="{{index}}">
           <view class="list-card__main">
             <view class="list-card__title">{{item.stationName}}</view>
+            <view class="list-card__subtitle">距你 {{item.distanceText}}（约{{item.etaText}}）</view>
             <view class="chip-row" style="margin-top:10rpx;">
               <block wx:for="{{item.stationLineChips || item.lineChips}}" wx:key="lineLabel">
                 <view class="line-chip" style="{{item.style}}">{{item.lineLabel}}</view>
               </block>
             </view>
           </view>
-          <view class="icon-row">
-            <block wx:for="{{item.legendIcons}}" wx:key="key">
-              <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
-            </block>
+          <view class="metric-stack">
+            <view class="metric-pill metric-pill--success">{{item.distanceText}}</view>
+            <view class="icon-row">
+              <block wx:for="{{item.legendIcons}}" wx:key="key">
+                <image class="legend-image legend-image--small" src="{{item.iconPath}}" mode="aspectFit" />
+              </block>
+            </view>
           </view>
         </view>
       </block>

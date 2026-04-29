@@ -1,5 +1,60 @@
 const shmetroService = require('../../services/shmetro')
 
+const COMMENT_IMAGE_PATH = '/assets/comment-sample.jpg'
+
+const STATION_DETAIL_MOCK = {
+  '0115': {
+    fromStartText: '距离起点2站（8分钟）',
+    commentsCount: 1,
+    draftPlaceholder: '说说你在上海南站找卫生间的经验...',
+    toiletAvailability: {
+      '1号线-0': '余位：3/5',
+      '3号线-0': '余位：2/4',
+      '15号线-0': '余位：3/5',
+    },
+    comments: [
+      {
+        id: 'comment-1',
+        username: '通勤研究员77',
+        content: '坐15号线，顾村公园方向的，从地铁中段下来往右走就可以看见厕所了！很干净，推荐！',
+        time: '4月29日 14:22',
+        likesText: '点赞 18',
+        dislikeText: '不喜欢 2',
+        replyText: '回复',
+        imageSrc: COMMENT_IMAGE_PATH,
+      },
+    ],
+  },
+}
+
+function enhanceStationDetail(stationDetail) {
+  const mock = STATION_DETAIL_MOCK[stationDetail.stationId]
+  if (!mock) {
+    return {
+      ...stationDetail,
+      fromStartText: '',
+      commentsCount: 0,
+      draftPlaceholder: '分享你的站内经验...',
+      comments: [],
+    }
+  }
+
+  return {
+    ...stationDetail,
+    fromStartText: mock.fromStartText,
+    commentsCount: mock.commentsCount,
+    draftPlaceholder: mock.draftPlaceholder,
+    comments: mock.comments,
+    toiletLineGroups: (stationDetail.toiletLineGroups || []).map((group) => ({
+      ...group,
+      entries: (group.entries || []).map((entry, index) => ({
+        ...entry,
+        availabilityText: mock.toiletAvailability[`${group.lineLabel}-${index}`] || '余位：3/5',
+      })),
+    })),
+  }
+}
+
 Page({
   data: {
     stationDetail: null,
@@ -11,7 +66,8 @@ Page({
 
   async onLoad(options) {
     const stationId = options.stationId || '1521'
-    const stationDetail = await shmetroService.getStationDetail(stationId)
+    const stationDetailRaw = await shmetroService.getStationDetail(stationId)
+    const stationDetail = enhanceStationDetail(stationDetailRaw)
     const activeFloorplanLineNo = this.resolveInitialLineNo(
       options.lineNo || '',
       stationDetail

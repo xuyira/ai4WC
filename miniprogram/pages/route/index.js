@@ -1,5 +1,37 @@
 const shmetroService = require('../../services/shmetro')
 
+const ROUTE_DISTANCE_MAP = {
+  'route-1': {
+    '1521': { stationCount: 0, minutes: 0 },
+    '1528': { stationCount: 1, minutes: 3 },
+    '1538': { stationCount: 4, minutes: 11 },
+    '0241': { stationCount: 7, minutes: 19 },
+    '0235': { stationCount: 11, minutes: 29 },
+    '0236': { stationCount: 12, minutes: 32 },
+  },
+  'route-2': {
+    '1521': { stationCount: 0, minutes: 0 },
+    '1534': { stationCount: 5, minutes: 14 },
+    '0927': { stationCount: 8, minutes: 22 },
+    '0235': { stationCount: 15, minutes: 35 },
+    '0236': { stationCount: 16, minutes: 38 },
+  },
+}
+
+function withRouteDistance(routeId, stations = []) {
+  const distanceMap = ROUTE_DISTANCE_MAP[routeId] || {}
+  return stations.map((station, index) => {
+    const metrics = distanceMap[station.stationId] || {
+      stationCount: index,
+      minutes: index * 4,
+    }
+    return {
+      ...station,
+      fromStartText: `距起点${metrics.stationCount}站（${metrics.minutes}分钟）`,
+    }
+  })
+}
+
 Page({
   data: {
     legends: [],
@@ -167,7 +199,9 @@ Page({
     )
     const activeRouteId = routeCandidates[0] ? routeCandidates[0].id : ''
     const activeRoute = routeCandidates.find((item) => item.id === activeRouteId)
-    const allRouteToiletStations = activeRoute ? (activeRoute.routeToiletStations || []) : []
+    const allRouteToiletStations = activeRoute
+      ? withRouteDistance(activeRouteId, activeRoute.routeToiletStations || [])
+      : []
     this.setData({
       isLoadingRoutes: false,
       routeCandidates,
@@ -185,7 +219,9 @@ Page({
   handleSelectRoute(event) {
     const routeId = event.currentTarget.dataset.routeId
     const route = this.data.routeCandidates.find((item) => item.id === routeId)
-    const allRouteToiletStations = route ? (route.routeToiletStations || []) : []
+    const allRouteToiletStations = route
+      ? withRouteDistance(routeId, route.routeToiletStations || [])
+      : []
     this.setData({
       activeRouteId: routeId,
       allRouteToiletStations,

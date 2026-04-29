@@ -1,5 +1,29 @@
 const shmetroService = require('../../services/shmetro')
 
+const STATION_PROXIMITY_MAP = {
+  '0115': { distanceKm: '0.8', etaMinutes: 6 },
+  '0117': { distanceKm: '1.2', etaMinutes: 9 },
+  '0729': { distanceKm: '2.4', etaMinutes: 14 },
+  '1220': { distanceKm: '3.1', etaMinutes: 18 },
+  '0928': { distanceKm: '4.6', etaMinutes: 24 },
+  '1044': { distanceKm: '6.8', etaMinutes: 31 },
+  '1066': { distanceKm: '8.2', etaMinutes: 35 },
+}
+
+function withProximity(item, index) {
+  const fallback = {
+    distanceKm: (1.5 + index * 0.7).toFixed(1),
+    etaMinutes: 8 + index * 3,
+  }
+  const proximity = STATION_PROXIMITY_MAP[item.stationId] || fallback
+  return {
+    ...item,
+    distanceText: `${proximity.distanceKm}km`,
+    etaText: `${proximity.etaMinutes}分钟`,
+    proximityOrder: Number(proximity.distanceKm),
+  }
+}
+
 Page({
   data: {
     legends: [],
@@ -20,11 +44,24 @@ Page({
       shmetroService.getLegendItems(),
       shmetroService.getBrowseData(),
     ])
+    const enrichedAll = (browseData.all || [])
+      .map(withProximity)
+      .sort((left, right) => left.proximityOrder - right.proximityOrder)
+    const enrichedLines = (browseData.lines || []).map((section) => ({
+      ...section,
+      stations: (section.stations || [])
+        .map(withProximity)
+        .sort((left, right) => left.proximityOrder - right.proximityOrder),
+    }))
     this.setData({
       legends,
-      browseData,
-      visibleStations: browseData.all,
-      displayStations: browseData.all,
+      browseData: {
+        ...browseData,
+        all: enrichedAll,
+        lines: enrichedLines,
+      },
+      visibleStations: enrichedAll,
+      displayStations: enrichedAll,
     })
   },
 
