@@ -24,7 +24,7 @@
       </view>
     </view>
     <view class="info-banner">
-      已默认获取你的位置：上海南站附近。当前列表按距离从近到远排序，便于截图展示后续“附近站点推荐”能力。
+      已获取您的位置，并优先按距离由近到远为您排序站点列表。您也可以直接搜索站点，快速查看对应卫生间信息。
     </view>
     <view class="panel">
       <view class="section-title" style="font-size:28rpx;">图例</view>
@@ -36,7 +36,6 @@
           </view>
         </block>
       </view>
-      <view class="section-subtitle" style="margin-top:20rpx;">已获取您的定位，当前列表按照距离从近到远排序。</view>
     </view>
   </view>
 
